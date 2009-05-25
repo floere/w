@@ -5,6 +5,7 @@ development:
   database: w_development
   pool: 5
   timeout: 5000
+  encoding: utf8
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
@@ -14,9 +15,11 @@ test:
   database: w_test
   pool: 5
   timeout: 5000
+  encoding: utf8
 
 production:
   adapter: mysql
   database: w_production
   pool: 5
   timeout: 5000
+  encoding: utf8

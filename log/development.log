@@ -1013,3 +1013,2270 @@ Processing BooksController#new (for ::1 at 2009-05-24 23:20:02) [GET]
   Parameters: {"id"=>"the tale of the two towers"}
 Rendering books/new
 Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/the%20tale%20of%20the%20two%20towers/new]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-24 23:37:31) [GET]
+  Parameters: {"id"=>"the_tale_of_the_two_towers"}
+Rendering books/new
+Completed in 19ms (View: 17, DB: 0) | 200 OK [http://localhost/the_tale_of_the_two_towers/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-24 23:38:38) [GET]
+  Parameters: {"id"=>"the-tale-of-the-two-towers"}
+Rendering books/new
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/the-tale-of-the-two-towers/new]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-24 23:39:30) [GET]
+  Parameters: {"id"=>"the-tale-of-the-two-töwers"}
+Rendering books/new
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/the-tale-of-the-two-t%C3%B6wers/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-24 23:39:50) [GET]
+  Parameters: {"id"=>"the-tale-of-the-two-towers"}
+Rendering books/new
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/the-tale-of-the-two-towers/new]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-24 23:41:37) [GET]
+  Parameters: {"id"=>"the-tale-of-the-two-towers"}
+Rendering books/new
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/the-tale-of-the-two-towers/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-24 23:41:42) [GET]
+  Parameters: {"id"=>"the-tale-of-the-two-towers"}
+Rendering books/new
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/the-tale-of-the-two-towers/new]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-24 23:41:44) [GET]
+  Parameters: {"id"=>"the-tale-of-the-two-towers"}
+Rendering books/new
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/the-tale-of-the-two-towers/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-05-24 23:41:49) [GET]
+  Parameters: {"id"=>"the-tale-of-the-two-towers"}
+Redirected to http://localhost:3000/the-tale-of-the-two-towers/new
+Completed in 2ms (DB: 0) | 302 Found [http://localhost/the-tale-of-the-two-towers]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-24 23:41:49) [GET]
+  Parameters: {"id"=>"the-tale-of-the-two-towers"}
+Rendering books/new
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/the-tale-of-the-two-towers/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#new (for ::1 at 2009-05-24 23:42:58) [GET]
+  Parameters: {"id"=>"the-tale-of-the-two-towers"}
+
+SyntaxError (/Users/admin/temp/w/app/controllers/books_controller.rb:13: syntax error, unexpected tIDENTIFIER, expecting kTHEN or ':' or '\n' or ';'
+    if book = Book.find params[:id]
+                              ^
+/Users/admin/temp/w/app/controllers/books_controller.rb:26: syntax error, unexpected kEND, expecting $end):
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (33.1ms)
+Rendered rescues/_request_and_response (1.6ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-24 23:43:20) [GET]
+  Parameters: {"id"=>"the-tale-of-the-two-towers"}
+Rendering books/new
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/the-tale-of-the-two-towers/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-24 23:43:21) [GET]
+  Parameters: {"id"=>"the-tale-of-the-two-towers"}
+Rendering books/new
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/the-tale-of-the-two-towers/new]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-24 23:43:24) [GET]
+  Parameters: {"id"=>"the-tale-of-the-two-towers"}
+Rendering books/new
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/the-tale-of-the-two-towers/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-24 23:43:24) [GET]
+  Parameters: {"id"=>"the-tale-of-the-two-towers"}
+Rendering books/new
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/the-tale-of-the-two-towers/new]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-24 23:43:50) [GET]
+  Parameters: {"id"=>"the-tale-of-the-two-towers"}
+Rendering books/new
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/the-tale-of-the-two-towers/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-24 23:43:51) [GET]
+  Parameters: {"id"=>"the-tale-of-the-two-towers"}
+Rendering books/new
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/the-tale-of-the-two-towers/new]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-05-24 23:43:58) [GET]
+  Parameters: {"id"=>"the-tale-of-the-two-towers"}
+  [4;35;1mBook Columns (0.0ms)[0m   [0mMysql::Error: Table 'w_development.books' doesn't exist: SHOW FIELDS FROM `books`[0m
+
+ActiveRecord::StatementInvalid (Mysql::Error: Table 'w_development.books' doesn't exist: SHOW FIELDS FROM `books`):
+  app/controllers/books_controller.rb:13:in `show'
+  haml (2.0.9) lib/sass/plugin/rails.rb:19:in `process'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (40.6ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (39.2ms)[0m   [0mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [4;36;1mSQL (6.5ms)[0m   [0;1mCREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to CreateBooks (20090524214422)
+  [4;35;1mSQL (3.6ms)[0m   [0mCREATE TABLE `books` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20090524214422')[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (1.6ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mSQL (1.6ms)[0m   [0mdescribe `books`[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSHOW KEYS FROM `books`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-05-24 23:45:14) [GET]
+  Parameters: {"id"=>"the-tale-of-the-two-towers"}
+  [4;36;1mBook Columns (2.0ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mBook Load (0.8ms)[0m   [0mSELECT * FROM `books` WHERE (`books`.`id` = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find Book with ID=the-tale-of-the-two-towers):
+  app/controllers/books_controller.rb:13:in `show'
+  haml (2.0.9) lib/sass/plugin/rails.rb:19:in `process'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (41.4ms)
+Rendered rescues/_request_and_response (1.5ms)
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-05-24 23:45:15) [GET]
+  Parameters: {"id"=>"the-tale-of-the-two-towers"}
+  [4;36;1mBook Columns (1.7ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mBook Load (0.5ms)[0m   [0mSELECT * FROM `books` WHERE (`books`.`id` = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find Book with ID=the-tale-of-the-two-towers):
+  app/controllers/books_controller.rb:13:in `show'
+  haml (2.0.9) lib/sass/plugin/rails.rb:19:in `process'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (42.1ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-05-24 23:45:16) [GET]
+  Parameters: {"id"=>"the-tale-of-the-two-towers"}
+  [4;36;1mBook Columns (2.3ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mBook Load (0.9ms)[0m   [0mSELECT * FROM `books` WHERE (`books`.`id` = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find Book with ID=the-tale-of-the-two-towers):
+  app/controllers/books_controller.rb:13:in `show'
+  haml (2.0.9) lib/sass/plugin/rails.rb:19:in `process'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (113.2ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-05-24 23:45:29) [GET]
+  Parameters: {"id"=>"the-tale-of-the-two-towers"}
+
+ArgumentError (Unknown key(s): id):
+  app/controllers/books_controller.rb:13:in `show'
+  haml (2.0.9) lib/sass/plugin/rails.rb:19:in `process'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (36.1ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-05-24 23:45:42) [GET]
+  Parameters: {"id"=>"the-tale-of-the-two-towers"}
+  [4;36;1mBook Columns (2.0ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mBook Load (0.3ms)[0m   [0mSELECT * FROM `books` WHERE (`books`.`id` = 'the-tale-of-the-two-towers') LIMIT 1[0m
+Redirected to http://localhost:3000/the-tale-of-the-two-towers/new
+Completed in 46ms (DB: 3) | 302 Found [http://localhost/the-tale-of-the-two-towers]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-24 23:45:42) [GET]
+  Parameters: {"id"=>"the-tale-of-the-two-towers"}
+Rendering books/new
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/the-tale-of-the-two-towers/new]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-24 23:45:43) [GET]
+  Parameters: {"id"=>"the-tale-of-the-two-towers"}
+Rendering books/new
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/the-tale-of-the-two-towers/new]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-24 23:45:49) [GET]
+  Parameters: {"id"=>"the-tale-of-the-two-towers"}
+Rendering books/new
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/the-tale-of-the-two-towers/new]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-05-24 23:45:53) [GET]
+  Parameters: {"id"=>"the-tale-of-the-two-towers"}
+  [4;36;1mBook Columns (15.4ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mBook Load (9.2ms)[0m   [0mSELECT * FROM `books` WHERE (`books`.`id` = 'the-tale-of-the-two-towers') LIMIT 1[0m
+Rendering books/new
+Completed in 30ms (View: 1, DB: 25) | 200 OK [http://localhost/the-tale-of-the-two-towers]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-05-24 23:45:58) [GET]
+  Parameters: {"id"=>"the-tale-of-the-two-towers"}
+  [4;36;1mBook Columns (2.0ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mBook Load (0.2ms)[0m   [0mSELECT * FROM `books` WHERE (`books`.`id` = 'the-tale-of-the-two-towers') LIMIT 1[0m
+Rendering books/new
+Completed in 7ms (View: 1, DB: 2) | 200 OK [http://localhost/the-tale-of-the-two-towers]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (2.6ms)[0m   [0mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [4;36;1mSQL (5.4ms)[0m   [0;1mCREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to CreateBooks (20090524214422)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (2.5ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (2.7ms)[0m   [0mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [4;36;1mSQL (5.4ms)[0m   [0;1mCREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to CreateBooks (20090524214422)
+  [4;35;1mSQL (2.6ms)[0m   [0mCREATE TABLE `books` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `title` varchar(50), `subtitle` varchar(100), `text` text, `license` varchar(10), `password` varchar(16), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.8ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20090524214422')[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (2.4ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mSQL (2.4ms)[0m   [0mdescribe `books`[0m
+  [4;36;1mSQL (1.7ms)[0m   [0;1mSHOW KEYS FROM `books`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (2.3ms)[0m   [0mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [4;36;1mSQL (5.8ms)[0m   [0;1mCREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to CreateBooks (20090524214422)
+  [4;35;1mSQL (2.6ms)[0m   [0mCREATE TABLE `books` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `url` varchar(50), `title` varchar(50), `subtitle` varchar(100), `text` text, `license` varchar(10), `password` varchar(16), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.8ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20090524214422')[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (1.8ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mSQL (2.8ms)[0m   [0mdescribe `books`[0m
+  [4;36;1mSQL (1.1ms)[0m   [0;1mSHOW KEYS FROM `books`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-05-24 23:51:21) [GET]
+  Parameters: {"id"=>"the-tale-of-the-two-towers"}
+  [4;36;1mBook Columns (2.7ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mBook Load (0.3ms)[0m   [0mSELECT * FROM `books` WHERE (`books`.`id` = 'the-tale-of-the-two-towers') LIMIT 1[0m
+Rendering books/new
+Completed in 19ms (View: 6, DB: 3) | 200 OK [http://localhost/the-tale-of-the-two-towers]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-05-24 23:51:22) [GET]
+  Parameters: {"id"=>"the-tale-of-the-two-towers"}
+  [4;36;1mBook Columns (2.4ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mBook Load (0.2ms)[0m   [0mSELECT * FROM `books` WHERE (`books`.`id` = 'the-tale-of-the-two-towers') LIMIT 1[0m
+Rendering books/new
+Completed in 8ms (View: 1, DB: 3) | 200 OK [http://localhost/the-tale-of-the-two-towers]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-05-25 07:20:26) [GET]
+  Parameters: {"id"=>"hörgni-bléry"}
+  [4;36;1mBook Columns (2.4ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mBook Load (0.2ms)[0m   [0mSELECT * FROM `books` WHERE (`books`.`id` = 'hörgni-bléry') LIMIT 1[0m
+Rendering books/new
+Completed in 8ms (View: 1, DB: 3) | 200 OK [http://localhost/h%C3%B6rgni-bl%C3%A9ry]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-05-25 07:27:56) [GET]
+  Parameters: {"id"=>"fünky-chicken"}
+  [4;36;1mBook Columns (2.4ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mBook Load (0.2ms)[0m   [0mSELECT * FROM `books` WHERE (`books`.`id` = 'fünky-chicken') LIMIT 1[0m
+Rendering books/new
+Completed in 8ms (View: 1, DB: 3) | 200 OK [http://localhost/f%C3%BCnky-chicken]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-05-25 21:05:53) [GET]
+  Parameters: {"id"=>"fünky-chickén"}
+  [4;36;1mBook Columns (6.1ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mBook Load (0.5ms)[0m   [0mSELECT * FROM `books` WHERE (`books`.`id` = 'fünky-chickén') LIMIT 1[0m
+Rendering books/new
+Completed in 17ms (View: 1, DB: 7) | 200 OK [http://localhost/f%C3%BCnky-chick%C3%A9n]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-05-25 22:33:30) [GET]
+  Parameters: {"id"=>"fünky-chickén"}
+  [4;36;1mBook Columns (2.1ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mBook Load (0.4ms)[0m   [0mSELECT * FROM `books` WHERE (`books`.`id` = 'fünky-chickén') LIMIT 1[0m
+Rendering books/new
+
+ActionView::TemplateError (wrong number of arguments (1 for 2)) on line #1 of app/views/books/new.html.haml:
+1: = text_field :title
+2: = text_area  :text
+
+    app/views/books/new.html.haml:1:in `text_field'
+    app/views/books/new.html.haml:1:in `_run_haml_app47views47books47new46html46haml'
+    haml (2.0.9) lib/haml/helpers/action_view_mods.rb:14:in `render'
+    app/controllers/books_controller.rb:25:in `show'
+    haml (2.0.9) lib/sass/plugin/rails.rb:19:in `process'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (49.1ms)
+Rendered rescues/_request_and_response (1.6ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-05-25 22:34:08) [GET]
+  Parameters: {"id"=>"fünky-chickén"}
+  [4;36;1mBook Columns (2.6ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mBook Load (0.4ms)[0m   [0mSELECT * FROM `books` WHERE (`books`.`id` = 'fünky-chickén') LIMIT 1[0m
+Rendering books/new
+
+ActionView::TemplateError (Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id) on line #1 of app/views/books/new.html.haml:
+1: - form_for @book do |f|
+2:   = f.text_field :title
+3:   = f.text_area  :text
+
+    haml (2.0.9) lib/haml/helpers/action_view_mods.rb:171:in `form_for'
+    app/views/books/new.html.haml:1:in `_run_haml_app47views47books47new46html46haml'
+    haml (2.0.9) lib/haml/helpers/action_view_mods.rb:14:in `render'
+    app/controllers/books_controller.rb:25:in `show'
+    haml (2.0.9) lib/sass/plugin/rails.rb:19:in `process'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (52.3ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-05-25 22:34:09) [GET]
+  Parameters: {"id"=>"fünky-chickén"}
+  [4;36;1mBook Columns (2.2ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mBook Load (0.2ms)[0m   [0mSELECT * FROM `books` WHERE (`books`.`id` = 'fünky-chickén') LIMIT 1[0m
+Rendering books/new
+
+ActionView::TemplateError (Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id) on line #1 of app/views/books/new.html.haml:
+1: - form_for @book do |f|
+2:   = f.text_field :title
+3:   = f.text_area  :text
+
+    haml (2.0.9) lib/haml/helpers/action_view_mods.rb:171:in `form_for'
+    app/views/books/new.html.haml:1:in `_run_haml_app47views47books47new46html46haml'
+    haml (2.0.9) lib/haml/helpers/action_view_mods.rb:14:in `render'
+    app/controllers/books_controller.rb:25:in `show'
+    haml (2.0.9) lib/sass/plugin/rails.rb:19:in `process'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (50.5ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-05-25 22:34:10) [GET]
+  Parameters: {"id"=>"fünky-chickén"}
+  [4;36;1mBook Columns (2.3ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mBook Load (0.5ms)[0m   [0mSELECT * FROM `books` WHERE (`books`.`id` = 'fünky-chickén') LIMIT 1[0m
+Rendering books/new
+
+ActionView::TemplateError (Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id) on line #1 of app/views/books/new.html.haml:
+1: - form_for @book do |f|
+2:   = f.text_field :title
+3:   = f.text_area  :text
+
+    haml (2.0.9) lib/haml/helpers/action_view_mods.rb:171:in `form_for'
+    app/views/books/new.html.haml:1:in `_run_haml_app47views47books47new46html46haml'
+    haml (2.0.9) lib/haml/helpers/action_view_mods.rb:14:in `render'
+    app/controllers/books_controller.rb:25:in `show'
+    haml (2.0.9) lib/sass/plugin/rails.rb:19:in `process'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (48.1ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-05-25 22:34:19) [GET]
+  Parameters: {"id"=>"fünky-chickén"}
+  [4;36;1mBook Columns (2.2ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mBook Load (0.2ms)[0m   [0mSELECT * FROM `books` WHERE (`books`.`id` = 'fünky-chickén') LIMIT 1[0m
+Redirected to http://localhost:3000/f%C3%BCnky-chick%C3%A9n/new
+Completed in 7ms (DB: 3) | 302 Found [http://localhost/f%C3%BCnky-chick%C3%A9n]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-25 22:34:19) [GET]
+  Parameters: {"id"=>"fünky-chickén"}
+  [4;36;1mBook Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+Rendering books/new
+
+ActionView::TemplateError (undefined method `books_path' for #<ActionView::Base:0x22e42c4>) on line #1 of app/views/books/new.html.haml:
+1: - form_for @book do |f|
+2:   = f.text_field :title
+3:   = f.text_area  :text
+
+    haml (2.0.9) lib/haml/helpers/action_view_mods.rb:171:in `form_for'
+    app/views/books/new.html.haml:1:in `_run_haml_app47views47books47new46html46haml'
+    haml (2.0.9) lib/haml/helpers/action_view_mods.rb:14:in `render'
+    haml (2.0.9) lib/sass/plugin/rails.rb:19:in `process'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (116.0ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-25 22:34:20) [GET]
+  Parameters: {"id"=>"fünky-chickén"}
+  [4;35;1mBook Columns (2.2ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+Rendering books/new
+
+ActionView::TemplateError (undefined method `books_path' for #<ActionView::Base:0x24d0948>) on line #1 of app/views/books/new.html.haml:
+1: - form_for @book do |f|
+2:   = f.text_field :title
+3:   = f.text_area  :text
+
+    haml (2.0.9) lib/haml/helpers/action_view_mods.rb:171:in `form_for'
+    app/views/books/new.html.haml:1:in `_run_haml_app47views47books47new46html46haml'
+    haml (2.0.9) lib/haml/helpers/action_view_mods.rb:14:in `render'
+    haml (2.0.9) lib/sass/plugin/rails.rb:19:in `process'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (46.6ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-25 22:34:21) [GET]
+  Parameters: {"id"=>"fünky-chickén"}
+  [4;36;1mBook Columns (2.3ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+Rendering books/new
+
+ActionView::TemplateError (undefined method `books_path' for #<ActionView::Base:0x22d16ec>) on line #1 of app/views/books/new.html.haml:
+1: - form_for @book do |f|
+2:   = f.text_field :title
+3:   = f.text_area  :text
+
+    haml (2.0.9) lib/haml/helpers/action_view_mods.rb:171:in `form_for'
+    app/views/books/new.html.haml:1:in `_run_haml_app47views47books47new46html46haml'
+    haml (2.0.9) lib/haml/helpers/action_view_mods.rb:14:in `render'
+    haml (2.0.9) lib/sass/plugin/rails.rb:19:in `process'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (117.1ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for ::1 at 2009-05-25 22:35:16) [GET]
+
+ActionController::RoutingError (No route matches "/f%C3%BCnky-chick%C3%A9n/new" with {:method=>:get}):
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for ::1 at 2009-05-25 22:35:17) [GET]
+
+ActionController::RoutingError (No route matches "/f%C3%BCnky-chick%C3%A9n/new" with {:method=>:get}):
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-25 22:35:25) [GET]
+  Parameters: {"id"=>"fünky-chickén"}
+  [4;35;1mBook Columns (2.2ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+Rendering books/new
+Completed in 69ms (View: 63, DB: 2) | 200 OK [http://localhost/books/new/f%C3%BCnky-chick%C3%A9n]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-25 22:36:05) [GET]
+  Parameters: {"id"=>"bla"}
+  [4;36;1mBook Columns (2.5ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+Rendering books/new
+Completed in 10ms (View: 3, DB: 3) | 200 OK [http://localhost/books/new/bla]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-25 22:36:41) [GET]
+  Parameters: {"id"=>"bla"}
+  [4;35;1mBook Columns (2.4ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+Rendering books/new
+Completed in 12ms (View: 2, DB: 3) | 200 OK [http://localhost/books/new/bla]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-25 22:36:42) [GET]
+  Parameters: {"id"=>"bla"}
+  [4;36;1mBook Columns (2.2ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+Rendering books/new
+Completed in 11ms (View: 3, DB: 2) | 200 OK [http://localhost/books/new/bla]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-25 22:37:08) [GET]
+  Parameters: {"id"=>"bla"}
+  [4;35;1mBook Columns (2.3ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+Rendering books/new
+Completed in 12ms (View: 4, DB: 3) | 200 OK [http://localhost/books/new/bla]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-25 22:38:03) [GET]
+  Parameters: {"id"=>"bla"}
+  [4;36;1mBook Columns (2.3ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+Rendering books/new
+Completed in 10ms (View: 2, DB: 3) | 200 OK [http://localhost/books/new/bla]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (1.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-25 22:38:25) [GET]
+  Parameters: {"id"=>"bla"}
+  [4;35;1mBook Columns (2.3ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+Rendering books/new
+
+ActionView::TemplateError (undefined method `email' for #<Book:0x2198384>) on line #5 of app/views/books/new.html.haml:
+2:   = f.text_field :title
+3:   = f.text_field :subtitle
+4:   
+5:   = f.text_field :email
+6:   = f.text_field :password
+7:   
+8:   = f.text_area  :text
+
+    app/views/books/new.html.haml:5:in `_run_haml_app47views47books47new46html46haml'
+    haml (2.0.9) lib/haml/helpers/action_view_mods.rb:165:in `call'
+    haml (2.0.9) lib/haml/helpers/action_view_mods.rb:165:in `form_for'
+    haml (2.0.9) lib/haml/helpers.rb:447:in `call'
+    haml (2.0.9) lib/haml/helpers.rb:447:in `haml_bind_proc'
+    haml (2.0.9) lib/haml/helpers/action_view_mods.rb:171:in `form_for'
+    app/views/books/new.html.haml:1:in `_run_haml_app47views47books47new46html46haml'
+    haml (2.0.9) lib/haml/helpers/action_view_mods.rb:14:in `render'
+    haml (2.0.9) lib/sass/plugin/rails.rb:19:in `process'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (52.5ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-25 22:38:26) [GET]
+  Parameters: {"id"=>"bla"}
+  [4;36;1mBook Columns (2.4ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+Rendering books/new
+
+ActionView::TemplateError (undefined method `email' for #<Book:0x234ef98>) on line #5 of app/views/books/new.html.haml:
+2:   = f.text_field :title
+3:   = f.text_field :subtitle
+4:   
+5:   = f.text_field :email
+6:   = f.text_field :password
+7:   
+8:   = f.text_area  :text
+
+    app/views/books/new.html.haml:5:in `_run_haml_app47views47books47new46html46haml'
+    haml (2.0.9) lib/haml/helpers/action_view_mods.rb:165:in `call'
+    haml (2.0.9) lib/haml/helpers/action_view_mods.rb:165:in `form_for'
+    haml (2.0.9) lib/haml/helpers.rb:447:in `call'
+    haml (2.0.9) lib/haml/helpers.rb:447:in `haml_bind_proc'
+    haml (2.0.9) lib/haml/helpers/action_view_mods.rb:171:in `form_for'
+    app/views/books/new.html.haml:1:in `_run_haml_app47views47books47new46html46haml'
+    haml (2.0.9) lib/haml/helpers/action_view_mods.rb:14:in `render'
+    haml (2.0.9) lib/sass/plugin/rails.rb:19:in `process'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (126.2ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (2.3ms)[0m   [0mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [4;36;1mSQL (5.4ms)[0m   [0;1mCREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to CreateBooks (20090524214422)
+  [4;35;1mSQL (4.9ms)[0m   [0mCREATE TABLE `books` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `url` varchar(50), `email` varchar(100), `title` varchar(50), `subtitle` varchar(100), `text` text, `license` varchar(10), `locale` varchar(5), `password` varchar(16), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.9ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20090524214422')[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (2.2ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mSQL (3.2ms)[0m   [0mdescribe `books`[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSHOW KEYS FROM `books`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-25 22:38:47) [GET]
+  Parameters: {"id"=>"bla"}
+  [4;36;1mBook Columns (2.1ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+Rendering books/new
+Completed in 17ms (View: 9, DB: 2) | 200 OK [http://localhost/books/new/bla]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-25 22:38:48) [GET]
+  Parameters: {"id"=>"bla"}
+  [4;35;1mBook Columns (2.3ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+Rendering books/new
+Completed in 10ms (View: 2, DB: 3) | 200 OK [http://localhost/books/new/bla]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-25 22:40:26) [GET]
+  Parameters: {"id"=>"bla"}
+  [4;36;1mBook Columns (2.4ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+Rendering books/new
+Completed in 11ms (View: 3, DB: 3) | 200 OK [http://localhost/books/new/bla]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-25 22:40:26) [GET]
+  Parameters: {"id"=>"bla"}
+  [4;35;1mBook Columns (2.5ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+Rendering books/new
+Completed in 11ms (View: 3, DB: 3) | 200 OK [http://localhost/books/new/bla]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-25 22:40:27) [GET]
+  Parameters: {"id"=>"bla"}
+  [4;36;1mBook Columns (2.7ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+Rendering books/new
+Completed in 11ms (View: 2, DB: 3) | 200 OK [http://localhost/books/new/bla]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-25 22:41:12) [GET]
+  Parameters: {"id"=>"bla"}
+  [4;35;1mBook Columns (2.4ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/new
+Completed in 15ms (View: 8, DB: 3) | 200 OK [http://localhost/books/new/bla]
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-25 22:41:13) [GET]
+  Parameters: {"id"=>"bla"}
+  [4;36;1mBook Columns (2.6ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/new
+Completed in 11ms (View: 3, DB: 3) | 200 OK [http://localhost/books/new/bla]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (2.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-25 22:41:14) [GET]
+  Parameters: {"id"=>"bla"}
+  [4;35;1mBook Columns (2.4ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/new
+Completed in 11ms (View: 3, DB: 5) | 200 OK [http://localhost/books/new/bla]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-25 22:41:33) [GET]
+  Parameters: {"id"=>"bla"}
+  [4;36;1mBook Columns (2.4ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/new
+
+ActionView::TemplateError (undefined method `stylesheet_include' for #<ActionView::Base:0x2217e18>) on line #5 of app/views/layouts/application.html.haml:
+2: !!! XML
+3: %head
+4:   %title Bookz
+5:   = stylesheet_include 'basic'
+6: %body
+7:   = yield
+
+    app/views/layouts/application.html.haml:5:in `_run_haml_app47views47layouts47application46html46haml'
+    haml (2.0.9) lib/haml/helpers/action_view_mods.rb:14:in `render'
+    haml (2.0.9) lib/haml/helpers/action_view_mods.rb:14:in `render'
+    haml (2.0.9) lib/sass/plugin/rails.rb:19:in `process'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (117.3ms)
+Rendered rescues/_request_and_response (1.5ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-25 22:41:34) [GET]
+  Parameters: {"id"=>"bla"}
+  [4;35;1mBook Columns (2.4ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/new
+
+ActionView::TemplateError (undefined method `stylesheet_include' for #<ActionView::Base:0x24200e8>) on line #5 of app/views/layouts/application.html.haml:
+2: !!! XML
+3: %head
+4:   %title Bookz
+5:   = stylesheet_include 'basic'
+6: %body
+7:   = yield
+
+    app/views/layouts/application.html.haml:5:in `_run_haml_app47views47layouts47application46html46haml'
+    haml (2.0.9) lib/haml/helpers/action_view_mods.rb:14:in `render'
+    haml (2.0.9) lib/haml/helpers/action_view_mods.rb:14:in `render'
+    haml (2.0.9) lib/sass/plugin/rails.rb:19:in `process'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (45.8ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-25 22:41:38) [GET]
+  Parameters: {"id"=>"bla"}
+  [4;36;1mBook Columns (2.3ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/new
+
+ActionView::TemplateError (undefined method `stylesheet_include_tag' for #<ActionView::Base:0x2270e14>) on line #5 of app/views/layouts/application.html.haml:
+2: !!! XML
+3: %head
+4:   %title Bookz
+5:   = stylesheet_include_tag 'basic'
+6: %body
+7:   = yield
+
+    app/views/layouts/application.html.haml:5:in `_run_haml_app47views47layouts47application46html46haml'
+    haml (2.0.9) lib/haml/helpers/action_view_mods.rb:14:in `render'
+    haml (2.0.9) lib/haml/helpers/action_view_mods.rb:14:in `render'
+    haml (2.0.9) lib/sass/plugin/rails.rb:19:in `process'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (45.6ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-25 22:41:39) [GET]
+  Parameters: {"id"=>"bla"}
+  [4;35;1mBook Columns (2.5ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/new
+
+ActionView::TemplateError (undefined method `stylesheet_include_tag' for #<ActionView::Base:0x23d0a5c>) on line #5 of app/views/layouts/application.html.haml:
+2: !!! XML
+3: %head
+4:   %title Bookz
+5:   = stylesheet_include_tag 'basic'
+6: %body
+7:   = yield
+
+    app/views/layouts/application.html.haml:5:in `_run_haml_app47views47layouts47application46html46haml'
+    haml (2.0.9) lib/haml/helpers/action_view_mods.rb:14:in `render'
+    haml (2.0.9) lib/haml/helpers/action_view_mods.rb:14:in `render'
+    haml (2.0.9) lib/sass/plugin/rails.rb:19:in `process'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (44.9ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-25 22:41:57) [GET]
+  Parameters: {"id"=>"bla"}
+  [4;36;1mBook Columns (2.6ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/new
+Completed in 16ms (View: 5, DB: 3) | 200 OK [http://localhost/books/new/bla]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-25 22:41:58) [GET]
+  Parameters: {"id"=>"bla"}
+  [4;35;1mBook Columns (3.3ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/new
+Completed in 18ms (View: 3, DB: 4) | 200 OK [http://localhost/books/new/bla]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (3.7ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-25 22:42:10) [GET]
+  Parameters: {"id"=>"bla"}
+  [4;36;1mBook Columns (52.4ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/new
+Completed in 75ms (View: 4, DB: 56) | 200 OK [http://localhost/books/new/bla]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-25 22:42:11) [GET]
+  Parameters: {"id"=>"bla"}
+  [4;35;1mBook Columns (4.0ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/new
+Completed in 15ms (View: 3, DB: 4) | 200 OK [http://localhost/books/new/bla]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-25 22:42:12) [GET]
+  Parameters: {"id"=>"bla"}
+  [4;36;1mBook Columns (2.4ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/new
+Completed in 11ms (View: 3, DB: 3) | 200 OK [http://localhost/books/new/bla]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (3.5ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-25 22:42:23) [GET]
+  Parameters: {"id"=>"bla"}
+  [4;35;1mBook Columns (3.8ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/new
+Completed in 14ms (View: 4, DB: 7) | 200 OK [http://localhost/books/new/bla]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-25 22:42:24) [GET]
+  Parameters: {"id"=>"bla"}
+  [4;36;1mBook Columns (2.4ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/new
+Completed in 11ms (View: 3, DB: 3) | 200 OK [http://localhost/books/new/bla]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-25 22:42:24) [GET]
+  Parameters: {"id"=>"bla"}
+  [4;35;1mBook Columns (3.2ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/new
+Completed in 14ms (View: 5, DB: 3) | 200 OK [http://localhost/books/new/bla]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-25 22:44:26) [GET]
+  Parameters: {"id"=>"bla"}
+  [4;36;1mBook Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/new
+Completed in 12ms (View: 4, DB: 2) | 200 OK [http://localhost/books/new/bla]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-25 22:44:26) [GET]
+  Parameters: {"id"=>"bla"}
+  [4;35;1mBook Columns (2.2ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/new
+Completed in 10ms (View: 3, DB: 2) | 200 OK [http://localhost/books/new/bla]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-25 22:45:06) [GET]
+  Parameters: {"id"=>"bla"}
+  [4;36;1mBook Columns (2.0ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/new
+Completed in 14ms (View: 6, DB: 2) | 200 OK [http://localhost/books/new/bla]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-25 22:45:07) [GET]
+  Parameters: {"id"=>"bla"}
+  [4;35;1mBook Columns (2.4ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/new
+Completed in 11ms (View: 3, DB: 3) | 200 OK [http://localhost/books/new/bla]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-25 22:45:07) [GET]
+  Parameters: {"id"=>"bla"}
+  [4;36;1mBook Columns (2.3ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/new
+Completed in 11ms (View: 3, DB: 3) | 200 OK [http://localhost/books/new/bla]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-25 22:45:08) [GET]
+  Parameters: {"id"=>"bla"}
+  [4;35;1mBook Columns (2.4ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/new
+Completed in 11ms (View: 3, DB: 3) | 200 OK [http://localhost/books/new/bla]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-25 22:45:08) [GET]
+  Parameters: {"id"=>"bla"}
+  [4;36;1mBook Columns (2.2ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/new
+Completed in 11ms (View: 3, DB: 2) | 200 OK [http://localhost/books/new/bla]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-25 22:45:30) [GET]
+  Parameters: {"id"=>"bla"}
+  [4;35;1mBook Columns (2.1ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/new
+Completed in 11ms (View: 3, DB: 2) | 200 OK [http://localhost/books/new/bla]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-25 22:45:31) [GET]
+  Parameters: {"id"=>"bla"}
+  [4;36;1mBook Columns (2.4ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/new
+Completed in 11ms (View: 3, DB: 3) | 200 OK [http://localhost/books/new/bla]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-25 22:45:42) [GET]
+  Parameters: {"id"=>"bla"}
+  [4;35;1mBook Columns (2.0ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/new
+Completed in 11ms (View: 3, DB: 2) | 200 OK [http://localhost/books/new/bla]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-25 22:45:43) [GET]
+  Parameters: {"id"=>"bla"}
+  [4;36;1mBook Columns (2.4ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/new
+Completed in 11ms (View: 3, DB: 3) | 200 OK [http://localhost/books/new/bla]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-25 22:45:45) [GET]
+  Parameters: {"id"=>"bla"}
+  [4;35;1mBook Columns (2.4ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/new
+Completed in 10ms (View: 3, DB: 3) | 200 OK [http://localhost/books/new/bla]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-25 22:45:46) [GET]
+  Parameters: {"id"=>"bla"}
+  [4;36;1mBook Columns (2.2ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/new
+Completed in 10ms (View: 3, DB: 2) | 200 OK [http://localhost/books/new/bla]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-25 22:45:47) [GET]
+  Parameters: {"id"=>"bla"}
+  [4;35;1mBook Columns (2.6ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/new
+Completed in 11ms (View: 3, DB: 3) | 200 OK [http://localhost/books/new/bla]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-25 22:46:21) [GET]
+  Parameters: {"id"=>"bla"}
+  [4;36;1mBook Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/new
+Completed in 11ms (View: 3, DB: 2) | 200 OK [http://localhost/books/new/bla]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-25 22:46:58) [GET]
+  Parameters: {"id"=>"bla"}
+  [4;35;1mBook Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/new
+Completed in 11ms (View: 3, DB: 2) | 200 OK [http://localhost/books/new/bla]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-25 22:46:59) [GET]
+  Parameters: {"id"=>"bla"}
+  [4;36;1mBook Columns (2.2ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/new
+Completed in 11ms (View: 3, DB: 2) | 200 OK [http://localhost/books/new/bla]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-25 22:47:19) [GET]
+  Parameters: {"id"=>"bla"}
+  [4;35;1mBook Columns (2.0ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/new
+Completed in 11ms (View: 3, DB: 2) | 200 OK [http://localhost/books/new/bla]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-25 22:48:15) [GET]
+  Parameters: {"id"=>"bla"}
+  [4;36;1mBook Columns (2.0ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/new
+Completed in 11ms (View: 3, DB: 2) | 200 OK [http://localhost/books/new/bla]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-25 22:48:16) [GET]
+  Parameters: {"id"=>"bla"}
+  [4;35;1mBook Columns (2.8ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/new
+Completed in 12ms (View: 3, DB: 3) | 200 OK [http://localhost/books/new/bla]
+  [4;36;1mSQL (1.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-25 22:49:44) [GET]
+  Parameters: {"id"=>"bla"}
+  [4;36;1mBook Columns (2.5ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/new
+Completed in 12ms (View: 4, DB: 4) | 200 OK [http://localhost/books/new/bla]
+  [4;35;1mSQL (1.6ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-25 22:49:44) [GET]
+  Parameters: {"id"=>"bla"}
+  [4;35;1mBook Columns (2.2ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/new
+Completed in 11ms (View: 3, DB: 4) | 200 OK [http://localhost/books/new/bla]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-25 22:50:08) [GET]
+  Parameters: {"id"=>"bla"}
+  [4;36;1mBook Columns (2.2ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/new
+Completed in 11ms (View: 3, DB: 2) | 200 OK [http://localhost/books/new/bla]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-25 22:50:09) [GET]
+  Parameters: {"id"=>"bla"}
+  [4;35;1mBook Columns (2.3ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/new
+Completed in 11ms (View: 3, DB: 3) | 200 OK [http://localhost/books/new/bla]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-25 22:51:40) [GET]
+  Parameters: {"id"=>"bla"}
+  [4;36;1mBook Columns (2.0ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/new
+Completed in 12ms (View: 4, DB: 2) | 200 OK [http://localhost/books/new/bla]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-25 22:51:45) [GET]
+  Parameters: {"id"=>"bla"}
+  [4;35;1mBook Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/new
+Completed in 11ms (View: 3, DB: 2) | 200 OK [http://localhost/books/new/bla]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-25 22:51:59) [GET]
+  Parameters: {"id"=>"bla"}
+  [4;36;1mBook Columns (2.2ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/new
+Completed in 12ms (View: 3, DB: 2) | 200 OK [http://localhost/books/new/bla]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-25 22:53:17) [GET]
+  Parameters: {"id"=>"bla"}
+  [4;35;1mBook Columns (2.3ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/new
+Completed in 11ms (View: 3, DB: 3) | 200 OK [http://localhost/books/new/bla]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (2.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-25 22:53:24) [GET]
+  Parameters: {"id"=>"bla"}
+  [4;36;1mBook Columns (2.0ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/new
+Completed in 11ms (View: 4, DB: 4) | 200 OK [http://localhost/books/new/bla]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-25 22:53:59) [GET]
+  Parameters: {"id"=>"bla"}
+  [4;35;1mBook Columns (2.0ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/new
+Completed in 13ms (View: 5, DB: 2) | 200 OK [http://localhost/books/new/bla]
+  [4;36;1mSQL (1.6ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-25 22:54:35) [GET]
+  Parameters: {"id"=>"bla"}
+  [4;36;1mBook Columns (2.1ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/new
+Completed in 12ms (View: 3, DB: 4) | 200 OK [http://localhost/books/new/bla]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-25 22:54:48) [GET]
+  Parameters: {"id"=>"bla"}
+  [4;35;1mBook Columns (2.0ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/new
+Completed in 11ms (View: 3, DB: 2) | 200 OK [http://localhost/books/new/bla]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-25 22:54:49) [GET]
+  Parameters: {"id"=>"bla"}
+  [4;36;1mBook Columns (2.4ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/new
+Completed in 11ms (View: 3, DB: 3) | 200 OK [http://localhost/books/new/bla]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-25 22:57:07) [GET]
+  Parameters: {"id"=>"bla"}
+  [4;35;1mBook Columns (2.1ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/new
+Completed in 13ms (View: 4, DB: 2) | 200 OK [http://localhost/books/new/bla]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-25 22:57:08) [GET]
+  Parameters: {"id"=>"bla"}
+  [4;36;1mBook Columns (2.4ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/new
+Completed in 12ms (View: 3, DB: 3) | 200 OK [http://localhost/books/new/bla]
+  [4;35;1mSQL (0.6ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-25 22:57:08) [GET]
+  Parameters: {"id"=>"bla"}
+  [4;35;1mBook Columns (2.7ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/new
+Completed in 11ms (View: 3, DB: 3) | 200 OK [http://localhost/books/new/bla]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-25 22:57:27) [GET]
+  Parameters: {"id"=>"bla"}
+  [4;36;1mBook Columns (2.2ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/new
+Completed in 11ms (View: 3, DB: 2) | 200 OK [http://localhost/books/new/bla]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-25 22:57:40) [GET]
+  Parameters: {"id"=>"bla"}
+  [4;35;1mBook Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/new
+Completed in 11ms (View: 3, DB: 2) | 200 OK [http://localhost/books/new/bla]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-25 22:57:41) [GET]
+  Parameters: {"id"=>"bla"}
+  [4;36;1mBook Columns (2.5ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/new
+Completed in 10ms (View: 3, DB: 3) | 200 OK [http://localhost/books/new/bla]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-25 22:57:41) [GET]
+  Parameters: {"id"=>"bla"}
+  [4;35;1mBook Columns (2.8ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/new
+Completed in 12ms (View: 3, DB: 3) | 200 OK [http://localhost/books/new/bla]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-25 22:58:20) [GET]
+  Parameters: {"id"=>"bla"}
+  [4;36;1mBook Columns (2.6ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/new
+Completed in 12ms (View: 3, DB: 3) | 200 OK [http://localhost/books/new/bla]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-25 22:58:20) [GET]
+  Parameters: {"id"=>"bla"}
+  [4;35;1mBook Columns (2.4ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/new
+Completed in 12ms (View: 3, DB: 3) | 200 OK [http://localhost/books/new/bla]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-25 22:58:44) [GET]
+  Parameters: {"id"=>"bla"}
+  [4;36;1mBook Columns (2.0ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/new
+Completed in 13ms (View: 5, DB: 2) | 200 OK [http://localhost/books/new/bla]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-25 22:59:09) [GET]
+  Parameters: {"id"=>"bla"}
+  [4;35;1mBook Columns (2.4ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/new
+Completed in 14ms (View: 6, DB: 3) | 200 OK [http://localhost/books/new/bla]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-25 22:59:10) [GET]
+  Parameters: {"id"=>"bla"}
+  [4;36;1mBook Columns (2.2ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/new
+Completed in 11ms (View: 3, DB: 2) | 200 OK [http://localhost/books/new/bla]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-25 22:59:11) [GET]
+  Parameters: {"id"=>"bla"}
+  [4;35;1mBook Columns (3.4ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/new
+Completed in 13ms (View: 3, DB: 4) | 200 OK [http://localhost/books/new/bla]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-25 22:59:11) [GET]
+  Parameters: {"id"=>"bla"}
+  [4;36;1mBook Columns (2.6ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/new
+Completed in 11ms (View: 3, DB: 3) | 200 OK [http://localhost/books/new/bla]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-25 22:59:12) [GET]
+  Parameters: {"id"=>"bla"}
+  [4;35;1mBook Columns (2.4ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/new
+Completed in 12ms (View: 3, DB: 3) | 200 OK [http://localhost/books/new/bla]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-25 22:59:37) [GET]
+  Parameters: {"id"=>"bla"}
+  [4;36;1mBook Columns (2.4ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/new
+Completed in 14ms (View: 6, DB: 3) | 200 OK [http://localhost/books/new/bla]
+  [4;35;1mSQL (0.8ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-25 22:59:38) [GET]
+  Parameters: {"id"=>"bla"}
+  [4;35;1mBook Columns (2.4ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/new
+Completed in 11ms (View: 3, DB: 3) | 200 OK [http://localhost/books/new/bla]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-25 22:59:39) [GET]
+  Parameters: {"id"=>"bla"}
+  [4;36;1mBook Columns (2.3ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/new
+Completed in 10ms (View: 3, DB: 2) | 200 OK [http://localhost/books/new/bla]
+  [4;35;1mSQL (2.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-25 23:00:09) [GET]
+  Parameters: {"id"=>"bla"}
+  [4;35;1mBook Columns (2.6ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/new
+Completed in 13ms (View: 5, DB: 5) | 200 OK [http://localhost/books/new/bla]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-25 23:00:17) [GET]
+  Parameters: {"id"=>"bla"}
+  [4;36;1mBook Columns (2.3ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/new
+Completed in 14ms (View: 6, DB: 3) | 200 OK [http://localhost/books/new/bla]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-25 23:00:18) [GET]
+  Parameters: {"id"=>"bla"}
+  [4;35;1mBook Columns (2.4ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/new
+Completed in 11ms (View: 3, DB: 3) | 200 OK [http://localhost/books/new/bla]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-25 23:00:26) [GET]
+  Parameters: {"id"=>"bla"}
+  [4;36;1mBook Columns (2.3ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/new
+Completed in 14ms (View: 6, DB: 3) | 200 OK [http://localhost/books/new/bla]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-25 23:00:47) [GET]
+  Parameters: {"id"=>"bla"}
+  [4;35;1mBook Columns (2.5ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/new
+Completed in 14ms (View: 6, DB: 3) | 200 OK [http://localhost/books/new/bla]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-25 23:00:48) [GET]
+  Parameters: {"id"=>"bla"}
+  [4;36;1mBook Columns (2.3ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/new
+Completed in 81ms (View: 3, DB: 3) | 200 OK [http://localhost/books/new/bla]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (1.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-25 23:01:03) [GET]
+  Parameters: {"id"=>"bla"}
+  [4;35;1mBook Columns (2.3ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/new
+Completed in 14ms (View: 6, DB: 4) | 200 OK [http://localhost/books/new/bla]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-25 23:01:04) [GET]
+  Parameters: {"id"=>"bla"}
+  [4;36;1mBook Columns (2.5ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/new
+Completed in 11ms (View: 3, DB: 3) | 200 OK [http://localhost/books/new/bla]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-25 23:01:22) [GET]
+  Parameters: {"id"=>"bla"}
+  [4;35;1mBook Columns (2.0ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/new
+Completed in 12ms (View: 3, DB: 2) | 200 OK [http://localhost/books/new/bla]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-25 23:01:23) [GET]
+  Parameters: {"id"=>"bla"}
+  [4;36;1mBook Columns (2.2ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/new
+Completed in 11ms (View: 3, DB: 2) | 200 OK [http://localhost/books/new/bla]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-25 23:01:31) [GET]
+  Parameters: {"id"=>"bla"}
+  [4;35;1mBook Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/new
+Completed in 11ms (View: 3, DB: 2) | 200 OK [http://localhost/books/new/bla]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-25 23:01:32) [GET]
+  Parameters: {"id"=>"bla"}
+  [4;36;1mBook Columns (2.4ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/new
+Completed in 11ms (View: 3, DB: 3) | 200 OK [http://localhost/books/new/bla]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-25 23:01:40) [GET]
+  Parameters: {"id"=>"bla"}
+  [4;35;1mBook Columns (2.0ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/new
+Completed in 12ms (View: 3, DB: 2) | 200 OK [http://localhost/books/new/bla]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-25 23:01:41) [GET]
+  Parameters: {"id"=>"bla"}
+  [4;36;1mBook Columns (2.6ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/new
+Completed in 11ms (View: 3, DB: 3) | 200 OK [http://localhost/books/new/bla]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-25 23:01:41) [GET]
+  Parameters: {"id"=>"bla"}
+  [4;35;1mBook Columns (2.3ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/new
+Completed in 11ms (View: 3, DB: 2) | 200 OK [http://localhost/books/new/bla]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-25 23:02:09) [GET]
+  Parameters: {"id"=>"bla"}
+  [4;36;1mBook Columns (2.0ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/new
+Completed in 11ms (View: 3, DB: 2) | 200 OK [http://localhost/books/new/bla]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-25 23:03:17) [GET]
+  Parameters: {"id"=>"bla"}
+  [4;35;1mBook Columns (2.7ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/new
+Completed in 15ms (View: 4, DB: 3) | 200 OK [http://localhost/books/new/bla]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-25 23:03:52) [GET]
+  Parameters: {"id"=>"bla"}
+  [4;36;1mBook Columns (2.1ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/new
+Completed in 11ms (View: 3, DB: 2) | 200 OK [http://localhost/books/new/bla]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.8ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-25 23:04:04) [GET]
+  Parameters: {"id"=>"bla"}
+  [4;35;1mBook Columns (2.2ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/new
+Completed in 13ms (View: 3, DB: 3) | 200 OK [http://localhost/books/new/bla]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-25 23:04:36) [GET]
+  Parameters: {"id"=>"bla"}
+  [4;36;1mBook Columns (2.7ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/new
+Completed in 14ms (View: 6, DB: 3) | 200 OK [http://localhost/books/new/bla]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-25 23:04:46) [GET]
+  Parameters: {"id"=>"bla"}
+  [4;35;1mBook Columns (2.2ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/new
+Completed in 13ms (View: 5, DB: 2) | 200 OK [http://localhost/books/new/bla]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-25 23:05:18) [GET]
+  Parameters: {"id"=>"bla"}
+  [4;36;1mBook Columns (2.5ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/new
+Completed in 14ms (View: 6, DB: 3) | 200 OK [http://localhost/books/new/bla]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (2.4ms)[0m   [0mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [4;36;1mSQL (5.9ms)[0m   [0;1mCREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to CreateBooks (20090524214422)
+  [4;35;1mSQL (2.3ms)[0m   [0mCREATE TABLE `books` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `url` varchar(40), `email` varchar(60), `author` varchar(80), `title` varchar(40), `subtitle` varchar(60), `text` text, `license` varchar(10), `locale` varchar(5), `password` varchar(16), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20090524214422')[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (1.9ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mSQL (2.4ms)[0m   [0mdescribe `books`[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSHOW KEYS FROM `books`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-25 23:06:09) [GET]
+  Parameters: {"id"=>"bla"}
+  [4;36;1mBook Columns (2.4ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/new
+Completed in 27ms (View: 12, DB: 3) | 200 OK [http://localhost/books/new/bla]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-25 23:06:28) [GET]
+  Parameters: {"id"=>"bla"}
+  [4;35;1mBook Columns (2.0ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/new
+Completed in 11ms (View: 3, DB: 2) | 200 OK [http://localhost/books/new/bla]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (2.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-25 23:06:39) [GET]
+  Parameters: {"id"=>"bla"}
+  [4;36;1mBook Columns (2.3ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/new
+Completed in 13ms (View: 5, DB: 5) | 200 OK [http://localhost/books/new/bla]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-25 23:06:52) [GET]
+  Parameters: {"id"=>"bla"}
+  [4;35;1mBook Columns (2.5ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/new
+Completed in 13ms (View: 4, DB: 3) | 200 OK [http://localhost/books/new/bla]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-25 23:07:55) [GET]
+  Parameters: {"id"=>"bla"}
+  [4;36;1mBook Columns (3.0ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/new
+
+ActionView::TemplateError (Illegal element: classes and ids must have values.) on line #9 of app/views/books/new.html.haml:
+6:   called
+7:   = f.text_field :title, :size => 40
+8:   = f.text_field :subtitle, :size => 60
+9:   .
+10:   It begins as follows
+11:   = f.text_area  :text
+
+    app/views/books/new.html.haml:9
+    haml (2.0.9) lib/haml/precompiler.rb:548:in `render_tag'
+    haml (2.0.9) lib/haml/precompiler.rb:642:in `render_div'
+    haml (2.0.9) lib/haml/precompiler.rb:191:in `process_line'
+    haml (2.0.9) lib/haml/precompiler.rb:156:in `precompile'
+    haml (2.0.9) lib/haml/precompiler.rb:122:in `each'
+    haml (2.0.9) lib/haml/precompiler.rb:122:in `each_with_index'
+    haml (2.0.9) lib/haml/precompiler.rb:122:in `precompile'
+    haml (2.0.9) lib/haml/engine.rb:100:in `initialize'
+    haml (2.0.9) lib/haml/template/plugin.rb:21:in `new'
+    haml (2.0.9) lib/haml/template/plugin.rb:21:in `compile'
+    haml (2.0.9) lib/haml/helpers/action_view_mods.rb:14:in `render'
+    haml (2.0.9) lib/haml/helpers/action_view_mods.rb:14:in `render'
+    haml (2.0.9) lib/sass/plugin/rails.rb:19:in `process'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (133.0ms)
+Rendered rescues/_request_and_response (1.5ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (1.5ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-25 23:08:00) [GET]
+  Parameters: {"id"=>"bla"}
+  [4;35;1mBook Columns (2.4ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/new
+Completed in 14ms (View: 6, DB: 4) | 200 OK [http://localhost/books/new/bla]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-25 23:08:01) [GET]
+  Parameters: {"id"=>"bla"}
+  [4;36;1mBook Columns (2.1ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/new
+Completed in 11ms (View: 3, DB: 2) | 200 OK [http://localhost/books/new/bla]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-25 23:08:37) [GET]
+  Parameters: {"id"=>"bla"}
+  [4;35;1mBook Columns (2.4ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/new
+Completed in 14ms (View: 6, DB: 3) | 200 OK [http://localhost/books/new/bla]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-25 23:08:51) [GET]
+  Parameters: {"id"=>"bla"}
+  [4;36;1mBook Columns (2.4ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/new
+Completed in 15ms (View: 6, DB: 3) | 200 OK [http://localhost/books/new/bla]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-25 23:08:52) [GET]
+  Parameters: {"id"=>"bla"}
+  [4;35;1mBook Columns (2.5ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/new
+Completed in 11ms (View: 3, DB: 3) | 200 OK [http://localhost/books/new/bla]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-25 23:08:58) [GET]
+  Parameters: {"id"=>"bla"}
+  [4;36;1mBook Columns (2.5ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/new
+Completed in 14ms (View: 6, DB: 3) | 200 OK [http://localhost/books/new/bla]
+  [4;35;1mSQL (2.7ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-25 23:09:17) [GET]
+  Parameters: {"id"=>"bla"}
+  [4;35;1mBook Columns (2.3ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/new
+Completed in 15ms (View: 6, DB: 5) | 200 OK [http://localhost/books/new/bla]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-25 23:10:10) [GET]
+  Parameters: {"id"=>"bla"}
+  [4;36;1mBook Columns (2.5ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/new
+Completed in 15ms (View: 6, DB: 3) | 200 OK [http://localhost/books/new/bla]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-25 23:10:22) [GET]
+  Parameters: {"id"=>"bla"}
+  [4;35;1mBook Columns (2.8ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/new
+Completed in 16ms (View: 7, DB: 3) | 200 OK [http://localhost/books/new/bla]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-25 23:10:23) [GET]
+  Parameters: {"id"=>"bla"}
+  [4;36;1mBook Columns (2.8ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/new
+Completed in 15ms (View: 5, DB: 3) | 200 OK [http://localhost/books/new/bla]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-25 23:11:31) [GET]
+  Parameters: {"id"=>"bla"}
+  [4;35;1mBook Columns (2.1ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/new
+Completed in 13ms (View: 3, DB: 2) | 200 OK [http://localhost/books/new/bla]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-25 23:11:35) [GET]
+  Parameters: {"id"=>"bla"}
+  [4;36;1mBook Columns (3.4ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/new
+Completed in 13ms (View: 3, DB: 4) | 200 OK [http://localhost/books/new/bla]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-25 23:11:36) [GET]
+  Parameters: {"id"=>"bla"}
+  [4;35;1mBook Columns (2.4ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/new
+Completed in 11ms (View: 3, DB: 3) | 200 OK [http://localhost/books/new/bla]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-25 23:11:37) [GET]
+  Parameters: {"id"=>"bla"}
+  [4;36;1mBook Columns (3.5ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/new
+Completed in 13ms (View: 3, DB: 4) | 200 OK [http://localhost/books/new/bla]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-25 23:11:43) [GET]
+  Parameters: {"id"=>"bla"}
+  [4;35;1mBook Columns (4.7ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/new
+Completed in 16ms (View: 4, DB: 5) | 200 OK [http://localhost/books/new/bla]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-25 23:11:43) [GET]
+  Parameters: {"id"=>"bla"}
+  [4;36;1mBook Columns (2.5ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/new
+Completed in 12ms (View: 3, DB: 3) | 200 OK [http://localhost/books/new/bla]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-25 23:11:44) [GET]
+  Parameters: {"id"=>"bla"}
+  [4;35;1mBook Columns (3.4ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/new
+Completed in 14ms (View: 4, DB: 4) | 200 OK [http://localhost/books/new/bla]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-25 23:11:44) [GET]
+  Parameters: {"id"=>"bla"}
+  [4;36;1mBook Columns (2.8ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/new
+Completed in 16ms (View: 5, DB: 3) | 200 OK [http://localhost/books/new/bla]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-25 23:11:44) [GET]
+  Parameters: {"id"=>"bla"}
+  [4;35;1mBook Columns (2.8ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/new
+Completed in 14ms (View: 4, DB: 3) | 200 OK [http://localhost/books/new/bla]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-25 23:13:03) [GET]
+  Parameters: {"id"=>"bla"}
+  [4;36;1mBook Columns (2.0ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/new
+Completed in 12ms (View: 3, DB: 2) | 200 OK [http://localhost/books/new/bla]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-25 23:13:03) [GET]
+  Parameters: {"id"=>"bla"}
+  [4;35;1mBook Columns (2.5ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/new
+Completed in 12ms (View: 4, DB: 3) | 200 OK [http://localhost/books/new/bla]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-25 23:13:04) [GET]
+  Parameters: {"id"=>"bla"}
+  [4;36;1mBook Columns (2.7ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/new
+Completed in 11ms (View: 3, DB: 3) | 200 OK [http://localhost/books/new/bla]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-25 23:13:05) [GET]
+  Parameters: {"id"=>"bla"}
+  [4;35;1mBook Columns (2.7ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/new
+Completed in 12ms (View: 3, DB: 3) | 200 OK [http://localhost/books/new/bla]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-25 23:13:08) [GET]
+  Parameters: {"id"=>"bla"}
+  [4;36;1mBook Columns (3.1ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/new
+Completed in 12ms (View: 3, DB: 3) | 200 OK [http://localhost/books/new/bla]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-25 23:13:08) [GET]
+  Parameters: {"id"=>"bla"}
+  [4;35;1mBook Columns (2.4ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/new
+Completed in 11ms (View: 3, DB: 3) | 200 OK [http://localhost/books/new/bla]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-25 23:13:26) [GET]
+  Parameters: {"id"=>"bla"}
+  [4;36;1mBook Columns (2.0ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/new
+Completed in 12ms (View: 3, DB: 2) | 200 OK [http://localhost/books/new/bla]
+  [4;35;1mSQL (0.3ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-25 23:14:10) [GET]
+  Parameters: {"id"=>"bla"}
+  [4;35;1mBook Columns (8.8ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/new
+Completed in 23ms (View: 6, DB: 9) | 200 OK [http://localhost/books/new/bla]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-25 23:18:50) [GET]
+  Parameters: {"id"=>"bla"}
+  [4;36;1mBook Columns (2.3ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/new
+Completed in 12ms (View: 3, DB: 3) | 200 OK [http://localhost/books/new/bla]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#new (for ::1 at 2009-05-25 23:18:58) [GET]
+  Parameters: {"id"=>"bla"}
+  [4;35;1mBook Columns (2.1ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/new
+Completed in 11ms (View: 3, DB: 2) | 200 OK [http://localhost/books/new/bla]

@@ -1,1 +1,13 @@
-NEW
+- form_for @book do |f|
+  A new book called
+  = f.text_field :title, :size => 40
+  = f.text_field :subtitle, :size => 60
+  by
+  = f.text_field :author, :size => 80
+  which can be contacted at
+  = f.text_field(:email, :size => 60)
+  locking this story with the password
+  = f.password_field(:password)
+  %br/
+  It begins as follows…
+  = f.text_area  :text

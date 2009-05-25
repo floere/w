@@ -1,0 +1,51 @@
+body {
+  font-family: "Bookman Old Style", "Serifa BT", "URW Bookman L", "itc bookman", times, serif;
+  background-color: #FFFBF0; }
+
+body, form {
+  text-align: center; }
+
+input, textarea {
+  font-family: "Bookman Old Style", "Serifa BT", "URW Bookman L", "itc bookman", times, serif;
+  display: block;
+  margin: 10px auto; }
+
+input {
+  text-align: center;
+  background-color: transparent;
+  border: none; }
+
+input:hover, input:focus {
+  background-color: #FFF0C2; }
+
+#book_title {
+  font-size: 2em; }
+
+#book_subtitle {
+  font-size: 1.3em; }
+
+#book_author {
+  font-size: 1.2em; }
+
+#book_email {
+  font-size: 1.2em; }
+
+#book_password {
+  font-size: 1.3em; }
+
+#book_text {
+  width: 66em; }
+
+::-moz-selection {
+  background: #cc0000;
+  color: #fff; }
+
+::selection {
+  background: #cc0000;
+  color: #fff; }
+
+code::-moz-selection {
+  background: #333333; }
+
+code::selection {
+  background: #333333; }
