@@ -1,5 +1,6 @@
 - form_for @book do |f|
-  A new book called
+  %p You are about to open a new book.
+  It is called
   = f.text_field :title, :size => 40
   = f.text_field :subtitle, :size => 60
   by
@@ -10,4 +11,7 @@
   = f.password_field(:password)
   %br/
   It begins as follows…
-  = f.text_area  :text
+  .page
+    = f.text_area  :text
+  Beautiful. This is just the beginning, you can continue writing after
+  = f.submit 'opening your new book'

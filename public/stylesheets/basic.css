@@ -1,22 +1,25 @@
 body {
   font-family: "Bookman Old Style", "Serifa BT", "URW Bookman L", "itc bookman", times, serif;
-  background-color: #FFFBF0; }
+  background-color: #d3d0c2; }
 
 body, form {
   text-align: center; }
 
 input, textarea {
   font-family: "Bookman Old Style", "Serifa BT", "URW Bookman L", "itc bookman", times, serif;
-  display: block;
-  margin: 10px auto; }
+  display: block; }
+
+textarea {
+  border: none; }
 
 input {
   text-align: center;
   background-color: transparent;
-  border: none; }
+  border: none;
+  margin: 10px auto; }
 
 input:hover, input:focus {
-  background-color: #FFF0C2; }
+  background-color: #efecdc; }
 
 #book_title {
   font-size: 2em; }
@@ -34,7 +37,19 @@ input:hover, input:focus {
   font-size: 1.3em; }
 
 #book_text {
-  width: 66em; }
+  height: 166px;
+  background-color: #efecdc;
+  padding: 2em;
+  border: 2px solid #bcb9ad; }
+
+.page {
+  margin: 10px auto;
+  padding-bottom: 18px;
+  width: 450px; }
+
+#book_submit {
+  font-size: 1em;
+  border: solid 1px black; }
 
 ::-moz-selection {
   background: #cc0000;
