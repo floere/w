@@ -1,0 +1,8 @@
+- form_for @book, :url => copyright_path do |f|
+  %p You are about to open a new book. It is called
+  .page.title
+    = f.text_field :title, :size => 25
+    = f.text_field :subtitle
+    by
+    = f.text_field :author
+    = f.submit 'open book'

@@ -1,28 +1,47 @@
 class BooksController < ApplicationController
   
-  # This book has not yet been created.
-  #
-  def new
-    @book = Book.new :title => params[:id]
+  def index
+    
   end
   
-  # Checks if book exists.
-  # Checks Captcha.
-  # Creates a new one with the given password.
+  def new
+    redirect_to :action => :title
+  end
+  
+  # Registering process.
+  #
+  def title
+    session[:book] = { :title => params[:id] }
+    @book = Book.new session[:book]
+  end
+  def copyright
+    session[:book] = params[:book]
+    @book = Book.new session[:book]
+  end
+  def introduction
+    session[:book] = params[:book]
+    @book = Book.new session[:book]
+  end
+  # Finally creates the book.
   #
   def create
-    
+    book = Book.new params[:book]
+    if book.save
+      session.delete :book
+      redirect_to :action => :show
+    else
+      
+    end
   end
   
   # Show the book for reading.
   #
   def show
-    book = Book.find_by_id params[:id]
-    
-    if book
+    @book = Book.find_by_url params[:url]
+    if @book
       render
     else
-      redirect_to :action => :new
+      redirect_to :action => :title
     end
   end
   

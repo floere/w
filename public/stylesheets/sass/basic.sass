@@ -4,19 +4,35 @@ body
   
 body, form
   :text-align center
-  
+
+h1, h2, h3, h4
+  :font-weight normal
+
+h1
+  :position relative
+  :left -30px
+  :padding 5px 10px
+  :background-color #fff9e5
+  :-moz-border-radius 5px
+
 input, textarea
   :font-family "Bookman Old Style", "Serifa BT", "URW Bookman L", "itc bookman", times, serif
   :display block
 
 textarea
-  :border     none
+  :border none
+  :margin auto
   
 input
   :text-align center
   :background-color transparent
   :border     none
+  :border-bottom dotted 1px black
   :margin     10px auto
+  
+input[type=hidden]
+  :display none
+  
 input:hover, input:focus
   :background-color #efecdc
   
@@ -42,9 +58,17 @@ input:hover, input:focus
   :border 2px solid #bcb9ad
   
 .page
-  :margin     10px auto
+  :margin 10px auto
   :padding-bottom 18px
   :width 450px
+  :background-color #efecdc
+  :text-align left
+  :padding 10px
+  
+  &.title
+    :width 500px
+    :padding 210px 0px
+    :text-align center
   
 #book_submit
   :font-size  1em

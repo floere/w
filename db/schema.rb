@@ -21,6 +21,7 @@ ActiveRecord::Schema.define(:version => 20090524214422) do
     t.string   "license",    :limit => 10
     t.string   "locale",     :limit => 5
     t.string   "password",   :limit => 16
+    t.text     "bio"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

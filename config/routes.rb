@@ -4,6 +4,11 @@ ActionController::Routing::Routes.draw do |map|
   # map.connect ':id', :controller => 'books', :action => 'show'
   # map.connect ':id/:action', :controller => 'books'
   
+  map.title        'title',             :controller => 'books', :action => 'title'
+  map.copyright    'copyright',         :controller => 'books', :action => 'copyright'
+  map.introduction 'introduction',      :controller => 'books', :action => 'introduction'
+  map.show         ':url',              :controller => 'books', :action => 'show'
+  
   map.resources :books
   
   # Sample of regular route:
@@ -43,6 +48,8 @@ ActionController::Routing::Routes.draw do |map|
   # Install the default routes as the lowest priority.
   # Note: These default routes make all actions in every controller accessible via GET requests. You should
   # consider removing the them or commenting them out if you're using named routes and resources.
-  map.connect ':controller/:action/:id'
-  map.connect ':controller/:action/:id.:format'
+  # map.connect ':controller/:action/:id'
+  # map.connect ':controller/:action/:id.:format'
+  
+  map.root :controller => 'books', :action => 'index'
 end

@@ -1,0 +1,11 @@
+- form_for @book do |f|
+  It begins as follows…
+  = f.hidden_field :title, :size => 40
+  = f.hidden_field :subtitle, :size => 60
+  = f.hidden_field :author, :size => 80
+  = f.hidden_field(:email, :size => 60)
+  = f.hidden_field(:password)
+  .page.title
+    = f.text_area  :text
+    %p Beautiful. This is just the beginning, you can continue writing after
+    = f.submit 'having your new book saved'

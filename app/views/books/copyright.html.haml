@@ -1,0 +1,10 @@
+- form_for @book, :url => introduction_path do |f|
+  = f.hidden_field :title
+  = f.hidden_field :subtitle
+  = f.hidden_field :author
+  .page.title
+    The author can be contacted at
+    = f.text_field :email
+    locking this book's editing with the password
+    = f.password_field :password
+    = f.submit 'start writing'
