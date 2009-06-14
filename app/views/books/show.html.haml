@@ -4,6 +4,7 @@
   // = "(#{@book.text.language})"
   by
   %h3= @book.author
+  %h3{ :onclick => 'alert("email");' } ✏
 
 .page
   .text= @book.text
@@ -12,6 +13,13 @@
       splitPages();
     });
 
+.page.title
+  %h2 The End
+  %h3 ❦
+  // ⊛
+  // ∞
+  // ∗
+  
 .hardcopy
   .pdf
     = link_to 'download', pdf_path

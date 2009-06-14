@@ -13,6 +13,8 @@ class PdfController < ApplicationController
       text 'by'
       text book.author
       text book.text
+      text 'The End'
+      text '❦'
     end
     
     send_file file_name, :type => 'application/pdf'
