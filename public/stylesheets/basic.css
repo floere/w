@@ -10,7 +10,8 @@ body, form {
   text-align: center; }
 
 h1, h2, h3, h4 {
-  font-weight: normal; }
+  font-weight: normal;
+  color: #993333; }
 
 h1.question {
   position: relative;
@@ -67,23 +68,29 @@ input:hover, input:focus {
   padding: 20px;
   padding-bottom: 18px;
   width: 450px;
-  background-color: #efecdc;
+  background-color: #EFECDC;
+  border: 2px solid #FFFFFF;
   text-align: left;
-  line-height: 1.4em;
-  -moz-border-radius: 10px;
-  -moz-border-radius-topright: 0px;
-  -webkit-border-radius: 10px;
-  -webkit-border-top-right-radius: 0px; }
+  line-height: 1.4em; }
   .page.title {
     width: 500px;
-    padding: 210px 0px;
+    padding: 160px 0px;
     text-align: center; }
+    .page.title h1 {
+      border-top: 1px solid #D3D0C2;
+      border-bottom: 1px solid #D3D0C2;
+      margin: 1em auto;
+      width: 80%;
+      padding: 0.5em 0em;
+      line-height: 1.2em; }
   .page .chapter {
     position: absolute;
-    top: 0px;
-    right: -30px;
+    top: -2px;
+    left: 490px;
     background-color: #efecdc;
     padding: 10px;
+    border: 2px solid #FFFFFF;
+    border-left: none;
     -moz-border-radius-topright: 10px;
     -moz-border-radius-bottomright: 10px;
     -webkit-border-top-right-radius: 10px;
@@ -112,13 +119,21 @@ ol.chapternav {
   ol.chapternav li a {
     display: block;
     padding: 12px;
-    border-top: solid 1px;
+    border-top: solid 2px #fff;
     cursor: hand;
     cursor: pointer; }
 
 #book_submit {
   font-size: 1em;
   border: solid 1px black; }
+
+.star {
+  position: absolute;
+  top: 15px;
+  right: -6px;
+  width: 15px;
+  height: 14px;
+  background: transparent url('/images/star.png'); }
 
 ::-moz-selection {
   background: #cc0000;

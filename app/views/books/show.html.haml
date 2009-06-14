@@ -1,8 +1,9 @@
-%h1= @book.title
-%h2= @book.subtitle
-= "(#{@book.text.language})"
-by
-%h3= @book.author
+.page.title
+  %h1= @book.title
+  %h2= @book.subtitle
+  // = "(#{@book.text.language})"
+  by
+  %h3= @book.author
 
 .page
   .text= @book.text
@@ -17,4 +18,4 @@ by
 
 %ol.chapternav
   %li ch.
-  %li.current
+  %li.current 1

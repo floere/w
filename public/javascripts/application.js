@@ -2,7 +2,7 @@
 // This file is automatically included by javascript_include_tag :defaults
 
 splitPages = function() {
-  var first = $('.page');
+  var first = $('.page .text').parent();
   var nav   = $('.chapternav li:last');
   
   var chapters = $.trim($('.page .text').html()).split("\n");
@@ -13,7 +13,7 @@ splitPages = function() {
   }).reverse();
   var chapters = $.map(chapters, function(chapter, number) {
     number = number + 1;
-    return '<div class="page" id="chapter' + number + '"><div class="chapter">' + number + '</div><div class="text">' + chapter + '</div></div>';
+    return '<div class="page" id="chapter' + number + '"><div class="chapter">' + number + '</div><div class="star" /><div class="text">' + chapter + '</div></div>';
   }).reverse();
   
   $.each(chapters, function(number, page) {

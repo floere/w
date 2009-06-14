@@ -17595,3 +17595,1077 @@ Processing BooksController#show (for ::1 at 2009-06-14 23:30:03) [GET]
 Rendering template within layouts/application
 Rendering books/show
 Completed in 16ms (View: 6, DB: 5) | 200 OK [http://localhost/the-fish]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-14 23:31:37) [GET]
+  Parameters: {"url"=>"the-fish"}
+  [4;36;1mBook Columns (2.6ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mBook Load (0.3ms)[0m   [0mSELECT * FROM `books` WHERE (`books`.`url` = 'the-fish') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 14ms (View: 6, DB: 3) | 200 OK [http://localhost/the-fish]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-14 23:33:26) [GET]
+  Parameters: {"url"=>"the-fish"}
+  [4;36;1mBook Columns (2.9ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mBook Load (0.6ms)[0m   [0mSELECT * FROM `books` WHERE (`books`.`url` = 'the-fish') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 22ms (View: 11, DB: 4) | 200 OK [http://localhost/the-fish]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-14 23:33:49) [GET]
+  Parameters: {"url"=>"the-fish"}
+  [4;36;1mBook Columns (2.2ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mBook Load (0.3ms)[0m   [0mSELECT * FROM `books` WHERE (`books`.`url` = 'the-fish') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 15ms (View: 7, DB: 3) | 200 OK [http://localhost/the-fish]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-14 23:34:15) [GET]
+  Parameters: {"url"=>"the-fish"}
+  [4;36;1mBook Columns (2.3ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mBook Load (0.3ms)[0m   [0mSELECT * FROM `books` WHERE (`books`.`url` = 'the-fish') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 16ms (View: 6, DB: 3) | 200 OK [http://localhost/the-fish]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-14 23:34:16) [GET]
+  Parameters: {"url"=>"the-fish"}
+  [4;36;1mBook Columns (2.7ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mBook Load (0.6ms)[0m   [0mSELECT * FROM `books` WHERE (`books`.`url` = 'the-fish') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 15ms (View: 6, DB: 3) | 200 OK [http://localhost/the-fish]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-14 23:34:40) [GET]
+  Parameters: {"url"=>"the-fish"}
+  [4;36;1mBook Columns (2.0ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mBook Load (0.3ms)[0m   [0mSELECT * FROM `books` WHERE (`books`.`url` = 'the-fish') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 14ms (View: 6, DB: 3) | 200 OK [http://localhost/the-fish]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-14 23:34:43) [GET]
+  Parameters: {"url"=>"the-fish"}
+  [4;36;1mBook Columns (2.5ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mBook Load (0.3ms)[0m   [0mSELECT * FROM `books` WHERE (`books`.`url` = 'the-fish') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 15ms (View: 6, DB: 3) | 200 OK [http://localhost/the-fish]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-14 23:34:43) [GET]
+  Parameters: {"url"=>"the-fish"}
+  [4;36;1mBook Columns (2.6ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mBook Load (0.3ms)[0m   [0mSELECT * FROM `books` WHERE (`books`.`url` = 'the-fish') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 14ms (View: 6, DB: 3) | 200 OK [http://localhost/the-fish]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-14 23:34:59) [GET]
+  Parameters: {"url"=>"the-fish"}
+  [4;36;1mBook Columns (2.2ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mBook Load (117.6ms)[0m   [0mSELECT * FROM `books` WHERE (`books`.`url` = 'the-fish') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 132ms (View: 5, DB: 120) | 200 OK [http://localhost/the-fish]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-14 23:35:00) [GET]
+  Parameters: {"url"=>"the-fish"}
+  [4;36;1mBook Columns (2.6ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mBook Load (0.3ms)[0m   [0mSELECT * FROM `books` WHERE (`books`.`url` = 'the-fish') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 14ms (View: 6, DB: 3) | 200 OK [http://localhost/the-fish]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-14 23:35:01) [GET]
+  Parameters: {"url"=>"the-fish"}
+  [4;36;1mBook Columns (2.7ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mBook Load (0.3ms)[0m   [0mSELECT * FROM `books` WHERE (`books`.`url` = 'the-fish') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 14ms (View: 6, DB: 3) | 200 OK [http://localhost/the-fish]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-14 23:35:12) [GET]
+  Parameters: {"url"=>"the-fish"}
+  [4;36;1mBook Columns (2.3ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mBook Load (0.4ms)[0m   [0mSELECT * FROM `books` WHERE (`books`.`url` = 'the-fish') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 14ms (View: 6, DB: 3) | 200 OK [http://localhost/the-fish]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-14 23:35:12) [GET]
+  Parameters: {"url"=>"the-fish"}
+  [4;36;1mBook Columns (2.4ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mBook Load (0.3ms)[0m   [0mSELECT * FROM `books` WHERE (`books`.`url` = 'the-fish') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 14ms (View: 6, DB: 3) | 200 OK [http://localhost/the-fish]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-14 23:35:31) [GET]
+  Parameters: {"url"=>"the-fish"}
+  [4;36;1mBook Columns (2.4ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mBook Load (0.3ms)[0m   [0mSELECT * FROM `books` WHERE (`books`.`url` = 'the-fish') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 94ms (View: 86, DB: 3) | 200 OK [http://localhost/the-fish]
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-14 23:35:32) [GET]
+  Parameters: {"url"=>"the-fish"}
+  [4;36;1mBook Columns (2.8ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mBook Load (0.3ms)[0m   [0mSELECT * FROM `books` WHERE (`books`.`url` = 'the-fish') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 14ms (View: 5, DB: 4) | 200 OK [http://localhost/the-fish]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-14 23:35:33) [GET]
+  Parameters: {"url"=>"the-fish"}
+  [4;36;1mBook Columns (2.6ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mBook Load (0.4ms)[0m   [0mSELECT * FROM `books` WHERE (`books`.`url` = 'the-fish') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 15ms (View: 6, DB: 3) | 200 OK [http://localhost/the-fish]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-14 23:36:26) [GET]
+  Parameters: {"url"=>"the-fish"}
+  [4;36;1mBook Columns (3.2ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mBook Load (0.3ms)[0m   [0mSELECT * FROM `books` WHERE (`books`.`url` = 'the-fish') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 16ms (View: 5, DB: 4) | 200 OK [http://localhost/the-fish]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-14 23:36:33) [GET]
+  Parameters: {"url"=>"the-fish"}
+  [4;36;1mBook Columns (2.2ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mBook Load (0.3ms)[0m   [0mSELECT * FROM `books` WHERE (`books`.`url` = 'the-fish') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 14ms (View: 5, DB: 3) | 200 OK [http://localhost/the-fish]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-14 23:36:34) [GET]
+  Parameters: {"url"=>"the-fish"}
+  [4;36;1mBook Columns (2.9ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mBook Load (0.4ms)[0m   [0mSELECT * FROM `books` WHERE (`books`.`url` = 'the-fish') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 15ms (View: 6, DB: 4) | 200 OK [http://localhost/the-fish]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-14 23:36:43) [GET]
+  Parameters: {"url"=>"the-fish"}
+  [4;36;1mBook Columns (2.2ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mBook Load (0.3ms)[0m   [0mSELECT * FROM `books` WHERE (`books`.`url` = 'the-fish') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 13ms (View: 5, DB: 3) | 200 OK [http://localhost/the-fish]
+  [4;36;1mSQL (2.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-14 23:36:57) [GET]
+  Parameters: {"url"=>"the-fish"}
+  [4;36;1mBook Columns (3.0ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mBook Load (0.3ms)[0m   [0mSELECT * FROM `books` WHERE (`books`.`url` = 'the-fish') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 15ms (View: 6, DB: 6) | 200 OK [http://localhost/the-fish]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-14 23:36:58) [GET]
+  Parameters: {"url"=>"the-fish"}
+  [4;36;1mBook Columns (2.6ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mBook Load (1.6ms)[0m   [0mSELECT * FROM `books` WHERE (`books`.`url` = 'the-fish') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 19ms (View: 8, DB: 4) | 200 OK [http://localhost/the-fish]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-14 23:37:03) [GET]
+  Parameters: {"url"=>"the-fish"}
+  [4;36;1mBook Columns (2.3ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mBook Load (0.3ms)[0m   [0mSELECT * FROM `books` WHERE (`books`.`url` = 'the-fish') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 14ms (View: 6, DB: 3) | 200 OK [http://localhost/the-fish]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-14 23:37:06) [GET]
+  Parameters: {"url"=>"the-fish"}
+  [4;36;1mBook Columns (2.1ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mBook Load (0.3ms)[0m   [0mSELECT * FROM `books` WHERE (`books`.`url` = 'the-fish') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 14ms (View: 5, DB: 3) | 200 OK [http://localhost/the-fish]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-14 23:37:07) [GET]
+  Parameters: {"url"=>"the-fish"}
+  [4;36;1mBook Columns (2.4ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mBook Load (0.3ms)[0m   [0mSELECT * FROM `books` WHERE (`books`.`url` = 'the-fish') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 14ms (View: 6, DB: 3) | 200 OK [http://localhost/the-fish]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-14 23:37:33) [GET]
+  Parameters: {"url"=>"the-fish"}
+  [4;36;1mBook Columns (3.2ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mBook Load (0.7ms)[0m   [0mSELECT * FROM `books` WHERE (`books`.`url` = 'the-fish') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 21ms (View: 11, DB: 4) | 200 OK [http://localhost/the-fish]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-14 23:37:40) [GET]
+  Parameters: {"url"=>"the-fish"}
+  [4;36;1mBook Columns (2.0ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mBook Load (0.3ms)[0m   [0mSELECT * FROM `books` WHERE (`books`.`url` = 'the-fish') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 18ms (View: 10, DB: 3) | 200 OK [http://localhost/the-fish]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-14 23:38:03) [GET]
+  Parameters: {"url"=>"the-fish"}
+  [4;36;1mBook Columns (2.7ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mBook Load (0.4ms)[0m   [0mSELECT * FROM `books` WHERE (`books`.`url` = 'the-fish') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 16ms (View: 6, DB: 3) | 200 OK [http://localhost/the-fish]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-14 23:38:04) [GET]
+  Parameters: {"url"=>"the-fish"}
+  [4;36;1mBook Columns (3.8ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mBook Load (0.5ms)[0m   [0mSELECT * FROM `books` WHERE (`books`.`url` = 'the-fish') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 15ms (View: 6, DB: 5) | 200 OK [http://localhost/the-fish]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-14 23:38:05) [GET]
+  Parameters: {"url"=>"the-fish"}
+  [4;36;1mBook Columns (2.8ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mBook Load (1.0ms)[0m   [0mSELECT * FROM `books` WHERE (`books`.`url` = 'the-fish') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 15ms (View: 5, DB: 4) | 200 OK [http://localhost/the-fish]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-14 23:38:06) [GET]
+  Parameters: {"url"=>"the-fish"}
+  [4;36;1mBook Columns (2.3ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mBook Load (0.3ms)[0m   [0mSELECT * FROM `books` WHERE (`books`.`url` = 'the-fish') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 15ms (View: 6, DB: 3) | 200 OK [http://localhost/the-fish]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-14 23:38:27) [GET]
+  Parameters: {"url"=>"the-fish"}
+  [4;36;1mBook Columns (2.6ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mBook Load (0.3ms)[0m   [0mSELECT * FROM `books` WHERE (`books`.`url` = 'the-fish') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 15ms (View: 6, DB: 3) | 200 OK [http://localhost/the-fish]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-14 23:38:42) [GET]
+  Parameters: {"url"=>"the-fish"}
+  [4;36;1mBook Columns (2.3ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mBook Load (0.4ms)[0m   [0mSELECT * FROM `books` WHERE (`books`.`url` = 'the-fish') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 15ms (View: 5, DB: 3) | 200 OK [http://localhost/the-fish]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-14 23:38:43) [GET]
+  Parameters: {"url"=>"the-fish"}
+  [4;36;1mBook Columns (2.5ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mBook Load (0.3ms)[0m   [0mSELECT * FROM `books` WHERE (`books`.`url` = 'the-fish') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 14ms (View: 6, DB: 3) | 200 OK [http://localhost/the-fish]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-14 23:39:10) [GET]
+  Parameters: {"url"=>"the-fish"}
+  [4;36;1mBook Columns (2.2ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mBook Load (0.4ms)[0m   [0mSELECT * FROM `books` WHERE (`books`.`url` = 'the-fish') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 15ms (View: 6, DB: 3) | 200 OK [http://localhost/the-fish]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-14 23:39:24) [GET]
+  Parameters: {"url"=>"the-fish"}
+  [4;36;1mBook Columns (2.7ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mBook Load (0.4ms)[0m   [0mSELECT * FROM `books` WHERE (`books`.`url` = 'the-fish') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 103ms (View: 94, DB: 3) | 200 OK [http://localhost/the-fish]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-14 23:39:40) [GET]
+  Parameters: {"url"=>"the-fish"}
+  [4;36;1mBook Columns (2.4ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mBook Load (0.3ms)[0m   [0mSELECT * FROM `books` WHERE (`books`.`url` = 'the-fish') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 19ms (View: 8, DB: 3) | 200 OK [http://localhost/the-fish]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-14 23:39:49) [GET]
+  Parameters: {"url"=>"the-fish"}
+  [4;36;1mBook Columns (2.6ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mBook Load (0.6ms)[0m   [0mSELECT * FROM `books` WHERE (`books`.`url` = 'the-fish') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 14ms (View: 6, DB: 3) | 200 OK [http://localhost/the-fish]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-14 23:40:30) [GET]
+  Parameters: {"url"=>"the-fish"}
+  [4;36;1mBook Columns (2.0ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mBook Load (0.3ms)[0m   [0mSELECT * FROM `books` WHERE (`books`.`url` = 'the-fish') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 14ms (View: 5, DB: 3) | 200 OK [http://localhost/the-fish]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-14 23:40:31) [GET]
+  Parameters: {"url"=>"the-fish"}
+  [4;36;1mBook Columns (2.4ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mBook Load (0.3ms)[0m   [0mSELECT * FROM `books` WHERE (`books`.`url` = 'the-fish') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 13ms (View: 5, DB: 3) | 200 OK [http://localhost/the-fish]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-14 23:40:34) [GET]
+  Parameters: {"url"=>"the-fish"}
+  [4;36;1mBook Columns (3.0ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mBook Load (0.4ms)[0m   [0mSELECT * FROM `books` WHERE (`books`.`url` = 'the-fish') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 14ms (View: 6, DB: 4) | 200 OK [http://localhost/the-fish]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-14 23:40:57) [GET]
+  Parameters: {"url"=>"the-fish"}
+  [4;36;1mBook Columns (2.2ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mBook Load (0.3ms)[0m   [0mSELECT * FROM `books` WHERE (`books`.`url` = 'the-fish') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 14ms (View: 5, DB: 3) | 200 OK [http://localhost/the-fish]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-14 23:40:58) [GET]
+  Parameters: {"url"=>"the-fish"}
+  [4;36;1mBook Columns (2.9ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mBook Load (0.3ms)[0m   [0mSELECT * FROM `books` WHERE (`books`.`url` = 'the-fish') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 15ms (View: 6, DB: 3) | 200 OK [http://localhost/the-fish]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-14 23:41:52) [GET]
+  Parameters: {"url"=>"the-fish"}
+  [4;36;1mBook Columns (2.2ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mBook Load (0.3ms)[0m   [0mSELECT * FROM `books` WHERE (`books`.`url` = 'the-fish') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 14ms (View: 6, DB: 3) | 200 OK [http://localhost/the-fish]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-14 23:42:24) [GET]
+  Parameters: {"url"=>"the-fish"}
+  [4;36;1mBook Columns (2.0ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mBook Load (0.3ms)[0m   [0mSELECT * FROM `books` WHERE (`books`.`url` = 'the-fish') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 15ms (View: 5, DB: 3) | 200 OK [http://localhost/the-fish]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-14 23:42:32) [GET]
+  Parameters: {"url"=>"the-fish"}
+  [4;36;1mBook Columns (2.1ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mBook Load (0.4ms)[0m   [0mSELECT * FROM `books` WHERE (`books`.`url` = 'the-fish') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 16ms (View: 6, DB: 3) | 200 OK [http://localhost/the-fish]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-14 23:42:34) [GET]
+  Parameters: {"url"=>"the-fish"}
+  [4;36;1mBook Columns (2.7ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mBook Load (0.3ms)[0m   [0mSELECT * FROM `books` WHERE (`books`.`url` = 'the-fish') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 96ms (View: 87, DB: 3) | 200 OK [http://localhost/the-fish]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-14 23:42:43) [GET]
+  Parameters: {"url"=>"the-fish"}
+  [4;36;1mBook Columns (2.5ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mBook Load (0.3ms)[0m   [0mSELECT * FROM `books` WHERE (`books`.`url` = 'the-fish') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 18ms (View: 9, DB: 3) | 200 OK [http://localhost/the-fish]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-14 23:42:45) [GET]
+  Parameters: {"url"=>"the-fish"}
+  [4;36;1mBook Columns (2.4ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mBook Load (0.3ms)[0m   [0mSELECT * FROM `books` WHERE (`books`.`url` = 'the-fish') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 12ms (View: 4, DB: 3) | 200 OK [http://localhost/the-fish]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-14 23:42:58) [GET]
+  Parameters: {"url"=>"the-fish"}
+  [4;36;1mBook Columns (2.7ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mBook Load (0.3ms)[0m   [0mSELECT * FROM `books` WHERE (`books`.`url` = 'the-fish') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 13ms (View: 4, DB: 3) | 200 OK [http://localhost/the-fish]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-14 23:45:09) [GET]
+  Parameters: {"url"=>"the-fish"}
+  [4;36;1mBook Columns (2.0ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mBook Load (0.3ms)[0m   [0mSELECT * FROM `books` WHERE (`books`.`url` = 'the-fish') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 12ms (View: 4, DB: 2) | 200 OK [http://localhost/the-fish]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-14 23:45:10) [GET]
+  Parameters: {"url"=>"the-fish"}
+  [4;36;1mBook Columns (2.6ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mBook Load (0.3ms)[0m   [0mSELECT * FROM `books` WHERE (`books`.`url` = 'the-fish') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 14ms (View: 4, DB: 3) | 200 OK [http://localhost/the-fish]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-14 23:45:28) [GET]
+  Parameters: {"url"=>"the-fish"}
+  [4;36;1mBook Columns (2.4ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mBook Load (0.3ms)[0m   [0mSELECT * FROM `books` WHERE (`books`.`url` = 'the-fish') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 95ms (View: 87, DB: 3) | 200 OK [http://localhost/the-fish]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-14 23:45:42) [GET]
+  Parameters: {"url"=>"the-fish"}
+  [4;36;1mBook Columns (3.4ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mBook Load (0.3ms)[0m   [0mSELECT * FROM `books` WHERE (`books`.`url` = 'the-fish') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 19ms (View: 9, DB: 4) | 200 OK [http://localhost/the-fish]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-14 23:45:50) [GET]
+  Parameters: {"url"=>"the-fish"}
+  [4;36;1mBook Columns (2.6ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mBook Load (0.3ms)[0m   [0mSELECT * FROM `books` WHERE (`books`.`url` = 'the-fish') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 12ms (View: 3, DB: 3) | 200 OK [http://localhost/the-fish]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-14 23:48:14) [GET]
+  Parameters: {"url"=>"the-fish"}
+  [4;36;1mBook Columns (2.9ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mBook Load (0.7ms)[0m   [0mSELECT * FROM `books` WHERE (`books`.`url` = 'the-fish') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 13ms (View: 4, DB: 4) | 200 OK [http://localhost/the-fish]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-14 23:48:15) [GET]
+  Parameters: {"url"=>"the-fish"}
+  [4;36;1mBook Columns (2.1ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mBook Load (0.5ms)[0m   [0mSELECT * FROM `books` WHERE (`books`.`url` = 'the-fish') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 12ms (View: 4, DB: 3) | 200 OK [http://localhost/the-fish]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-14 23:48:23) [GET]
+  Parameters: {"url"=>"the-fish"}
+  [4;36;1mBook Columns (2.4ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mBook Load (0.3ms)[0m   [0mSELECT * FROM `books` WHERE (`books`.`url` = 'the-fish') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 12ms (View: 4, DB: 3) | 200 OK [http://localhost/the-fish]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-14 23:49:22) [GET]
+  Parameters: {"url"=>"the-fish"}
+  [4;36;1mBook Columns (2.4ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mBook Load (0.6ms)[0m   [0mSELECT * FROM `books` WHERE (`books`.`url` = 'the-fish') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 12ms (View: 4, DB: 3) | 200 OK [http://localhost/the-fish]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-14 23:49:48) [GET]
+  Parameters: {"url"=>"the-fish"}
+  [4;36;1mBook Columns (2.6ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mBook Load (0.3ms)[0m   [0mSELECT * FROM `books` WHERE (`books`.`url` = 'the-fish') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 12ms (View: 4, DB: 3) | 200 OK [http://localhost/the-fish]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-14 23:49:49) [GET]
+  Parameters: {"url"=>"the-fish"}
+  [4;36;1mBook Columns (2.4ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mBook Load (0.3ms)[0m   [0mSELECT * FROM `books` WHERE (`books`.`url` = 'the-fish') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 12ms (View: 4, DB: 3) | 200 OK [http://localhost/the-fish]
+  [4;36;1mSQL (1.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-14 23:49:59) [GET]
+  Parameters: {"url"=>"the-fish"}
+  [4;36;1mBook Columns (2.5ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mBook Load (0.3ms)[0m   [0mSELECT * FROM `books` WHERE (`books`.`url` = 'the-fish') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 12ms (View: 4, DB: 4) | 200 OK [http://localhost/the-fish]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-14 23:50:00) [GET]
+  Parameters: {"url"=>"the-fish"}
+  [4;36;1mBook Columns (3.2ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mBook Load (1.2ms)[0m   [0mSELECT * FROM `books` WHERE (`books`.`url` = 'the-fish') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 14ms (View: 4, DB: 5) | 200 OK [http://localhost/the-fish]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-14 23:50:32) [GET]
+  Parameters: {"url"=>"the-fish"}
+  [4;36;1mBook Columns (2.9ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mBook Load (0.3ms)[0m   [0mSELECT * FROM `books` WHERE (`books`.`url` = 'the-fish') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 12ms (View: 3, DB: 3) | 200 OK [http://localhost/the-fish]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PdfController#create (for ::1 at 2009-06-14 23:50:33) [GET]
+  Parameters: {"url"=>"the-fish"}
+  [4;36;1mBook Columns (2.5ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mBook Load (0.3ms)[0m   [0mSELECT * FROM `books` WHERE (`books`.`url` = 'the-fish') LIMIT 1[0m
+Completed in 122ms (View: 1, DB: 4) | 200 OK [http://localhost/the-fish/pdf]
+Streaming file public/pdfs/the-fish.pdf
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-14 23:50:55) [GET]
+  Parameters: {"url"=>"the-fish"}
+  [4;36;1mBook Columns (2.6ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mBook Load (0.3ms)[0m   [0mSELECT * FROM `books` WHERE (`books`.`url` = 'the-fish') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 12ms (View: 3, DB: 3) | 200 OK [http://localhost/the-fish]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PdfController#create (for ::1 at 2009-06-14 23:50:56) [GET]
+  Parameters: {"url"=>"the-fish"}
+  [4;36;1mBook Columns (2.7ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mBook Load (0.4ms)[0m   [0mSELECT * FROM `books` WHERE (`books`.`url` = 'the-fish') LIMIT 1[0m
+Completed in 123ms (View: 1, DB: 3) | 200 OK [http://localhost/the-fish/pdf]
+Streaming file public/pdfs/the-fish.pdf
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-14 23:53:11) [GET]
+  Parameters: {"url"=>"the-fish"}
+  [4;36;1mBook Columns (2.8ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mBook Load (0.3ms)[0m   [0mSELECT * FROM `books` WHERE (`books`.`url` = 'the-fish') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 12ms (View: 4, DB: 3) | 200 OK [http://localhost/the-fish]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-14 23:53:59) [GET]
+  Parameters: {"url"=>"the-fish"}
+  [4;36;1mBook Columns (2.4ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mBook Load (0.3ms)[0m   [0mSELECT * FROM `books` WHERE (`books`.`url` = 'the-fish') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 17ms (View: 9, DB: 3) | 200 OK [http://localhost/the-fish]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for ::1 at 2009-06-14 23:53:59) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/public/images/star.png" with {:method=>:get}):
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-14 23:54:22) [GET]
+  Parameters: {"url"=>"the-fish"}
+  [4;36;1mBook Columns (2.4ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mBook Load (0.3ms)[0m   [0mSELECT * FROM `books` WHERE (`books`.`url` = 'the-fish') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 12ms (View: 4, DB: 3) | 200 OK [http://localhost/the-fish]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for ::1 at 2009-06-14 23:54:22) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/public/images/star.png" with {:method=>:get}):
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-14 23:54:43) [GET]
+  Parameters: {"url"=>"the-fish"}
+  [4;36;1mBook Columns (3.4ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mBook Load (0.3ms)[0m   [0mSELECT * FROM `books` WHERE (`books`.`url` = 'the-fish') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 13ms (View: 4, DB: 4) | 200 OK [http://localhost/the-fish]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for ::1 at 2009-06-14 23:54:44) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/public/images/star.png" with {:method=>:get}):
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-14 23:54:55) [GET]
+  Parameters: {"url"=>"the-fish"}
+  [4;36;1mBook Columns (2.5ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mBook Load (0.3ms)[0m   [0mSELECT * FROM `books` WHERE (`books`.`url` = 'the-fish') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 12ms (View: 4, DB: 3) | 200 OK [http://localhost/the-fish]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for ::1 at 2009-06-14 23:54:55) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/public/images/star.png" with {:method=>:get}):
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for ::1 at 2009-06-14 23:55:02) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/public/images/star.png" with {:method=>:get}):
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for ::1 at 2009-06-14 23:55:04) [GET]
+
+ActionController::RoutingError (No route matches "/public/images/star.png" with {:method=>:get}):
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for ::1 at 2009-06-14 23:55:08) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/star.png" with {:method=>:get}):
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for ::1 at 2009-06-14 23:55:09) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/star.png" with {:method=>:get}):
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-14 23:55:23) [GET]
+  Parameters: {"url"=>"the-fish"}
+  [4;36;1mBook Columns (3.3ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mBook Load (0.3ms)[0m   [0mSELECT * FROM `books` WHERE (`books`.`url` = 'the-fish') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 14ms (View: 3, DB: 4) | 200 OK [http://localhost/the-fish]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-14 23:56:12) [GET]
+  Parameters: {"url"=>"the-fish"}
+  [4;36;1mBook Columns (2.9ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mBook Load (1.1ms)[0m   [0mSELECT * FROM `books` WHERE (`books`.`url` = 'the-fish') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 15ms (View: 4, DB: 4) | 200 OK [http://localhost/the-fish]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-14 23:57:15) [GET]
+  Parameters: {"url"=>"the-fish"}
+  [4;36;1mBook Columns (3.3ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mBook Load (0.3ms)[0m   [0mSELECT * FROM `books` WHERE (`books`.`url` = 'the-fish') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 13ms (View: 3, DB: 4) | 200 OK [http://localhost/the-fish]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-14 23:57:48) [GET]
+  Parameters: {"url"=>"the-fish"}
+  [4;36;1mBook Columns (2.6ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mBook Load (0.3ms)[0m   [0mSELECT * FROM `books` WHERE (`books`.`url` = 'the-fish') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 13ms (View: 4, DB: 3) | 200 OK [http://localhost/the-fish]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-14 23:58:23) [GET]
+  Parameters: {"url"=>"the-fish"}
+  [4;36;1mBook Columns (4.9ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mBook Load (0.3ms)[0m   [0mSELECT * FROM `books` WHERE (`books`.`url` = 'the-fish') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 15ms (View: 4, DB: 6) | 200 OK [http://localhost/the-fish]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-14 23:58:54) [GET]
+  Parameters: {"url"=>"the-fish"}
+  [4;36;1mBook Columns (2.0ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mBook Load (0.3ms)[0m   [0mSELECT * FROM `books` WHERE (`books`.`url` = 'the-fish') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 12ms (View: 4, DB: 2) | 200 OK [http://localhost/the-fish]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-14 23:59:46) [GET]
+  Parameters: {"url"=>"the-fish"}
+  [4;36;1mBook Columns (2.4ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mBook Load (0.3ms)[0m   [0mSELECT * FROM `books` WHERE (`books`.`url` = 'the-fish') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 12ms (View: 4, DB: 3) | 200 OK [http://localhost/the-fish]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-14 23:59:47) [GET]
+  Parameters: {"url"=>"the-fish"}
+  [4;36;1mBook Columns (2.3ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mBook Load (0.4ms)[0m   [0mSELECT * FROM `books` WHERE (`books`.`url` = 'the-fish') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 12ms (View: 4, DB: 3) | 200 OK [http://localhost/the-fish]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-14 23:59:48) [GET]
+  Parameters: {"url"=>"the-fish"}
+  [4;36;1mBook Columns (2.7ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mBook Load (0.5ms)[0m   [0mSELECT * FROM `books` WHERE (`books`.`url` = 'the-fish') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 13ms (View: 4, DB: 3) | 200 OK [http://localhost/the-fish]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-14 23:59:50) [GET]
+  Parameters: {"url"=>"the-fish"}
+  [4;36;1mBook Columns (2.4ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mBook Load (0.3ms)[0m   [0mSELECT * FROM `books` WHERE (`books`.`url` = 'the-fish') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 12ms (View: 4, DB: 3) | 200 OK [http://localhost/the-fish]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-14 23:59:51) [GET]
+  Parameters: {"url"=>"the-fish"}
+  [4;36;1mBook Columns (2.4ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mBook Load (0.6ms)[0m   [0mSELECT * FROM `books` WHERE (`books`.`url` = 'the-fish') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 17ms (View: 4, DB: 3) | 200 OK [http://localhost/the-fish]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-14 23:59:56) [GET]
+  Parameters: {"url"=>"the-fish"}
+  [4;36;1mBook Columns (2.5ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mBook Load (0.2ms)[0m   [0mSELECT * FROM `books` WHERE (`books`.`url` = 'the-fish') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 12ms (View: 4, DB: 3) | 200 OK [http://localhost/the-fish]
