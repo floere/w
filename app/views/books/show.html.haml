@@ -2,7 +2,7 @@
 %h2= @book.subtitle
 = "(#{@book.text.language})"
 by
-%h2= @book.author
+%h3= @book.author
 
 .page
   .text= @book.text
@@ -13,7 +13,7 @@ by
 
 .hardcopy
   .pdf
-    = link_to 'pdf', pdf_path
+    = link_to 'download', pdf_path
 
 %ol.chapternav
   %li ch.

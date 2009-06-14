@@ -6,7 +6,8 @@ class PdfController < ApplicationController
     file_name = "public/pdfs/#{book.url}.pdf"
     
     Prawn::Document.generate(file_name) do
-      font "#{Prawn::BASEDIR}/data/fonts/DejaVuSans.ttf"
+      # "Bookman Old Style", "Serifa BT", "URW Bookman L", "itc bookman", times, serif
+      font "#{Prawn::BASEDIR}/data/fonts/Dustismo_Roman.ttf"
       text book.text
     end
     
