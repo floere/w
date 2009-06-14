@@ -1,10 +1,11 @@
-.page.title
+#head.page.title
   %h1= @book.title
   %h2= @book.subtitle
   // = "(#{@book.text.language})"
   by
   %h3= @book.author
   %h3{ :onclick => 'alert("email");' } ✏
+.shadow
 
 .page
   .text= @book.text
@@ -13,17 +14,20 @@
       splitPages();
     });
 
-.page.title
+#tail.page.title
   %h2 The End
   %h3 ❦
   // ⊛
   // ∞
   // ∗
+.shadow
   
 .hardcopy
   .pdf
-    = link_to 'download', pdf_path
+    = link_to 'd/l', pdf_path
 
 %ol.chapternav
   %li ch.
   %li.current 1
+  %li
+    = link_to 'title', '#head'

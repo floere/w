@@ -13,7 +13,7 @@ splitPages = function() {
   }).reverse();
   var chapters = $.map(chapters, function(chapter, number) {
     number = number + 1;
-    return '<div class="page" id="chapter' + number + '"><div class="chapter">' + number + '</div><div class="star" /><div class="text">' + chapter + '</div></div>';
+    return '<div class="page" id="chapter' + number + '"><div class="chapter">' + number + '</div><div class="star" /><div class="text">' + chapter + '</div></div><div class="shadow"></div>';
   }).reverse();
   
   $.each(chapters, function(number, page) {
