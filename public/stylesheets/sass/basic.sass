@@ -64,20 +64,23 @@ input:hover, input:focus
 .page
   :position relative
   :margin 10px auto
+  :padding 20px
   :padding-bottom 18px
   :width 450px
   :background-color #efecdc
   :text-align left
-  :padding 10px
+  :line-height 1.4em
   :-moz-border-radius 10px
   :-moz-border-radius-topright 0px
+  :-webkit-border-radius 10px
+  :-webkit-border-top-right-radius 0px
   
   &.title
     :width 500px
     :padding 210px 0px
     :text-align center
     
-  .number
+  .chapter
     :position absolute
     :top 0px
     :right -30px
@@ -85,21 +88,42 @@ input:hover, input:focus
     :padding 10px
     :-moz-border-radius-topright 10px
     :-moz-border-radius-bottomright 10px
+    :-webkit-border-top-right-radius 10px
+    :-webkit-border-bottom-right-radius 10px
 
-ol.pagenav
-  :position absolute
+.hardcopy
+  .pdf
+    :position absolute
+    :top 0px
+    :right 0px
+    :background-color #efecdc
+    :-moz-border-radius-topleft 10px
+    :-moz-border-radius-bottomleft 10px
+    :-webkit-border-top-left-radius 10px
+    :-webkit-border-bottom-left-radius 10px
+
+ol.chapternav
+  :position fixed
   :top 60px
   :right 0px
   :list-style none
   :background-color #efecdc
   :-moz-border-radius-topleft 10px
   :-moz-border-radius-bottomleft 10px
+  :-webkit-border-top-left-radius 10px
+  :-webkit-border-bottom-left-radius 10px
   
   li
-    :padding 10px
-    
     a
-
+      :display block
+      :padding 12px
+      :border-top solid 1px
+      // :border-bottom solid 1px
+      // :border-collapse collapse
+      // :margin-top -1px
+      :cursor hand
+      :cursor pointer
+      
 #book_submit
   :font-size  1em
   :border solid 1px black

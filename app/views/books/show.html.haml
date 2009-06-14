@@ -5,21 +5,17 @@ by
 %h2= @book.author
 
 .page
-  .number
-    1
-    = link_to '', '#page1'
-  = @book.text
-:javascript
-  $(function() {
-    console.log('loaded');
-  });
+  .text
+    = @book.text
+  :javascript
+    $(function() {
+      splitPages();
+    });
 
-%ol.pagenav
-  %li
-    = link_to '1', '#page1'
-  %li
-    = link_to '2', '#page2'
-  %li
-    = link_to '3', '#page3'
-  %li
-    = link_to '4', '#page4'
+.hardcopy
+  .pdf
+    PDF
+
+%ol.chapternav
+  %li ch.
+  %li.current
