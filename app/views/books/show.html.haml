@@ -1,7 +1,9 @@
 %h1= @book.title
 %h2= @book.subtitle
+/ = "This book is in #{WhatLanguage.guess @book.text.first(120) }."
 by
 %h2= @book.author
 
 .page
+  .number 1
   = @book.text

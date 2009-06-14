@@ -58,17 +58,29 @@ input:hover, input:focus
   :border 2px solid #bcb9ad
   
 .page
+  :position relative
   :margin 10px auto
   :padding-bottom 18px
   :width 450px
   :background-color #efecdc
   :text-align left
   :padding 10px
+  :-moz-border-radius 10px
+  :-moz-border-radius-topright 0px
   
   &.title
     :width 500px
     :padding 210px 0px
     :text-align center
+    
+  .number
+    :position absolute
+    :top 0px
+    :right -30px
+    :background-color #efecdc
+    :padding 10px
+    :-moz-border-radius-topright 10px
+    :-moz-border-radius-bottomright 10px
   
 #book_submit
   :font-size  1em

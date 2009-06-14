@@ -28,7 +28,7 @@ class BooksController < ApplicationController
     book = Book.new params[:book]
     if book.save
       session.delete :book
-      redirect_to :action => :show
+      redirect_to_the book # :show, :url => book.url
     else
       
     end
@@ -48,7 +48,24 @@ class BooksController < ApplicationController
   # Show the book for editing and adding text.
   #
   def edit
-    
+    @book = Book.find_by_url params[:url]
   end
+  
+  def update
+    book = Book.find_by_url params[:url]
+    text = params[:book][:text]
+    if book && text
+      book.update_attribute :text, text
+      redirect_to_the book
+    else
+      
+    end
+  end
+  
+  private
+    
+    def redirect_to_the book
+      redirect_to "/#{book.url}"
+    end
   
 end
