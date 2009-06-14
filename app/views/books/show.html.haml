@@ -1,12 +1,11 @@
 %h1= @book.title
 %h2= @book.subtitle
-/ = "This book is in #{WhatLanguage.guess @book.text.first(120) }."
+= "(#{@book.text.language})"
 by
 %h2= @book.author
 
 .page
-  .text
-    = @book.text
+  .text= @book.text
   :javascript
     $(function() {
       splitPages();
@@ -14,7 +13,7 @@ by
 
 .hardcopy
   .pdf
-    PDF
+    = link_to 'pdf', pdf_path
 
 %ol.chapternav
   %li ch.

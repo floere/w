@@ -5,7 +5,7 @@ splitPages = function() {
   first = $('.page');
   nav   = $('.chapternav li:last');
   
-  chapters = $('.page .text').html().split("\n");
+  chapters = $.trim($('.page .text').html()).split("\n");
   
   links    = $.map(chapters, function(chapter, number) {
     number = number + 1;
