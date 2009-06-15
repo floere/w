@@ -25,7 +25,7 @@ splitPages = function() {
   
   first.remove();
   installScrollDetector();
-  $('ol.chapternav li a').localScroll();
+  $('ol.chapternav').localScroll({duration:250, easing:'easeOutExpo', offset:-10 });
 };
 
 installScrollDetector = function() {
