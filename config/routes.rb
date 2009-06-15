@@ -3,14 +3,14 @@ ActionController::Routing::Routes.draw do |map|
   
   # map.connect ':id', :controller => 'books', :action => 'show'
   # map.connect ':id/:action', :controller => 'books'
-
+  
   map.title        'title',             :controller => 'books', :action => 'title'
   map.copyright    'copyright',         :controller => 'books', :action => 'copyright'
   map.introduction 'introduction',      :controller => 'books', :action => 'introduction'
   map.edit         ':url/edit',         :controller => 'books', :action => 'edit'
   map.update       ':url/update',       :controller => 'books', :action => 'update'
   map.pdf          ':url/pdf',          :controller => 'pdf',   :action => 'create'
-  map.resources :books
+  map.resources    :books
   map.show         ':url',              :controller => 'books', :action => 'show'
   
   # Sample of regular route:

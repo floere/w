@@ -1,9 +1,13 @@
-.page
-  %h1.question Would you like to write a short story and publish it online?
-  Yes?
-  = link_to 'Start a new story!', title_path
-  %h1.question Would you like to read some stories that have been written?
-  Yes? We can list a few
-  = link_to 'random stories', '#'
-  or let you
-  = link_to 'browse stories', '#'
+.page.title
+  %h1 Would you like to write a short story and publish it online?
+  %p Yes?
+  %p
+    = link_to 'Start a new story!', title_path
+.page.title
+  %h1 Would you like to read some stories that have been written?
+  %p Yes?
+  %p
+    We can list a few
+    = link_to 'random stories', '#'
+    or let you
+    = link_to 'browse stories', '#'
