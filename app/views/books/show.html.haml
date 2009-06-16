@@ -15,7 +15,7 @@
     });
 
 .add_more
-  = link_to '', '#'
+  = link_to '+', '#'
 
 #tail.page.title
   %h2 The End
@@ -25,9 +25,9 @@
   // ∗
 .shadow
   
-.hardcopy
-  .pdf
-    = link_to 'd/l', pdf_path
+.options-trigger= link_to_function 'Opt', 'showOptions()'
+#options
+  .pdf= link_to 'd/l', pdf_path
 
 %ol.chapternav
   %li ch.

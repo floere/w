@@ -1,6 +1,15 @@
 // Place your application-specific JavaScript functions and classes here
 // This file is automatically included by javascript_include_tag :defaults
 
+showOptions = function() {
+  var options = $('#options');
+  // options.move
+};
+hideOptions = function() {
+  var options = $('#options');
+  // options.move
+};
+
 splitPages = function() {
   var first = $('.page .text').parent();
   var nav   = $('.chapternav li:last');
@@ -24,10 +33,13 @@ splitPages = function() {
   });
   
   first.remove();
-  installScrollDetector();
   $('ol.chapternav').localScroll({duration:250, easing:'easeOutExpo', offset:-10 });
+  installScrollDetector();
 };
 
+// TODO Does not work since it is display none.
+//      Do it by hand.
+//
 installScrollDetector = function() {
   $(window).scroll(function (evt) {
     var chapters = $('.page .chapter');
