@@ -25,12 +25,25 @@
   // ∗
 .shadow
   
-.options-trigger= link_to_function 'Opt', 'showOptions()'
-#options
-  .pdf= link_to 'd/l', pdf_path
+#pullout
+  .options
+    .trigger
+    .pdf= link_to 'PDF', pdf_path
+    :javascript
+      optionsHidden = true;
+      $('#pullout').click(function() {
+        if (optionsHidden) {
+          $('#pullout').animate({left:'-=100'}, 100, 'easeOutQuad');
+        } else {
+          // TODO wait some time
+          $('#pullout').animate({left:'+=100'}, 100, 'easeOutQuad');
+        }
+    
+        optionsHidden = !optionsHidden
+      });
 
-%ol.chapternav
-  %li ch.
-  %li.current 1
-  %li
-    = link_to 'title', '#head'
+  %ol.chapternav
+    %li ch.
+    %li.current 1
+    %li
+      = link_to 'title', '#head'

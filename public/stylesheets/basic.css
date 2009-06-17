@@ -74,6 +74,7 @@ input:hover, input:focus {
   margin: -9px auto 0px;
   background-color: #EFECDC;
   border: 0.14em solid white;
+  font-family: Arial;
   -moz-border-radius: 21px;
   -webkit-border-radius: 21px; }
   .add_more a {
@@ -119,7 +120,7 @@ input:hover, input:focus {
     display: none;
     position: absolute;
     top: -0.14em;
-    left: 490px;
+    left: 495px;
     background-color: #efecdc;
     padding: 0.7em;
     border: 0.14em solid #FFFFFF;
@@ -132,37 +133,50 @@ input:hover, input:focus {
 .page:hover .chapter {
   display: block; }
 
-.options-trigger {
+#pullout {
   position: fixed;
   top: 0px;
-  right: 0px;
-  border-left: 0.14em solid #FFFFFF;
-  border-bottom: 0.14em solid #FFFFFF;
-  padding: 0.7em;
-  background-color: #efecdc;
-  -moz-border-radius-bottomleft: 0.7em;
-  -webkit-border-bottom-left-radius: 0.7em; }
-
-#options {
-  position: fixed;
-  top: 5px;
-  right: -50px;
-  padding: 10px;
-  background-color: #efecdc;
-  -moz-border-radius: 10px;
-  -webkit-border-radius: 10px; }
-
-ol.chapternav {
-  position: fixed;
-  top: 60px;
-  right: 0px;
-  list-style: none;
-  background-color: #efecdc;
-  -moz-border-radius-topleft: 10px;
-  -moz-border-radius-bottomleft: 10px;
-  -webkit-border-top-left-radius: 10px;
-  -webkit-border-bottom-left-radius: 10px; }
-  ol.chapternav li a {
+  right: -3.5em;
+  font-family: Arial; }
+  #pullout a {
+    text-decoration: none; }
+  #pullout a:hover {
+    text-decoration: underline; }
+  #pullout .options {
+    border-left: 0.14em solid #FFFFFF;
+    border-bottom: 0.14em solid #FFFFFF;
+    padding: 0.7em;
+    background-color: #efecdc;
+    overflow: hidden;
+    -moz-border-radius-bottomleft: 0.7em;
+    -webkit-border-bottom-left-radius: 0.7em; }
+    #pullout .options div {
+      margin-right: 10px; }
+    #pullout .options a {
+      display: block;
+      height: 20px; }
+    #pullout .options .trigger {
+      float: left;
+      display: block;
+      width: 20px;
+      height: 20px;
+      background-image: url('/images/cog-small.png'); }
+    #pullout .options .pdf {
+      float: left; }
+  #pullout ol.chapternav {
+    position: relative;
+    top: -0.14em;
+    left: 90px;
+    width: 50px;
+    list-style: none;
+    background-color: #efecdc;
+    border-left: 0.14em solid #FFFFFF;
+    border-bottom: 0.14em solid #FFFFFF;
+    -moz-border-radius-bottomleft: 10px;
+    -webkit-border-top-left-radius: 10px;
+    -webkit-border-bottom-left-radius: 10px; }
+  #pullout li a {
+    text-align: left;
     display: block;
     padding: 12px;
     border-top: solid 2px #fff;
@@ -172,14 +186,6 @@ ol.chapternav {
 #book_submit {
   font-size: 1em;
   border: solid 1px black; }
-
-.star {
-  position: absolute;
-  top: 15px;
-  right: -6px;
-  width: 15px;
-  height: 14px;
-  background: transparent url('/images/star.png'); }
 
 ::-moz-selection {
   background: #cc0000;
