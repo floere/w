@@ -11,19 +11,13 @@ class PdfController < ApplicationController
       font "#{Prawn::BASEDIR}/data/fonts/Dustismo_Roman.ttf"
       
       # title
-      pad_top 300 do
-        horizontal_rule
-        h1 book.title
-        horizontal_rule
-      end
-      pad_top 10 do
-        text book.subtitle, :align => :center, :size => 20.8
-      end
-      pad_top 10 do
-        text 'by', :align => :center
-      end
-      pad_top 10 do
-        text book.author, :align => :center, :size => 17.6
+      bounding_box([60,470], :width => 420, :height => 500) do
+                       stroke_horizontal_rule
+        pad_top(25) { h1 book.title }
+        pad_top(20) { stroke_horizontal_rule }
+        pad_top(40) { text book.subtitle, :align => :center, :size => 20.8 }
+        pad_top( 5) { text 'by', :align => :center }
+        pad_top(10) { text book.author, :align => :center, :size => 17.6 }
       end
       
       # content
