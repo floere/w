@@ -1,4 +1,4 @@
-// 100px = 7em, 1px = 0.07em
+// 450px = 28em, 16px = 1em, 1px = 1/16em, 2px = 0.125em
 
 *
   :padding 0px
@@ -93,12 +93,12 @@ input:hover, input:focus
 
 .page
   :position relative
-  :margin 0.7em auto 0px
+  :margin 0.7em auto 0em
   :padding 1.4em
   :padding-bottom 1.26em
-  :width 450px
+  :width 28em
   :background-color #EFECDC
-  :border 0.14em solid #FFFFFF
+  :border 0.125em solid #FFFFFF
   :text-align justify
   :line-height 1.4em
   //:-moz-border-radius 10px
@@ -134,7 +134,7 @@ input:hover, input:focus
     :display none
     :position absolute
     :top -0.14em
-    :left 495px
+    :left 30.8em
     :background-color #efecdc
     :padding 0.7em
     :border 0.14em solid #FFFFFF
@@ -154,7 +154,7 @@ input:hover, input:focus
 #pullout
   :position fixed
   :top 0px
-  :right -3.5em
+  :right -5.0em
   :font-family Arial
   
   a
@@ -173,11 +173,12 @@ input:hover, input:focus
   
     div
       :margin-right 10px
+      :float left
     
     a
       :display block
       :height 20px
-  
+    
     .trigger
       :float left
       :display block
@@ -185,9 +186,6 @@ input:hover, input:focus
       :height 20px
       :background-image url('/images/cog-small.png')
       
-    .pdf
-      :float left
-  
   ol.chapternav
     :position relative
     :top -0.14em
@@ -198,20 +196,21 @@ input:hover, input:focus
     :border-left 0.14em solid #FFFFFF
     :border-bottom 0.14em solid #FFFFFF
     :-moz-border-radius-bottomleft 10px
-    :-webkit-border-top-left-radius 10px
     :-webkit-border-bottom-left-radius 10px
   
-  li
-    a
-      :text-align left
-      :display block
-      :padding 12px
-      :border-top solid 2px #fff
-      // :border-bottom solid 1px
-      // :border-collapse collapse
-      // :margin-top -1px
-      :cursor hand
-      :cursor pointer
+    li
+      a:hover
+        :background-color white
+      a
+        :text-align left
+        :display block
+        :padding 12px
+        :border-top solid 2px #fff
+        // :border-bottom solid 1px
+        // :border-collapse collapse
+        // :margin-top -1px
+        :cursor hand
+        :cursor pointer
       
 #book_submit
   :font-size  1em

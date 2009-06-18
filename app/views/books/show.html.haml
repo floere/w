@@ -28,18 +28,24 @@
 #pullout
   .options
     .trigger
-    .pdf= link_to 'PDF', pdf_path
+    .pdf= link_to 'pdf', pdf_path
+    .edit= link_to 'edit', edit_path
     :javascript
       optionsHidden = true;
+      locked        = false;
       $('#pullout').click(function() {
         if (optionsHidden) {
-          $('#pullout').animate({left:'-=100'}, 100, 'easeOutQuad');
+          $('#pullout').animate({right:'+=100'}, 100, 'easeOutQuad');
+          optionsHidden = !optionsHidden
         } else {
-          // TODO wait some time
-          $('#pullout').animate({left:'+=100'}, 100, 'easeOutQuad');
+          // Umschreiben auf 2 Sekunden nach dem letzten Klick…
+          //
+          if (locked) { return; };
+          locked = true;
+          setTimeout(function() {
+            $('#pullout').animate({right:'-=100'}, 100, 'easeOutQuad'); optionsHidden = !optionsHidden; locked = false;
+          }, 2000);
         }
-    
-        optionsHidden = !optionsHidden
       });
 
   %ol.chapternav

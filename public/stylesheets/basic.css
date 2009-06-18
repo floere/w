@@ -89,12 +89,12 @@ input:hover, input:focus {
 
 .page {
   position: relative;
-  margin: 0.7em auto 0px;
+  margin: 0.7em auto 0em;
   padding: 1.4em;
   padding-bottom: 1.26em;
-  width: 450px;
+  width: 28em;
   background-color: #EFECDC;
-  border: 0.14em solid #FFFFFF;
+  border: 0.125em solid #FFFFFF;
   text-align: justify;
   line-height: 1.4em; }
   .page.title {
@@ -120,7 +120,7 @@ input:hover, input:focus {
     display: none;
     position: absolute;
     top: -0.14em;
-    left: 495px;
+    left: 30.8em;
     background-color: #efecdc;
     padding: 0.7em;
     border: 0.14em solid #FFFFFF;
@@ -136,7 +136,7 @@ input:hover, input:focus {
 #pullout {
   position: fixed;
   top: 0px;
-  right: -3.5em;
+  right: -5.0em;
   font-family: Arial; }
   #pullout a {
     text-decoration: none; }
@@ -151,7 +151,8 @@ input:hover, input:focus {
     -moz-border-radius-bottomleft: 0.7em;
     -webkit-border-bottom-left-radius: 0.7em; }
     #pullout .options div {
-      margin-right: 10px; }
+      margin-right: 10px;
+      float: left; }
     #pullout .options a {
       display: block;
       height: 20px; }
@@ -161,8 +162,6 @@ input:hover, input:focus {
       width: 20px;
       height: 20px;
       background-image: url('/images/cog-small.png'); }
-    #pullout .options .pdf {
-      float: left; }
   #pullout ol.chapternav {
     position: relative;
     top: -0.14em;
@@ -173,15 +172,16 @@ input:hover, input:focus {
     border-left: 0.14em solid #FFFFFF;
     border-bottom: 0.14em solid #FFFFFF;
     -moz-border-radius-bottomleft: 10px;
-    -webkit-border-top-left-radius: 10px;
     -webkit-border-bottom-left-radius: 10px; }
-  #pullout li a {
-    text-align: left;
-    display: block;
-    padding: 12px;
-    border-top: solid 2px #fff;
-    cursor: hand;
-    cursor: pointer; }
+    #pullout ol.chapternav li a:hover {
+      background-color: white; }
+    #pullout ol.chapternav li a {
+      text-align: left;
+      display: block;
+      padding: 12px;
+      border-top: solid 2px #fff;
+      cursor: hand;
+      cursor: pointer; }
 
 #book_submit {
   font-size: 1em;
