@@ -4,7 +4,12 @@
   // = "(#{@book.text.language})"
   by
   %h3= @book.author
-  %h3{ :onclick => 'alert("email");' } ✏
+  %h3.email{ :rel => '#email_to_author'} ✏
+  #email_to_author{ :style => 'display:none;'}
+    %input
+    %textarea
+  :javascript
+    $('h3.email[rel]').overlay();
 .shadow
 
 .page
