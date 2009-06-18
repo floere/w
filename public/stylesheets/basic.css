@@ -136,7 +136,8 @@ input:hover, input:focus {
 #pullout {
   position: fixed;
   top: 0px;
-  right: -5.0em;
+  right: -6.5em;
+  height: 100%;
   font-family: Arial; }
   #pullout a {
     text-decoration: none; }
@@ -145,28 +146,30 @@ input:hover, input:focus {
   #pullout .options {
     border-left: 0.14em solid #FFFFFF;
     border-bottom: 0.14em solid #FFFFFF;
-    padding: 0.7em;
     background-color: #efecdc;
     overflow: hidden;
+    width: 9em;
     -moz-border-radius-bottomleft: 0.7em;
     -webkit-border-bottom-left-radius: 0.7em; }
     #pullout .options div {
-      margin-right: 10px;
       float: left; }
     #pullout .options a {
       display: block;
-      height: 20px; }
+      height: 1.8em;
+      padding: 0.7em 0.7em 0 0.7em; }
     #pullout .options .trigger {
       float: left;
       display: block;
-      width: 20px;
-      height: 20px;
-      background-image: url('/images/cog-small.png'); }
+      width: 40px;
+      height: 40px;
+      background: transparent url('/images/cog-small.png') 10px 10px no-repeat;
+      cursor: pointer;
+      cursor: hand; }
   #pullout ol.chapternav {
     position: relative;
     top: -0.14em;
-    left: 90px;
-    width: 50px;
+    left: 6em;
+    width: 3em;
     list-style: none;
     background-color: #efecdc;
     border-left: 0.14em solid #FFFFFF;
