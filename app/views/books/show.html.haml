@@ -31,35 +31,9 @@
     .pdf= link_to 'pdf', pdf_path
     .edit= link_to 'edit', edit_path
     :javascript
-      var optionsHidden = true;
-      var locked        = false;
-      var pullOut       = $('#pullout');
-      
-      function show() {
-        pullOut.animate({right:'+=100'}, 100, 'easeOutQuad');
-      };
-      function hide() {
-        pullOut.animate({right:'-=100'}, 200, 'easeOutQuad'); optionsHidden = !optionsHidden; locked = false;
-      };
-      
-      $('#pullout').click(function() {
-        if (optionsHidden) {
-          show();
-          optionsHidden = !optionsHidden
-        } else {
-          // Umschreiben auf 2 Sekunden nach dem letzten Klick…
-          //
-          if (locked) { return; };
-          locked = true;
-          setTimeout(function() {
-            hide();
-          }, 2000);
-        }
-      });
-      
-      $('#pullout .trigger').click(function(){
-        if (!optionsHidden) { hide(); return false; };
-      });
+      options = new Options();
+      $('#pullout').click(options.click);
+      $('#pullout .trigger').click(options.hide);
       
   %ol.chapternav
     %li ch.

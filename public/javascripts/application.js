@@ -1,6 +1,34 @@
 // Place your application-specific JavaScript functions and classes here
 // This file is automatically included by javascript_include_tag :defaults
 
+function Options() {
+  var optionsHidden = true;
+  var pullOut       = $('#pullout');
+  var hideTimer     = $.timer(2000, function(timer) {
+    hide();
+    timer.stop();
+  });
+  hideTimer.stop();
+  
+  function show() {
+    pullOut.animate({right:'+=100'}, 100, 'easeOutQuad'); optionsHidden = !optionsHidden;
+  };
+  function hide() {
+    pullOut.animate({right:'-=100'}, 200, 'easeOutQuad'); optionsHidden = !optionsHidden;
+  };
+  
+  this.hide = function() {
+    if (!optionsHidden) { hideTimer.stop(); hide(); return false; };
+  };
+  this.click = function() {
+    if (optionsHidden) {
+      show();
+    } else {
+      hideTimer.reset(2000);
+    }
+  };
+}
+
 showOptions = function() {
   var options = $('#options');
   // options.move

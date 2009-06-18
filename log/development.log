@@ -26478,3 +26478,284 @@ Processing PdfController#create (for ::1 at 2009-06-18 21:32:40) [GET]
   [4;36;1mBook Load (0.3ms)[0m   [0;1mSELECT * FROM `books` WHERE (`books`.`url` = 'the-fish-and-the-three-merry-men') LIMIT 1[0m
 Completed in 181ms (View: 1, DB: 3) | 200 OK [http://localhost/the-fish-and-the-three-merry-men/pdf]
 Streaming file public/pdfs/the-fish-and-the-three-merry-men.pdf
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PdfController#create (for ::1 at 2009-06-18 21:52:26) [GET]
+  Parameters: {"url"=>"the-fish-and-the-three-merry-men"}
+  [4;35;1mBook Columns (2.2ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+  [4;36;1mBook Load (0.3ms)[0m   [0;1mSELECT * FROM `books` WHERE (`books`.`url` = 'the-fish-and-the-three-merry-men') LIMIT 1[0m
+Completed in 254ms (View: 1, DB: 3) | 200 OK [http://localhost/the-fish-and-the-three-merry-men/pdf]
+Streaming file public/pdfs/the-fish-and-the-three-merry-men.pdf
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PdfController#create (for ::1 at 2009-06-18 21:57:23) [GET]
+  Parameters: {"url"=>"the-fish-and-the-three-merry-men"}
+  [4;35;1mBook Columns (2.8ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+  [4;36;1mBook Load (0.9ms)[0m   [0;1mSELECT * FROM `books` WHERE (`books`.`url` = 'the-fish-and-the-three-merry-men') LIMIT 1[0m
+Completed in 370ms (View: 1, DB: 4) | 200 OK [http://localhost/the-fish-and-the-three-merry-men/pdf]
+Streaming file public/pdfs/the-fish-and-the-three-merry-men.pdf
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PdfController#create (for ::1 at 2009-06-18 21:57:36) [GET]
+  Parameters: {"url"=>"the-fish-and-the-three-merry-men"}
+  [4;35;1mBook Columns (2.7ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+  [4;36;1mBook Load (1.2ms)[0m   [0;1mSELECT * FROM `books` WHERE (`books`.`url` = 'the-fish-and-the-three-merry-men') LIMIT 1[0m
+Completed in 263ms (View: 1, DB: 4) | 200 OK [http://localhost/the-fish-and-the-three-merry-men/pdf]
+Streaming file public/pdfs/the-fish-and-the-three-merry-men.pdf
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PdfController#create (for ::1 at 2009-06-18 21:57:51) [GET]
+  Parameters: {"url"=>"the-fish-and-the-three-merry-men"}
+  [4;35;1mBook Columns (2.5ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+  [4;36;1mBook Load (0.3ms)[0m   [0;1mSELECT * FROM `books` WHERE (`books`.`url` = 'the-fish-and-the-three-merry-men') LIMIT 1[0m
+Completed in 181ms (View: 1, DB: 3) | 200 OK [http://localhost/the-fish-and-the-three-merry-men/pdf]
+Streaming file public/pdfs/the-fish-and-the-three-merry-men.pdf
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PdfController#create (for ::1 at 2009-06-18 22:02:53) [GET]
+  Parameters: {"url"=>"the-fish-and-the-three-merry-men"}
+  [4;35;1mBook Columns (2.4ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+  [4;36;1mBook Load (0.3ms)[0m   [0;1mSELECT * FROM `books` WHERE (`books`.`url` = 'the-fish-and-the-three-merry-men') LIMIT 1[0m
+Completed in 298ms (View: 1, DB: 3) | 200 OK [http://localhost/the-fish-and-the-three-merry-men/pdf]
+Streaming file public/pdfs/the-fish-and-the-three-merry-men.pdf
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-18 22:46:03) [GET]
+  Parameters: {"url"=>"the-fish-and-the-three-merry-men"}
+  [4;35;1mBook Columns (50.2ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+  [4;36;1mBook Load (0.3ms)[0m   [0;1mSELECT * FROM `books` WHERE (`books`.`url` = 'the-fish-and-the-three-merry-men') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 154ms (View: 12, DB: 51) | 200 OK [http://localhost/the-fish-and-the-three-merry-men]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-18 22:46:15) [GET]
+  Parameters: {"url"=>"the-fish-and-the-three-merry-men"}
+  [4;35;1mBook Columns (12.8ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+  [4;36;1mBook Load (5.0ms)[0m   [0;1mSELECT * FROM `books` WHERE (`books`.`url` = 'the-fish-and-the-three-merry-men') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 38ms (View: 12, DB: 18) | 200 OK [http://localhost/the-fish-and-the-three-merry-men]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (6.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-18 22:47:03) [GET]
+  Parameters: {"url"=>"the-fish-and-the-three-merry-men"}
+  [4;35;1mBook Columns (13.1ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+  [4;36;1mBook Load (0.8ms)[0m   [0;1mSELECT * FROM `books` WHERE (`books`.`url` = 'the-fish-and-the-three-merry-men') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 37ms (View: 18, DB: 20) | 200 OK [http://localhost/the-fish-and-the-three-merry-men]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.8ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-18 22:47:28) [GET]
+  Parameters: {"url"=>"the-fish-and-the-three-merry-men"}
+  [4;35;1mBook Columns (3.4ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+  [4;36;1mBook Load (10.0ms)[0m   [0;1mSELECT * FROM `books` WHERE (`books`.`url` = 'the-fish-and-the-three-merry-men') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 35ms (View: 15, DB: 14) | 200 OK [http://localhost/the-fish-and-the-three-merry-men]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-18 22:47:42) [GET]
+  Parameters: {"url"=>"the-fish-and-the-three-merry-men"}
+  [4;35;1mBook Columns (2.0ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+  [4;36;1mBook Load (0.3ms)[0m   [0;1mSELECT * FROM `books` WHERE (`books`.`url` = 'the-fish-and-the-three-merry-men') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 20ms (View: 12, DB: 3) | 200 OK [http://localhost/the-fish-and-the-three-merry-men]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-18 22:48:39) [GET]
+  Parameters: {"url"=>"the-fish-and-the-three-merry-men"}
+  [4;35;1mBook Columns (20.9ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+  [4;36;1mBook Load (0.5ms)[0m   [0;1mSELECT * FROM `books` WHERE (`books`.`url` = 'the-fish-and-the-three-merry-men') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 77ms (View: 16, DB: 22) | 200 OK [http://localhost/the-fish-and-the-three-merry-men]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-18 22:49:08) [GET]
+  Parameters: {"url"=>"the-fish-and-the-three-merry-men"}
+  [4;35;1mBook Columns (2.4ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+  [4;36;1mBook Load (1.7ms)[0m   [0;1mSELECT * FROM `books` WHERE (`books`.`url` = 'the-fish-and-the-three-merry-men') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 27ms (View: 16, DB: 4) | 200 OK [http://localhost/the-fish-and-the-three-merry-men]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (3.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-18 22:50:42) [GET]
+  Parameters: {"url"=>"the-fish-and-the-three-merry-men"}
+  [4;35;1mBook Columns (19.0ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+  [4;36;1mBook Load (0.4ms)[0m   [0;1mSELECT * FROM `books` WHERE (`books`.`url` = 'the-fish-and-the-three-merry-men') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 37ms (View: 12, DB: 23) | 200 OK [http://localhost/the-fish-and-the-three-merry-men]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-18 22:50:47) [GET]
+  Parameters: {"url"=>"the-fish-and-the-three-merry-men"}
+  [4;35;1mBook Columns (2.5ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+  [4;36;1mBook Load (0.3ms)[0m   [0;1mSELECT * FROM `books` WHERE (`books`.`url` = 'the-fish-and-the-three-merry-men') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 85ms (View: 77, DB: 3) | 200 OK [http://localhost/the-fish-and-the-three-merry-men]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-18 22:52:59) [GET]
+  Parameters: {"url"=>"the-fish-and-the-three-merry-men"}
+  [4;35;1mBook Columns (3.1ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+  [4;36;1mBook Load (0.3ms)[0m   [0;1mSELECT * FROM `books` WHERE (`books`.`url` = 'the-fish-and-the-three-merry-men') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 35ms (View: 16, DB: 4) | 200 OK [http://localhost/the-fish-and-the-three-merry-men]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.9ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-18 22:53:14) [GET]
+  Parameters: {"url"=>"the-fish-and-the-three-merry-men"}
+  [4;35;1mBook Columns (25.4ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+  [4;36;1mBook Load (1.6ms)[0m   [0;1mSELECT * FROM `books` WHERE (`books`.`url` = 'the-fish-and-the-three-merry-men') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 39ms (View: 5, DB: 28) | 200 OK [http://localhost/the-fish-and-the-three-merry-men]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-18 22:53:24) [GET]
+  Parameters: {"url"=>"the-fish-and-the-three-merry-men"}
+  [4;35;1mBook Columns (2.7ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+  [4;36;1mBook Load (1.0ms)[0m   [0;1mSELECT * FROM `books` WHERE (`books`.`url` = 'the-fish-and-the-three-merry-men') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 15ms (View: 6, DB: 4) | 200 OK [http://localhost/the-fish-and-the-three-merry-men]
+  [4;35;1mSQL (0.5ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-18 22:53:41) [GET]
+  Parameters: {"url"=>"the-fish-and-the-three-merry-men"}
+  [4;35;1mBook Columns (3.1ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+  [4;36;1mBook Load (0.4ms)[0m   [0;1mSELECT * FROM `books` WHERE (`books`.`url` = 'the-fish-and-the-three-merry-men') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 16ms (View: 7, DB: 4) | 200 OK [http://localhost/the-fish-and-the-three-merry-men]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-18 22:54:30) [GET]
+  Parameters: {"url"=>"the-fish-and-the-three-merry-men"}
+  [4;35;1mBook Columns (2.4ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+  [4;36;1mBook Load (0.3ms)[0m   [0;1mSELECT * FROM `books` WHERE (`books`.`url` = 'the-fish-and-the-three-merry-men') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 36ms (View: 11, DB: 3) | 200 OK [http://localhost/the-fish-and-the-three-merry-men]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (1.8ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-18 22:54:37) [GET]
+  Parameters: {"url"=>"the-fish-and-the-three-merry-men"}
+  [4;35;1mBook Columns (2.6ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+  [4;36;1mBook Load (0.3ms)[0m   [0;1mSELECT * FROM `books` WHERE (`books`.`url` = 'the-fish-and-the-three-merry-men') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 13ms (View: 5, DB: 5) | 200 OK [http://localhost/the-fish-and-the-three-merry-men]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-18 22:54:52) [GET]
+  Parameters: {"url"=>"the-fish-and-the-three-merry-men"}
+  [4;35;1mBook Columns (11.1ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+  [4;36;1mBook Load (1.4ms)[0m   [0;1mSELECT * FROM `books` WHERE (`books`.`url` = 'the-fish-and-the-three-merry-men') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 43ms (View: 24, DB: 13) | 200 OK [http://localhost/the-fish-and-the-three-merry-men]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-18 22:55:30) [GET]
+  Parameters: {"url"=>"the-fish-and-the-three-merry-men"}
+  [4;35;1mBook Columns (2.1ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+  [4;36;1mBook Load (0.5ms)[0m   [0;1mSELECT * FROM `books` WHERE (`books`.`url` = 'the-fish-and-the-three-merry-men') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 22ms (View: 13, DB: 3) | 200 OK [http://localhost/the-fish-and-the-three-merry-men]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-18 22:55:48) [GET]
+  Parameters: {"url"=>"the-fish-and-the-three-merry-men"}
+  [4;35;1mBook Columns (22.9ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+  [4;36;1mBook Load (10.9ms)[0m   [0;1mSELECT * FROM `books` WHERE (`books`.`url` = 'the-fish-and-the-three-merry-men') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 53ms (View: 13, DB: 34) | 200 OK [http://localhost/the-fish-and-the-three-merry-men]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-18 22:55:56) [GET]
+  Parameters: {"url"=>"the-fish-and-the-three-merry-men"}
+  [4;35;1mBook Columns (62.6ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+  [4;36;1mBook Load (30.8ms)[0m   [0;1mSELECT * FROM `books` WHERE (`books`.`url` = 'the-fish-and-the-three-merry-men') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 105ms (View: 5, DB: 94) | 200 OK [http://localhost/the-fish-and-the-three-merry-men]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-18 22:56:29) [GET]
+  Parameters: {"url"=>"the-fish-and-the-three-merry-men"}
+  [4;35;1mBook Columns (6.8ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+  [4;36;1mBook Load (1.0ms)[0m   [0;1mSELECT * FROM `books` WHERE (`books`.`url` = 'the-fish-and-the-three-merry-men') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 23ms (View: 7, DB: 8) | 200 OK [http://localhost/the-fish-and-the-three-merry-men]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-18 22:56:42) [GET]
+  Parameters: {"url"=>"the-fish-and-the-three-merry-men"}
+  [4;35;1mBook Columns (3.5ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+  [4;36;1mBook Load (41.7ms)[0m   [0;1mSELECT * FROM `books` WHERE (`books`.`url` = 'the-fish-and-the-three-merry-men') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 59ms (View: 6, DB: 45) | 200 OK [http://localhost/the-fish-and-the-three-merry-men]
