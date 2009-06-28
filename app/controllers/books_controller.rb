@@ -14,7 +14,7 @@ class BooksController < ApplicationController
   # Registering process.
   #
   def title
-    session[:book] = { :title => params[:id] }
+    @title = params[:url]
     @book = Book.new session[:book]
   end
   def copyright
@@ -33,7 +33,7 @@ class BooksController < ApplicationController
       session.delete :book
       redirect_to_the book # :show, :url => book.url
     else
-      
+      # I don't know what to say.
     end
   end
   
@@ -44,7 +44,7 @@ class BooksController < ApplicationController
     if @book
       render
     else
-      redirect_to :action => :title
+      redirect_to :action => :title, :url => params[:url]
     end
   end
   

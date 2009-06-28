@@ -4,7 +4,7 @@ ActionController::Routing::Routes.draw do |map|
   # map.connect ':id', :controller => 'books', :action => 'show'
   # map.connect ':id/:action', :controller => 'books'
   
-  map.title        'title',             :controller => 'books', :action => 'title'
+  map.title        'title/:url',        :controller => 'books', :action => 'title'
   map.copyright    'copyright',         :controller => 'books', :action => 'copyright'
   map.introduction 'introduction',      :controller => 'books', :action => 'introduction'
   map.random       'random',            :controller => 'books', :action => 'random'

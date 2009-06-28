@@ -1,9 +1,13 @@
 class Book < ActiveRecord::Base
   
-  before_save :generate_url
+  before_save :generate_url, :generate_size
   
   def generate_url
     self.url = urlify self.title
+  end
+  
+  def generate_size
+    self.size = self.text.words
   end
   
   def urlify title

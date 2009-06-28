@@ -1,7 +1,9 @@
 .page.title
-  %h1 Random Stories
+  %h1
+    Random Stories
+    .decoration ❦
   - @books.each do |book|
     %h2= link_to book.title, book.url
-  %p
-    = link_to "I'm feeling inspired and want to write my own story!", 'title'
+  %br/
+  %p= link_to "I'm feeling inspired and want to write my own story!", 'title'
 .shadow

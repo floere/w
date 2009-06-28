@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20090524214422) do
+ActiveRecord::Schema.define(:version => 20090628204649) do
 
   create_table "books", :force => true do |t|
     t.string   "url",        :limit => 40
@@ -24,6 +24,7 @@ ActiveRecord::Schema.define(:version => 20090524214422) do
     t.text     "bio"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.integer  "size"
   end
 
 end
