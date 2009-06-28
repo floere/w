@@ -26923,3 +26923,1456 @@ Processing PdfController#create (for ::1 at 2009-06-18 23:34:40) [GET]
   [4;36;1mBook Load (0.3ms)[0m   [0;1mSELECT * FROM `books` WHERE (`books`.`url` = 'the-fish-and-the-three-merry-men') LIMIT 1[0m
 Completed in 559ms (View: 2, DB: 29) | 200 OK [http://localhost/the-fish-and-the-three-merry-men/pdf]
 Streaming file public/pdfs/the-fish-and-the-three-merry-men.pdf
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PdfController#create (for ::1 at 2009-06-19 04:08:00) [GET]
+  Parameters: {"url"=>"the-fish-and-the-three-merry-men"}
+  [4;35;1mBook Columns (2.1ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+  [4;36;1mBook Load (0.3ms)[0m   [0;1mSELECT * FROM `books` WHERE (`books`.`url` = 'the-fish-and-the-three-merry-men') LIMIT 1[0m
+Completed in 330ms (View: 1, DB: 3) | 200 OK [http://localhost/the-fish-and-the-three-merry-men/pdf]
+Streaming file public/pdfs/the-fish-and-the-three-merry-men.pdf
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PdfController#create (for ::1 at 2009-06-19 17:05:51) [GET]
+  Parameters: {"url"=>"the-fish-and-the-three-merry-men"}
+  [4;35;1mBook Columns (2.5ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+  [4;36;1mBook Load (0.3ms)[0m   [0;1mSELECT * FROM `books` WHERE (`books`.`url` = 'the-fish-and-the-three-merry-men') LIMIT 1[0m
+Completed in 214ms (View: 1, DB: 3) | 200 OK [http://localhost/the-fish-and-the-three-merry-men/pdf]
+Streaming file public/pdfs/the-fish-and-the-three-merry-men.pdf
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#edit (for ::1 at 2009-06-19 17:06:02) [GET]
+  Parameters: {"url"=>"the-fish-and-the-three-merry-men"}
+  [4;35;1mBook Columns (2.0ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+  [4;36;1mBook Load (0.3ms)[0m   [0;1mSELECT * FROM `books` WHERE (`books`.`url` = 'the-fish-and-the-three-merry-men') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/edit
+Completed in 34ms (View: 27, DB: 2) | 200 OK [http://localhost/the-fish-and-the-three-merry-men/edit]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#index (for ::1 at 2009-06-19 17:06:09) [GET]
+Rendering template within layouts/application
+Rendering books/index
+Completed in 15ms (View: 13, DB: 0) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#title (for ::1 at 2009-06-19 17:06:15) [GET]
+  [4;35;1mBook Columns (2.5ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/title
+Completed in 44ms (View: 35, DB: 3) | 200 OK [http://localhost/title]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#copyright (for ::1 at 2009-06-19 17:34:50) [POST]
+  Parameters: {"commit"=>"open book", "authenticity_token"=>"mcg9+l1Riaj7+XW7clZKVzEHxWGn5yGPvg1aQ2ucJyY=", "book"=>{"title"=>"", "author"=>"", "subtitle"=>""}}
+  [4;36;1mBook Columns (2.6ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/copyright
+Completed in 108ms (View: 17, DB: 3) | 200 OK [http://localhost/copyright]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-19 18:00:22) [GET]
+  Parameters: {"url"=>"the-fish-and-the-three-merry-men"}
+  [4;35;1mBook Columns (2.6ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+  [4;36;1mBook Load (0.6ms)[0m   [0;1mSELECT * FROM `books` WHERE (`books`.`url` = 'the-fish-and-the-three-merry-men') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 19ms (View: 9, DB: 3) | 200 OK [http://localhost/the-fish-and-the-three-merry-men]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-19 18:00:22) [GET]
+  Parameters: {"url"=>"the-fish-and-the-three-merry-men"}
+  [4;35;1mBook Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+  [4;36;1mBook Load (0.3ms)[0m   [0;1mSELECT * FROM `books` WHERE (`books`.`url` = 'the-fish-and-the-three-merry-men') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 13ms (View: 5, DB: 3) | 200 OK [http://localhost/the-fish-and-the-three-merry-men]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-19 18:00:24) [GET]
+  Parameters: {"url"=>"the-fish-and-the-three-merry-men"}
+  [4;35;1mBook Columns (2.6ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+  [4;36;1mBook Load (0.3ms)[0m   [0;1mSELECT * FROM `books` WHERE (`books`.`url` = 'the-fish-and-the-three-merry-men') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 13ms (View: 5, DB: 3) | 200 OK [http://localhost/the-fish-and-the-three-merry-men]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-19 19:33:00) [GET]
+  Parameters: {"url"=>"the-fish-and-the-three-merry-men"}
+  [4;35;1mBook Columns (2.2ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+  [4;36;1mBook Load (0.4ms)[0m   [0;1mSELECT * FROM `books` WHERE (`books`.`url` = 'the-fish-and-the-three-merry-men') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 19ms (View: 8, DB: 3) | 200 OK [http://localhost/the-fish-and-the-three-merry-men]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-19 19:33:01) [GET]
+  Parameters: {"url"=>"the-fish-and-the-three-merry-men"}
+  [4;35;1mBook Columns (2.0ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+  [4;36;1mBook Load (0.5ms)[0m   [0;1mSELECT * FROM `books` WHERE (`books`.`url` = 'the-fish-and-the-three-merry-men') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 14ms (View: 5, DB: 3) | 200 OK [http://localhost/the-fish-and-the-three-merry-men]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-19 23:22:39) [GET]
+  Parameters: {"url"=>"the-fish-and-the-three-merry-men"}
+  [4;35;1mBook Columns (2.5ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+  [4;36;1mBook Load (0.3ms)[0m   [0;1mSELECT * FROM `books` WHERE (`books`.`url` = 'the-fish-and-the-three-merry-men') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 13ms (View: 5, DB: 3) | 200 OK [http://localhost/the-fish-and-the-three-merry-men]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-19 23:22:40) [GET]
+  Parameters: {"url"=>"the-fish-and-the-three-merry-men"}
+  [4;35;1mBook Columns (2.4ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+  [4;36;1mBook Load (0.3ms)[0m   [0;1mSELECT * FROM `books` WHERE (`books`.`url` = 'the-fish-and-the-three-merry-men') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 13ms (View: 5, DB: 3) | 200 OK [http://localhost/the-fish-and-the-three-merry-men]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-19 23:22:42) [GET]
+  Parameters: {"url"=>"the-fish-and-the-three-merry-men"}
+  [4;35;1mBook Columns (2.3ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+  [4;36;1mBook Load (0.3ms)[0m   [0;1mSELECT * FROM `books` WHERE (`books`.`url` = 'the-fish-and-the-three-merry-men') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 13ms (View: 5, DB: 3) | 200 OK [http://localhost/the-fish-and-the-three-merry-men]
+/!\ FAILSAFE /!\  Sun Jun 28 21:21:30 +0200 2009
+  Status: 500 Internal Server Error
+  Can't connect to local MySQL server through socket '/tmp/mysql.sock' (2)
+    /usr/local/ruby1.8.6/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/mysql_adapter.rb:576:in `real_connect'
+    /usr/local/ruby1.8.6/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/mysql_adapter.rb:576:in `connect'
+    /usr/local/ruby1.8.6/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/mysql_adapter.rb:204:in `initialize'
+    /usr/local/ruby1.8.6/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/mysql_adapter.rb:76:in `new'
+    /usr/local/ruby1.8.6/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/mysql_adapter.rb:76:in `mysql_connection'
+    /usr/local/ruby1.8.6/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    /usr/local/ruby1.8.6/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    /usr/local/ruby1.8.6/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    /usr/local/ruby1.8.6/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    /usr/local/ruby1.8.6/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    /usr/local/ruby1.8.6/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    /usr/local/ruby1.8.6/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    /usr/local/ruby1.8.6/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    /usr/local/ruby1.8.6/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    /usr/local/ruby1.8.6/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    /usr/local/ruby1.8.6/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    /usr/local/ruby1.8.6/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:9:in `cache'
+    /usr/local/ruby1.8.6/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:28:in `call'
+    /usr/local/ruby1.8.6/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /usr/local/ruby1.8.6/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/head.rb:9:in `call'
+    /usr/local/ruby1.8.6/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/methodoverride.rb:24:in `call'
+    /usr/local/ruby1.8.6/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/params_parser.rb:15:in `call'
+    /usr/local/ruby1.8.6/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/rewindable_input.rb:25:in `call'
+    /usr/local/ruby1.8.6/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/session/cookie_store.rb:93:in `call'
+    /usr/local/ruby1.8.6/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/reloader.rb:9:in `call'
+    /usr/local/ruby1.8.6/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/failsafe.rb:11:in `call'
+    /usr/local/ruby1.8.6/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+    /usr/local/ruby1.8.6/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `synchronize'
+    /usr/local/ruby1.8.6/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+    /usr/local/ruby1.8.6/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:106:in `call'
+    /usr/local/ruby1.8.6/lib/ruby/gems/1.8/gems/rails-2.3.2/lib/rails/rack/static.rb:31:in `call'
+    /usr/local/ruby1.8.6/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:46:in `call'
+    /usr/local/ruby1.8.6/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `each'
+    /usr/local/ruby1.8.6/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `call'
+    /usr/local/ruby1.8.6/lib/ruby/gems/1.8/gems/rails-2.3.2/lib/rails/rack/log_tailer.rb:17:in `call'
+    /usr/local/ruby1.8.6/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/content_length.rb:13:in `call'
+    /usr/local/ruby1.8.6/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/handler/webrick.rb:46:in `service'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /usr/local/ruby1.8.6/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/handler/webrick.rb:13:in `run'
+    /usr/local/ruby1.8.6/lib/ruby/gems/1.8/gems/rails-2.3.2/lib/commands/server.rb:111
+    /usr/local/ruby1.8.6/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/ruby1.8.6/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+  [4;36;1mSQL (32.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#index (for ::1 at 2009-06-28 21:22:18) [GET]
+Rendering template within layouts/application
+Rendering books/index
+Completed in 95ms (View: 94, DB: 32) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#title (for ::1 at 2009-06-28 21:23:49) [GET]
+  [4;36;1mBook Columns (76.6ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/title
+Completed in 260ms (View: 24, DB: 77) | 200 OK [http://localhost/title]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#title (for ::1 at 2009-06-28 21:23:53) [GET]
+  [4;35;1mBook Columns (4.4ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/title
+Completed in 14ms (View: 3, DB: 5) | 200 OK [http://localhost/title]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#index (for ::1 at 2009-06-28 21:23:55) [GET]
+Rendering template within layouts/application
+Rendering books/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#title (for ::1 at 2009-06-28 21:23:57) [GET]
+  [4;36;1mBook Columns (2.3ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/title
+Completed in 12ms (View: 3, DB: 3) | 200 OK [http://localhost/title]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#index (for ::1 at 2009-06-28 21:25:24) [GET]
+Rendering template within layouts/application
+Rendering books/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#index (for ::1 at 2009-06-28 21:27:01) [GET]
+Rendering template within layouts/application
+Rendering books/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#title (for ::1 at 2009-06-28 21:27:03) [GET]
+  [4;35;1mBook Columns (2.5ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/title
+Completed in 12ms (View: 3, DB: 3) | 200 OK [http://localhost/title]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#title (for ::1 at 2009-06-28 21:27:04) [GET]
+  [4;36;1mBook Columns (2.5ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/title
+Completed in 12ms (View: 4, DB: 3) | 200 OK [http://localhost/title]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#title (for ::1 at 2009-06-28 21:27:15) [GET]
+  [4;35;1mBook Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/title
+Completed in 13ms (View: 4, DB: 3) | 200 OK [http://localhost/title]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#title (for ::1 at 2009-06-28 21:27:41) [GET]
+  [4;36;1mBook Columns (2.6ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/title
+Completed in 13ms (View: 3, DB: 3) | 200 OK [http://localhost/title]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#title (for ::1 at 2009-06-28 21:27:53) [GET]
+  [4;35;1mBook Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/title
+Completed in 12ms (View: 4, DB: 2) | 200 OK [http://localhost/title]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#title (for ::1 at 2009-06-28 21:28:08) [GET]
+  [4;36;1mBook Columns (2.1ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/title
+Completed in 13ms (View: 4, DB: 2) | 200 OK [http://localhost/title]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#title (for ::1 at 2009-06-28 21:28:25) [GET]
+  [4;35;1mBook Columns (2.0ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/title
+Completed in 12ms (View: 3, DB: 2) | 200 OK [http://localhost/title]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#copyright (for ::1 at 2009-06-28 21:28:51) [POST]
+  Parameters: {"commit"=>"open book", "authenticity_token"=>"oC19ZlzpP6G2lsXazdP4cfwLDRAnBDiSx8c7/4KpIpA=", "book"=>{"title"=>"Bla", "author"=>"", "subtitle"=>""}}
+  [4;36;1mBook Columns (2.0ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/copyright
+Completed in 61ms (View: 53, DB: 2) | 200 OK [http://localhost/copyright]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#index (for ::1 at 2009-06-28 21:29:28) [GET]
+Rendering template within layouts/application
+Rendering books/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#title (for ::1 at 2009-06-28 21:29:30) [GET]
+  [4;35;1mBook Columns (2.5ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/title
+Completed in 12ms (View: 3, DB: 3) | 200 OK [http://localhost/title]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#index (for ::1 at 2009-06-28 21:29:35) [GET]
+Rendering template within layouts/application
+Rendering books/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#title (for ::1 at 2009-06-28 21:30:01) [GET]
+  [4;36;1mBook Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/title
+Completed in 14ms (View: 5, DB: 2) | 200 OK [http://localhost/title]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#title (for ::1 at 2009-06-28 21:30:05) [GET]
+  [4;35;1mBook Columns (2.1ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/title
+Completed in 12ms (View: 4, DB: 2) | 200 OK [http://localhost/title]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#title (for ::1 at 2009-06-28 21:30:22) [GET]
+  [4;36;1mBook Columns (2.1ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/title
+Completed in 12ms (View: 3, DB: 2) | 200 OK [http://localhost/title]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#index (for ::1 at 2009-06-28 21:30:34) [GET]
+Rendering template within layouts/application
+Rendering books/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-28 21:30:39) [GET]
+  Parameters: {"url"=>"the-fish-and-the-three-merry-men"}
+  [4;35;1mBook Columns (2.8ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+  [4;36;1mBook Load (21.6ms)[0m   [0;1mSELECT * FROM `books` WHERE (`books`.`url` = 'the-fish-and-the-three-merry-men') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 102ms (View: 20, DB: 25) | 200 OK [http://localhost/the-fish-and-the-three-merry-men]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-28 21:30:39) [GET]
+  Parameters: {"url"=>"the-fish-and-the-three-merry-men"}
+  [4;35;1mBook Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+  [4;36;1mBook Load (0.5ms)[0m   [0;1mSELECT * FROM `books` WHERE (`books`.`url` = 'the-fish-and-the-three-merry-men') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 17ms (View: 8, DB: 3) | 200 OK [http://localhost/the-fish-and-the-three-merry-men]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-28 21:31:39) [GET]
+  Parameters: {"url"=>"the-fish-and-the-three-merry-men"}
+  [4;35;1mBook Columns (2.0ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+  [4;36;1mBook Load (0.3ms)[0m   [0;1mSELECT * FROM `books` WHERE (`books`.`url` = 'the-fish-and-the-three-merry-men') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 12ms (View: 4, DB: 2) | 200 OK [http://localhost/the-fish-and-the-three-merry-men]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-28 21:31:40) [GET]
+  Parameters: {"url"=>"the-fish-and-the-three-merry-men"}
+  [4;35;1mBook Columns (2.6ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+  [4;36;1mBook Load (0.6ms)[0m   [0;1mSELECT * FROM `books` WHERE (`books`.`url` = 'the-fish-and-the-three-merry-men') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 14ms (View: 5, DB: 3) | 200 OK [http://localhost/the-fish-and-the-three-merry-men]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-28 21:32:14) [GET]
+  Parameters: {"url"=>"the-fish-and-the-three-merry-men"}
+  [4;35;1mBook Columns (2.0ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+  [4;36;1mBook Load (0.3ms)[0m   [0;1mSELECT * FROM `books` WHERE (`books`.`url` = 'the-fish-and-the-three-merry-men') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 12ms (View: 4, DB: 3) | 200 OK [http://localhost/the-fish-and-the-three-merry-men]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-28 21:32:15) [GET]
+  Parameters: {"url"=>"the-fish-and-the-three-merry-men"}
+  [4;35;1mBook Columns (2.4ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+  [4;36;1mBook Load (2.1ms)[0m   [0;1mSELECT * FROM `books` WHERE (`books`.`url` = 'the-fish-and-the-three-merry-men') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 16ms (View: 6, DB: 5) | 200 OK [http://localhost/the-fish-and-the-three-merry-men]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#index (for ::1 at 2009-06-28 21:32:18) [GET]
+Rendering template within layouts/application
+Rendering books/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#title (for ::1 at 2009-06-28 21:32:21) [GET]
+  [4;35;1mBook Columns (2.4ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/title
+Completed in 12ms (View: 4, DB: 3) | 200 OK [http://localhost/title]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#index (for ::1 at 2009-06-28 21:32:41) [GET]
+Rendering template within layouts/application
+Rendering books/index
+Completed in 7ms (View: 5, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#index (for ::1 at 2009-06-28 21:32:42) [GET]
+Rendering template within layouts/application
+Rendering books/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#index (for ::1 at 2009-06-28 21:32:47) [GET]
+Rendering template within layouts/application
+Rendering books/index
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#title (for ::1 at 2009-06-28 21:33:21) [GET]
+  [4;36;1mBook Columns (2.8ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/title
+Completed in 13ms (View: 3, DB: 3) | 200 OK [http://localhost/title]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#title (for ::1 at 2009-06-28 21:33:45) [GET]
+  [4;35;1mBook Columns (2.4ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/title
+Completed in 12ms (View: 3, DB: 3) | 200 OK [http://localhost/title]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#title (for ::1 at 2009-06-28 21:35:30) [GET]
+  [4;36;1mBook Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/title
+Completed in 12ms (View: 3, DB: 2) | 200 OK [http://localhost/title]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#title (for ::1 at 2009-06-28 21:36:03) [GET]
+  [4;35;1mBook Columns (2.0ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/title
+Completed in 12ms (View: 4, DB: 2) | 200 OK [http://localhost/title]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#title (for ::1 at 2009-06-28 21:36:20) [GET]
+  [4;36;1mBook Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/title
+Completed in 12ms (View: 3, DB: 2) | 200 OK [http://localhost/title]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#title (for ::1 at 2009-06-28 21:36:21) [GET]
+  [4;35;1mBook Columns (2.5ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/title
+Completed in 12ms (View: 3, DB: 3) | 200 OK [http://localhost/title]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#title (for ::1 at 2009-06-28 21:36:57) [GET]
+  [4;36;1mBook Columns (2.2ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/title
+Completed in 78ms (View: 4, DB: 2) | 200 OK [http://localhost/title]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#copyright (for ::1 at 2009-06-28 21:37:54) [POST]
+  Parameters: {"commit"=>"open book", "authenticity_token"=>"oC19ZlzpP6G2lsXazdP4cfwLDRAnBDiSx8c7/4KpIpA=", "book"=>{"title"=>"Der alte Mann", "author"=>"Florian Hanke", "subtitle"=>"Eine Komödie in 3 Akten"}}
+  [4;35;1mBook Columns (3.5ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/copyright
+Completed in 14ms (View: 4, DB: 4) | 200 OK [http://localhost/copyright]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#copyright (for ::1 at 2009-06-28 21:38:23) [POST]
+  Parameters: {"commit"=>"open book", "authenticity_token"=>"oC19ZlzpP6G2lsXazdP4cfwLDRAnBDiSx8c7/4KpIpA=", "book"=>{"title"=>"Der alte Mann", "author"=>"Florian Hanke", "subtitle"=>"Eine Komödie in 3 Akten"}}
+  [4;36;1mBook Columns (2.9ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/copyright
+Completed in 20ms (View: 9, DB: 3) | 200 OK [http://localhost/copyright]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#copyright (for ::1 at 2009-06-28 21:38:31) [POST]
+  Parameters: {"commit"=>"open book", "authenticity_token"=>"oC19ZlzpP6G2lsXazdP4cfwLDRAnBDiSx8c7/4KpIpA=", "book"=>{"title"=>"Der alte Mann", "author"=>"Florian Hanke", "subtitle"=>"Eine Komödie in 3 Akten"}}
+  [4;35;1mBook Columns (2.7ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/copyright
+Completed in 19ms (View: 9, DB: 3) | 200 OK [http://localhost/copyright]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#introduction (for ::1 at 2009-06-28 21:39:00) [POST]
+  Parameters: {"commit"=>"start writing", "authenticity_token"=>"oC19ZlzpP6G2lsXazdP4cfwLDRAnBDiSx8c7/4KpIpA=", "book"=>{"title"=>"Der alte Mann", "author"=>"Florian Hanke", "subtitle"=>"Eine Komödie in 3 Akten", "password"=>"drslim", "email"=>"florian.hanke@gmail.com"}}
+  [4;36;1mBook Columns (2.1ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/introduction
+Completed in 17ms (View: 7, DB: 2) | 200 OK [http://localhost/introduction]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#introduction (for ::1 at 2009-06-28 21:39:23) [POST]
+  Parameters: {"commit"=>"start writing", "authenticity_token"=>"oC19ZlzpP6G2lsXazdP4cfwLDRAnBDiSx8c7/4KpIpA=", "book"=>{"title"=>"Der alte Mann", "author"=>"Florian Hanke", "subtitle"=>"Eine Komödie in 3 Akten", "password"=>"drslim", "email"=>"florian.hanke@gmail.com"}}
+  [4;35;1mBook Columns (2.6ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/introduction
+Completed in 19ms (View: 9, DB: 3) | 200 OK [http://localhost/introduction]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#create (for ::1 at 2009-06-28 21:40:56) [POST]
+  Parameters: {"commit"=>"having your new book saved", "authenticity_token"=>"oC19ZlzpP6G2lsXazdP4cfwLDRAnBDiSx8c7/4KpIpA=", "book"=>{"text"=>"It was a singularly sharp night, and clear as the heart of a diamond. Clear nights have a trick of being keen. In darkness you may be cold and not know it; when you see, you suffer. This night was bright enough to bite like a serpent. The moon was moving mysteriously along behind the giant pines crowning the South Mountain, striking a cold sparkle from the crusted snow, and bringing out against the black west and ghostly outlines of the Coast Range, beyond which lay the invisible Pacific. The snow had piled itself, in the open spaces along the bottom of the gulch, into long ridges that seemed to heave, and into hills that appeared to toss and scatter spray. The spray was sunlight, twice reflected: dashed once from the moon, once from the snow.\r\n     In this snow many of the shanties of the abandoned mining camp were obliterated (a sailor might have said they had gone down), and at irregular intervals it had overtopped the tall trestles which had once supported a river called a flume; for, of course, 'flume' is flumen. Among the advantages of which the mountains cannot deprive the gold-hunter is the privilege of speaking Latin. He says of his dead neighbour, 'He has gone up the flume.' This is not a bad way to say, 'His life has returned to the Fountain of Life.'\r\n     While putting on its armour against the assaults of the wind, this snow had neglected no coign of vantage. Snow pursued by the wind is not wholly unlike a retreating army. In the open field it ranges itself in ranks and battalions; where it can get a foothold it makes a stand; where it can take cover it does so. You may see whole platoons of snow cowering behind a bit of broken wall. The devious old road, hewn out of the mountainside, was full of it. Squadron upon squadron had struggled to escape by this line, when suddenly pursuit had ceased. A more desolate and dreary spot than Deadman's Gulch in a winter midnight it is impossible to imagine. Yet Mr. Hiram Beeson elected to live there, the sole inhabitant.\r\n     Away up the side of the North Mountain his little pine-log shanty projected from its single pane of glass a long, thin beam of light, and looked not altogether unlike a black beetle fastened to the hillside with a bright new pin. Within it sat Mr. Beeson himself, before a roaring fire, staring into its hot heart as if he had never before seen such a thing in all his life. He was not a comely man. He was grey; he was ragged and slovenly in his attire; his face was wan and haggard; his eyes were too bright. As to his age, if one had attempted to guess it, one might have said forty-seven, then corrected himself and said seventy-four. He was really twenty-eight. Emaciated he was; as much, perhaps, as he dared be, with a needy undertaker at Bentley's Flat and a new and enterprising coroner at Sonora. Poverty and zeal are an upper and a nether millstone. It is dangerous to make a third in that kind of sandwich.\r\n\r\n     As Mr. Beeson sat there, with his ragged elbows on his ragged knees, his lean jaws buried in his lean hands, and with no apparent intention of going to bed, he looked as if the slightest movement would tumble him to pieces. Yet during the last hour he had winked no fewer than three times.\r\n     There was a sharp rapping at the door. A rap at that time of night and in that weather might have surprised an ordinary mortal who had dwelt two years in the gulch without seeing a human face, and could not fail to know that the country was impassable; but Mr. Beeson did not so much as pull his eyes out of the coals. And even when the door was pushed open he only shrugged a little more closely into himself, as one does who is expecting something that he would rather not see. You may observe this movement in women when, in a mortuary chapel, the coffin is borne up the aisle behind them.\r\n     But when a long old man in a blanket overcoat, his head tied up in a handkerchief and nearly his entire face in a muffler, wearing green goggles and with a complexion of glittering whiteness where it could be seen, strode silently into the room, laying a hard, gloved hand on Mr. Beeson's shoulder, the latter so far forgot himself as to look up with an appearance of no small astonishment; whomever he may have been expecting, he had evidently not counted on meeting anyone like this. Nevertheless, the sight of this unexpected guest produced in Mr. Beeson the following sequence: a feeling of astonishment; a sense of gratification; a sentiment of profound good will. Rising from his seat, he took the knotty hand from his shoulder, and shook it up and down with a fervour quite unaccountable; for in the old man's aspect was nothing to attract, much to repel. However, attraction is too general a property for repulsion to be without it. The most attractive object in the world is the face we instinctively cover with a cloth. When it becomes still more attractive -- fascinating -- we put seven feet of earth above it.\r\n     'Sir,' said Mr. Beeson, releasing the old man's hand, which fell passively against his thigh with a quiet clack, 'it is an extremely disagreeable night. Pray be seated; I am very glad to see you.'\r\n\r\n     Mr. Beeson spoke with an easy good breeding that one would hardly have expected, considering all things. Indeed, the contrast between his appearance and his manner was sufficiently surprising to be one of the commonest of social phenomena in the mines. The old man advanced a step toward the fire, glowing cavernously in the green goggles. Mr. Beeson resumed.\r\n     'You bet your life I am!'\r\n     Mr. Beeson's elegance was not too refined; it had made reasonable concessions to local taste. He paused a moment, letting his eyes drop from the muffled head of his guest, down along the row of mouldy buttons confining the blanket overcoat, to the greenish cowhide boots powdered with snow, which had begun to melt and run along the floor in little rills. He took an inventory of his guest, and appeared satisfied. Who would not have been? Then he continued:\r\n     'The cheer I can offer you is, unfortunately, in keeping with my surroundings; but I shall esteem myself highly favoured if it is your pleasure to partake of it, rather than seek better at Bentley's Flat.'\r\n     With a singular refinement of hospitable humility Mr. Beeson spoke as if a sojourn in his warm cabin on such a night, as compared with walking fourteen miles up to the throat in snow with a cutting crust, would be an intolerable hardship. By way of reply, his guest unbuttoned the blanket overcoat. The host laid fresh fuel on the fire, swept the hearth with the tail of a wolf, and added:\r\n     'But I think you'd better skedaddle.'\r\n     The old man took a seat by the fire, spreading his broad soles to the heat without removing his hat. In the mines the hat is seldom removed except when the boots are. Without further remark Mr. Beeson also seated himself in a chair which had been a barrel, and which, retaining much of its original character, seemed to have been designed with a view to preserving his dust if it should please him to crumble. For a moment there was silence; then, from somewhere among the pines, came the snarling yelp of a coyote; and simultaneously the door rattled in its frame. There was no other connection between the two incidents than that the coyote has an aversion to storms, and the wind was rising; yet there seemed somehow a kind of supernatural conspiracy between the two, and Mr. Beeson shuddered with a vague sense of terror. He recovered himself in a moment and again addressed his guest.\r\n\r\n     'There are strange doings here. I will tell you everything, and then if you decide to go I shall hope to accompany you over the worst of the way; as far as where Baldy Peterson shot Ben Hike -- I dare say you know the place.'\r\n     The old man nodded emphatically, as intimating not merely that he did, but that he did indeed.\r\n     'Two years ago,' began Mr. Beeson, 'I, with two companions, occupied this house; but when the rush to the Flat occurred we left, along with the rest. In ten hours the gulch was deserted. That evening, however, I discovered I had left behind me a valuable pistol (that is it) and returned for it, passing the night here alone, as I have passed every night since. I must explain that a few days before we left, our Chinese domestic had the misfortune to die while the ground was frozen so hard that it was impossible to dig a grave in the usual way. So, on the day of our hasty departure, we cut through the floor there, and gave him such burial as we could. But before putting him down I had the extremely bad taste to cut off his pigtail and spike it to that beam above his grave, where you may see it at this moment, or, preferably, when warmth has given you leisure for observation.\r\n     'I stated, did I not, that the Chinaman came to his death from natural causes? I had, of course, nothing to do with that, and returned through no irresistible attraction, or morbid fascination, but only because I had forgotten a pistol. That is clear to you, is it not, sir?'\r\n     The visitor nodded gravely. He appeared to be a man of few words, if any. Mr. Beeson continued:\r\n     'According to the Chinese faith, a man is like a kite: he cannot go to heaven without a tail. Well, to shorten this tedious story -- which, however, I thought it my duty to relate -- on that night, while I was here alone and thinking of anything but him, that Chinaman came back for his pigtail.\r\n     'He did not get it.'\r\n     At this point Mr. Beeson relapsed into blank silence. Perhaps he was fatigued by the unwonted exercise of speaking; perhaps he had conjured up a memory that demanded his undivided attention. The wind was now fairly abroad, and the pines along the mountainside sang with singular distinctness. The narrator continued:\r\n\r\n     'You say you do not see much in that, and I must confess I do not myself.\r\n     'But he keeps coming!'\r\n     There was another long silence, during which both stared into the fire without the movement of a limb. Then Mr. Beeson broke out, almost fiercely, fixing his eyes on what he could see of the impassive face of his auditor:\r\n     'Give it him? Sir, in this matter I have no intention of troubling anyone for advice. You will pardon me, I am sure' -- here he became singularly persuasive -- 'but I have ventured to nail that pigtail fast, and have assumed that somewhat onerous obligation of guarding it. So it is quite impossible to act on your considerate suggestion.\r\n     'Do you play me for a Modoc?'\r\n     Nothing could exceed the sudden ferocity with which he thrust this indignant remonstrance into the ear of his guest. It was as if he had struck him on the side of the head with a steel gauntlet. It was a protest, but it was a challenge. To be mistaken for a coward -- to be played for a Modoc: these two expressions are one. Sometimes it is a Chinaman. Do you play me for a Chinaman? is a question frequently addressed to the ear of the suddenly dead.\r\n     Mr. Beeson's buffet produced no effect, and after a moment's pause, during which the wind thundered in the chimney like the sound of clods upon a coffin, he resumed:\r\n     'But, as you say, it is wearing me out. I feel that the life of the last two years has been a mistake -- a mistake that corrects itself; you see how. The grave! No; there is no one to dig it. The ground is frozen, too. But you are very welcome. You may say at Bentley's -- but that is not important. It was very tough to cut; they braid silk into their pigtails. Kwaagh.'\r\n     Mr. Beeson was speaking with his eyes shut, and he wandered. His last word was a snore. A moment later he drew a long breath, opened his eyes with an effort, made a single remark, and fell into a deep sleep. What he said was this:\r\n     'They are swiping my dust!'\r\n     Then the aged stranger, who had not uttered one word since his arrival, arose from his seat and deliberately laid off his outer clothing, looking as angular in his flannels as the late Signorina Festorazzi, an Irish woman, six feet in height, and weighing fifty-six pounds, who used to exhibit herself in her chemise to the people of San Francisco. He then crept into one of the 'bunks,' having first placed a revolver in easy reach, according to the custom of the country. This revolver he took from a shelf, and it was the one which Mr. Beeson had mentioned as that for which he had returned to the gulch two years before.\r\n\r\n     In a few moments Mr. Beeson awoke, and seeing that his guest had retired he did likewise. But before doing so he approached the long, plaited wisp of pagan hair and gave it a powerful tug, to assure himself that it was fast and firm. The two beds-mere shelves covered with blankets not overclean-faced each other from opposite sides of the room, the little square trap-door that had given access to the Chinaman's grave being midway between. This, by the way, was crossed by a double row of spikeheads. In his resistance to the supernatural, Mr. Beeson had not disdained the use of material precautions.\r\n     The fire was now low, the flames burning bluely and petulantly, with occasional flashes, projecting spectral shadows on the walls -- shadows that moved mysteriously about, now dividing, now uniting. The shadow of the pendent queue, however, kept moodily apart, near the roof at the farther end of the room, looking like a note of admiration. The song of the pines outside had now risen to the dignity of a triumphal hymn. In the pauses the silence was dreadful.\r\n     It was during one of these intervals that the trap in the floor began to lift. Slowly and steadily it rose, and slowly and steadily rose the swaddled head of the old man in the bunk to observe it. Then, with a clap that shook the house to its foundation, it was thrown clean back, where it lay with its unsightly spikes pointing threateningly upward. Mr. Beeson awoke, and without rising, pressed his fingers into his eyes. He shuddered; his teeth chattered. His guest was now reclining on one elbow, watching the proceedings with the goggles that glowed like lamps.\r\n     Suddenly a howling gust of wind swooped down the chimney, scattering ashes and smoke in all directions, for a moment obscuring everything. When the fire-light again illuminated the room there was seen, sitting gingerly on the edge of a stool by the hearth-side, a swarthy little man of prepossessing appearance and dressed with faultless taste, nodding to the old man with a friendly and engaging smile.\r\n     'From San Francisco, evidently,' thought Mr. Beeson, who having somewhat recovered from his fright was groping his way to a solution of the evening's events.\r\n     But now another actor appeared upon the scene. Out of the square black hole in the middle of the floor protruded the head of the departed Chinaman, his glassy eyes turned upward in their angular slits and fastened on the dangling queue above with a look of yearning unspeakable. Mr. Beeson groaned, and again spread his hands upon his face. A mild odour of opium pervaded the place. The phantom, clad only in a short blue tunic quilted and silken but covered with grave-mould, rose slowly, as if pushed by a weak spiral spring. Its knees were at the level of the floor, when with a quick upward impulse like the silent leaping of a flame it grasped the queue with both hands, drew up its body and took the tip in its horrible yellow teeth. To this it clung in a seeming frenzy, grimacing ghastly, surging and plunging from side to side in its efforts to disengage its property from the beam, but uttering no sound. It was like a corpse artificially convulsed by means of a galvanic battery. The contrast between its superhuman activity and its silence was no less than hideous!\r\n\r\n     Mr. Beeson cowered in his bed. The swarthy little gentleman uncrossed his legs, beat an impatient tattoo with the toe of his boot and consulted a heavy gold watch. The old man sat erect and quietly laid hold of the revolver.\r\n     Bang!\r\n     Like a body cut from the gallows the Chinaman plumped into the black hole below, carrying his tail in his teeth. The trap-door turned over, shutting down with a snap. The swarthy little gentleman from San Francisco sprang nimbly from his perch, caught something in the air with his hat, as a boy catches a butterfly, and vanished into the chimney as if drawn up by suction.\r\n     From away somewhere in the outer darkness floated in through the open door a faint, far cry -- a long, sobbing wail, as of a child death-strangled in the desert, or a lost soul borne away by the Adversary. It may have been the coyote.\r\n     In the early days of the following spring a party of miners on their way to new diggings passed along the gulch, and straying through the deserted shanties found in one of them the body of Hiram Beeson, stretched upon a bunk, with a bullet hole through the heart. The ball had evidently been fired from the opposite side of the room, for in one of the oaken beams overhead was a shallow blue dint, where it had struck a knot and been deflected downward to the breast of its victim. Strongly attached to the same beam was what appeared to be an end of a rope of braided horsehair, which had been cut by the bullet in its passage to the knot. Nothing else of interest was noted, excepting a suit of mouldy and incongruous clothing, several articles of which were afterward identified by respectable witnesses as those in which certain deceased citizen's of Deadman's had been buried years before. But it is not easy to understand how that could be, unless, indeed, the garments had been worn as a disguise by Death himself -- which is hardly credible. ", "title"=>"Der alte Mann", "author"=>"Florian Hanke", "subtitle"=>"Eine Komödie in 3 Akten", "password"=>"drslim", "email"=>"florian.hanke@gmail.com"}}
+  [4;36;1mBook Columns (2.5ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mBook Create (2.0ms)[0m   [0;1mINSERT INTO `books` (`license`, `updated_at`, `title`, `text`, `url`, `author`, `subtitle`, `locale`, `bio`, `password`, `email`, `created_at`) VALUES(NULL, '2009-06-28 19:40:56', 'Der alte Mann', 'It was a singularly sharp night, and clear as the heart of a diamond. Clear nights have a trick of being keen. In darkness you may be cold and not know it; when you see, you suffer. This night was bright enough to bite like a serpent. The moon was moving mysteriously along behind the giant pines crowning the South Mountain, striking a cold sparkle from the crusted snow, and bringing out against the black west and ghostly outlines of the Coast Range, beyond which lay the invisible Pacific. The snow had piled itself, in the open spaces along the bottom of the gulch, into long ridges that seemed to heave, and into hills that appeared to toss and scatter spray. The spray was sunlight, twice reflected: dashed once from the moon, once from the snow.\r\n In this snow many of the shanties of the abandoned mining camp were obliterated (a sailor might have said they had gone down), and at irregular intervals it had overtopped the tall trestles which had once supported a river called a flume; for, of course, \'flume\' is flumen. Among the advantages of which the mountains cannot deprive the gold-hunter is the privilege of speaking Latin. He says of his dead neighbour, \'He has gone up the flume.\' This is not a bad way to say, \'His life has returned to the Fountain of Life.\'\r\n While putting on its armour against the assaults of the wind, this snow had neglected no coign of vantage. Snow pursued by the wind is not wholly unlike a retreating army. In the open field it ranges itself in ranks and battalions; where it can get a foothold it makes a stand; where it can take cover it does so. You may see whole platoons of snow cowering behind a bit of broken wall. The devious old road, hewn out of the mountainside, was full of it. Squadron upon squadron had struggled to escape by this line, when suddenly pursuit had ceased. A more desolate and dreary spot than Deadman\'s Gulch in a winter midnight it is impossible to imagine. Yet Mr. Hiram Beeson elected to live there, the sole inhabitant.\r\n Away up the side of the North Mountain his little pine-log shanty projected from its single pane of glass a long, thin beam of light, and looked not altogether unlike a black beetle fastened to the hillside with a bright new pin. Within it sat Mr. Beeson himself, before a roaring fire, staring into its hot heart as if he had never before seen such a thing in all his life. He was not a comely man. He was grey; he was ragged and slovenly in his attire; his face was wan and haggard; his eyes were too bright. As to his age, if one had attempted to guess it, one might have said forty-seven, then corrected himself and said seventy-four. He was really twenty-eight. Emaciated he was; as much, perhaps, as he dared be, with a needy undertaker at Bentley\'s Flat and a new and enterprising coroner at Sonora. Poverty and zeal are an upper and a nether millstone. It is dangerous to make a third in that kind of sandwich.\r\n\r\n As Mr. Beeson sat there, with his ragged elbows on his ragged knees, his lean jaws buried in his lean hands, and with no apparent intention of going to bed, he looked as if the slightest movement would tumble him to pieces. Yet during the last hour he had winked no fewer than three times.\r\n There was a sharp rapping at the door. A rap at that time of night and in that weather might have surprised an ordinary mortal who had dwelt two years in the gulch without seeing a human face, and could not fail to know that the country was impassable; but Mr. Beeson did not so much as pull his eyes out of the coals. And even when the door was pushed open he only shrugged a little more closely into himself, as one does who is expecting something that he would rather not see. You may observe this movement in women when, in a mortuary chapel, the coffin is borne up the aisle behind them.\r\n But when a long old man in a blanket overcoat, his head tied up in a handkerchief and nearly his entire face in a muffler, wearing green goggles and with a complexion of glittering whiteness where it could be seen, strode silently into the room, laying a hard, gloved hand on Mr. Beeson\'s shoulder, the latter so far forgot himself as to look up with an appearance of no small astonishment; whomever he may have been expecting, he had evidently not counted on meeting anyone like this. Nevertheless, the sight of this unexpected guest produced in Mr. Beeson the following sequence: a feeling of astonishment; a sense of gratification; a sentiment of profound good will. Rising from his seat, he took the knotty hand from his shoulder, and shook it up and down with a fervour quite unaccountable; for in the old man\'s aspect was nothing to attract, much to repel. However, attraction is too general a property for repulsion to be without it. The most attractive object in the world is the face we instinctively cover with a cloth. When it becomes still more attractive -- fascinating -- we put seven feet of earth above it.\r\n \'Sir,\' said Mr. Beeson, releasing the old man\'s hand, which fell passively against his thigh with a quiet clack, \'it is an extremely disagreeable night. Pray be seated; I am very glad to see you.\'\r\n\r\n Mr. Beeson spoke with an easy good breeding that one would hardly have expected, considering all things. Indeed, the contrast between his appearance and his manner was sufficiently surprising to be one of the commonest of social phenomena in the mines. The old man advanced a step toward the fire, glowing cavernously in the green goggles. Mr. Beeson resumed.\r\n \'You bet your life I am!\'\r\n Mr. Beeson\'s elegance was not too refined; it had made reasonable concessions to local taste. He paused a moment, letting his eyes drop from the muffled head of his guest, down along the row of mouldy buttons confining the blanket overcoat, to the greenish cowhide boots powdered with snow, which had begun to melt and run along the floor in little rills. He took an inventory of his guest, and appeared satisfied. Who would not have been? Then he continued:\r\n \'The cheer I can offer you is, unfortunately, in keeping with my surroundings; but I shall esteem myself highly favoured if it is your pleasure to partake of it, rather than seek better at Bentley\'s Flat.\'\r\n With a singular refinement of hospitable humility Mr. Beeson spoke as if a sojourn in his warm cabin on such a night, as compared with walking fourteen miles up to the throat in snow with a cutting crust, would be an intolerable hardship. By way of reply, his guest unbuttoned the blanket overcoat. The host laid fresh fuel on the fire, swept the hearth with the tail of a wolf, and added:\r\n \'But I think you\'d better skedaddle.\'\r\n The old man took a seat by the fire, spreading his broad soles to the heat without removing his hat. In the mines the hat is seldom removed except when the boots are. Without further remark Mr. Beeson also seated himself in a chair which had been a barrel, and which, retaining much of its original character, seemed to have been designed with a view to preserving his dust if it should please him to crumble. For a moment there was silence; then, from somewhere among the pines, came the snarling yelp of a coyote; and simultaneously the door rattled in its frame. There was no other connection between the two incidents than that the coyote has an aversion to storms, and the wind was rising; yet there seemed somehow a kind of supernatural conspiracy between the two, and Mr. Beeson shuddered with a vague sense of terror. He recovered himself in a moment and again addressed his guest.\r\n\r\n \'There are strange doings here. I will tell you everything, and then if you decide to go I shall hope to accompany you over the worst of the way; as far as where Baldy Peterson shot Ben Hike -- I dare say you know the place.\'\r\n The old man nodded emphatically, as intimating not merely that he did, but that he did indeed.\r\n \'Two years ago,\' began Mr. Beeson, \'I, with two companions, occupied this house; but when the rush to the Flat occurred we left, along with the rest. In ten hours the gulch was deserted. That evening, however, I discovered I had left behind me a valuable pistol (that is it) and returned for it, passing the night here alone, as I have passed every night since. I must explain that a few days before we left, our Chinese domestic had the misfortune to die while the ground was frozen so hard that it was impossible to dig a grave in the usual way. So, on the day of our hasty departure, we cut through the floor there, and gave him such burial as we could. But before putting him down I had the extremely bad taste to cut off his pigtail and spike it to that beam above his grave, where you may see it at this moment, or, preferably, when warmth has given you leisure for observation.\r\n \'I stated, did I not, that the Chinaman came to his death from natural causes? I had, of course, nothing to do with that, and returned through no irresistible attraction, or morbid fascination, but only because I had forgotten a pistol. That is clear to you, is it not, sir?\'\r\n The visitor nodded gravely. He appeared to be a man of few words, if any. Mr. Beeson continued:\r\n \'According to the Chinese faith, a man is like a kite: he cannot go to heaven without a tail. Well, to shorten this tedious story -- which, however, I thought it my duty to relate -- on that night, while I was here alone and thinking of anything but him, that Chinaman came back for his pigtail.\r\n \'He did not get it.\'\r\n At this point Mr. Beeson relapsed into blank silence. Perhaps he was fatigued by the unwonted exercise of speaking; perhaps he had conjured up a memory that demanded his undivided attention. The wind was now fairly abroad, and the pines along the mountainside sang with singular distinctness. The narrator continued:\r\n\r\n \'You say you do not see much in that, and I must confess I do not myself.\r\n \'But he keeps coming!\'\r\n There was another long silence, during which both stared into the fire without the movement of a limb. Then Mr. Beeson broke out, almost fiercely, fixing his eyes on what he could see of the impassive face of his auditor:\r\n \'Give it him? Sir, in this matter I have no intention of troubling anyone for advice. You will pardon me, I am sure\' -- here he became singularly persuasive -- \'but I have ventured to nail that pigtail fast, and have assumed that somewhat onerous obligation of guarding it. So it is quite impossible to act on your considerate suggestion.\r\n \'Do you play me for a Modoc?\'\r\n Nothing could exceed the sudden ferocity with which he thrust this indignant remonstrance into the ear of his guest. It was as if he had struck him on the side of the head with a steel gauntlet. It was a protest, but it was a challenge. To be mistaken for a coward -- to be played for a Modoc: these two expressions are one. Sometimes it is a Chinaman. Do you play me for a Chinaman? is a question frequently addressed to the ear of the suddenly dead.\r\n Mr. Beeson\'s buffet produced no effect, and after a moment\'s pause, during which the wind thundered in the chimney like the sound of clods upon a coffin, he resumed:\r\n \'But, as you say, it is wearing me out. I feel that the life of the last two years has been a mistake -- a mistake that corrects itself; you see how. The grave! No; there is no one to dig it. The ground is frozen, too. But you are very welcome. You may say at Bentley\'s -- but that is not important. It was very tough to cut; they braid silk into their pigtails. Kwaagh.\'\r\n Mr. Beeson was speaking with his eyes shut, and he wandered. His last word was a snore. A moment later he drew a long breath, opened his eyes with an effort, made a single remark, and fell into a deep sleep. What he said was this:\r\n \'They are swiping my dust!\'\r\n Then the aged stranger, who had not uttered one word since his arrival, arose from his seat and deliberately laid off his outer clothing, looking as angular in his flannels as the late Signorina Festorazzi, an Irish woman, six feet in height, and weighing fifty-six pounds, who used to exhibit herself in her chemise to the people of San Francisco. He then crept into one of the \'bunks,\' having first placed a revolver in easy reach, according to the custom of the country. This revolver he took from a shelf, and it was the one which Mr. Beeson had mentioned as that for which he had returned to the gulch two years before.\r\n\r\n In a few moments Mr. Beeson awoke, and seeing that his guest had retired he did likewise. But before doing so he approached the long, plaited wisp of pagan hair and gave it a powerful tug, to assure himself that it was fast and firm. The two beds-mere shelves covered with blankets not overclean-faced each other from opposite sides of the room, the little square trap-door that had given access to the Chinaman\'s grave being midway between. This, by the way, was crossed by a double row of spikeheads. In his resistance to the supernatural, Mr. Beeson had not disdained the use of material precautions.\r\n The fire was now low, the flames burning bluely and petulantly, with occasional flashes, projecting spectral shadows on the walls -- shadows that moved mysteriously about, now dividing, now uniting. The shadow of the pendent queue, however, kept moodily apart, near the roof at the farther end of the room, looking like a note of admiration. The song of the pines outside had now risen to the dignity of a triumphal hymn. In the pauses the silence was dreadful.\r\n It was during one of these intervals that the trap in the floor began to lift. Slowly and steadily it rose, and slowly and steadily rose the swaddled head of the old man in the bunk to observe it. Then, with a clap that shook the house to its foundation, it was thrown clean back, where it lay with its unsightly spikes pointing threateningly upward. Mr. Beeson awoke, and without rising, pressed his fingers into his eyes. He shuddered; his teeth chattered. His guest was now reclining on one elbow, watching the proceedings with the goggles that glowed like lamps.\r\n Suddenly a howling gust of wind swooped down the chimney, scattering ashes and smoke in all directions, for a moment obscuring everything. When the fire-light again illuminated the room there was seen, sitting gingerly on the edge of a stool by the hearth-side, a swarthy little man of prepossessing appearance and dressed with faultless taste, nodding to the old man with a friendly and engaging smile.\r\n \'From San Francisco, evidently,\' thought Mr. Beeson, who having somewhat recovered from his fright was groping his way to a solution of the evening\'s events.\r\n But now another actor appeared upon the scene. Out of the square black hole in the middle of the floor protruded the head of the departed Chinaman, his glassy eyes turned upward in their angular slits and fastened on the dangling queue above with a look of yearning unspeakable. Mr. Beeson groaned, and again spread his hands upon his face. A mild odour of opium pervaded the place. The phantom, clad only in a short blue tunic quilted and silken but covered with grave-mould, rose slowly, as if pushed by a weak spiral spring. Its knees were at the level of the floor, when with a quick upward impulse like the silent leaping of a flame it grasped the queue with both hands, drew up its body and took the tip in its horrible yellow teeth. To this it clung in a seeming frenzy, grimacing ghastly, surging and plunging from side to side in its efforts to disengage its property from the beam, but uttering no sound. It was like a corpse artificially convulsed by means of a galvanic battery. The contrast between its superhuman activity and its silence was no less than hideous!\r\n\r\n Mr. Beeson cowered in his bed. The swarthy little gentleman uncrossed his legs, beat an impatient tattoo with the toe of his boot and consulted a heavy gold watch. The old man sat erect and quietly laid hold of the revolver.\r\n Bang!\r\n Like a body cut from the gallows the Chinaman plumped into the black hole below, carrying his tail in his teeth. The trap-door turned over, shutting down with a snap. The swarthy little gentleman from San Francisco sprang nimbly from his perch, caught something in the air with his hat, as a boy catches a butterfly, and vanished into the chimney as if drawn up by suction.\r\n From away somewhere in the outer darkness floated in through the open door a faint, far cry -- a long, sobbing wail, as of a child death-strangled in the desert, or a lost soul borne away by the Adversary. It may have been the coyote.\r\n In the early days of the following spring a party of miners on their way to new diggings passed along the gulch, and straying through the deserted shanties found in one of them the body of Hiram Beeson, stretched upon a bunk, with a bullet hole through the heart. The ball had evidently been fired from the opposite side of the room, for in one of the oaken beams overhead was a shallow blue dint, where it had struck a knot and been deflected downward to the breast of its victim. Strongly attached to the same beam was what appeared to be an end of a rope of braided horsehair, which had been cut by the bullet in its passage to the knot. Nothing else of interest was noted, excepting a suit of mouldy and incongruous clothing, several articles of which were afterward identified by respectable witnesses as those in which certain deceased citizen\'s of Deadman\'s had been buried years before. But it is not easy to understand how that could be, unless, indeed, the garments had been worn as a disguise by Death himself -- which is hardly credible. ', 'der-alte-mann', 'Florian Hanke', 'Eine Komödie in 3 Akten', NULL, NULL, 'drslim', 'florian.hanke@gmail.com', '2009-06-28 19:40:56')[0m
+  [4;35;1mSQL (0.9ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/der-alte-mann
+Completed in 171ms (DB: 6) | 302 Found [http://localhost/books]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-28 21:40:56) [GET]
+  Parameters: {"url"=>"der-alte-mann"}
+  [4;36;1mBook Columns (3.2ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mBook Load (0.6ms)[0m   [0mSELECT * FROM `books` WHERE (`books`.`url` = 'der-alte-mann') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 16ms (View: 6, DB: 4) | 200 OK [http://localhost/der-alte-mann]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-28 21:40:56) [GET]
+  Parameters: {"url"=>"der-alte-mann"}
+  [4;36;1mBook Columns (2.6ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mBook Load (0.7ms)[0m   [0mSELECT * FROM `books` WHERE (`books`.`url` = 'der-alte-mann') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 15ms (View: 6, DB: 3) | 200 OK [http://localhost/der-alte-mann]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#edit (for ::1 at 2009-06-28 21:41:16) [GET]
+  Parameters: {"url"=>"der-alte-mann"}
+  [4;36;1mBook Columns (2.8ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mBook Load (1.7ms)[0m   [0mSELECT * FROM `books` WHERE (`books`.`url` = 'der-alte-mann') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/edit
+Completed in 20ms (View: 10, DB: 5) | 200 OK [http://localhost/der-alte-mann/edit]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-28 21:43:10) [GET]
+  Parameters: {"url"=>"der-alte-mann"}
+  [4;36;1mBook Columns (2.5ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mBook Load (0.7ms)[0m   [0mSELECT * FROM `books` WHERE (`books`.`url` = 'der-alte-mann') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 14ms (View: 5, DB: 3) | 200 OK [http://localhost/der-alte-mann]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-28 21:43:24) [GET]
+  Parameters: {"url"=>"der-alte-mann"}
+  [4;36;1mBook Columns (2.5ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mBook Load (0.5ms)[0m   [0mSELECT * FROM `books` WHERE (`books`.`url` = 'der-alte-mann') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 13ms (View: 5, DB: 3) | 200 OK [http://localhost/der-alte-mann]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-28 21:43:24) [GET]
+  Parameters: {"url"=>"der-alte-mann"}
+  [4;36;1mBook Columns (2.3ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mBook Load (0.6ms)[0m   [0mSELECT * FROM `books` WHERE (`books`.`url` = 'der-alte-mann') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 15ms (View: 6, DB: 3) | 200 OK [http://localhost/der-alte-mann]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-28 21:47:19) [GET]
+  Parameters: {"url"=>"der-alte-mann"}
+  [4;36;1mBook Columns (2.6ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mBook Load (0.5ms)[0m   [0mSELECT * FROM `books` WHERE (`books`.`url` = 'der-alte-mann') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 13ms (View: 5, DB: 3) | 200 OK [http://localhost/der-alte-mann]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-28 21:47:20) [GET]
+  Parameters: {"url"=>"der-alte-mann"}
+  [4;36;1mBook Columns (3.6ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mBook Load (2.1ms)[0m   [0mSELECT * FROM `books` WHERE (`books`.`url` = 'der-alte-mann') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 18ms (View: 6, DB: 6) | 200 OK [http://localhost/der-alte-mann]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-28 21:47:29) [GET]
+  Parameters: {"url"=>"der-alte-mann"}
+  [4;36;1mBook Columns (2.7ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mBook Load (0.8ms)[0m   [0mSELECT * FROM `books` WHERE (`books`.`url` = 'der-alte-mann') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 17ms (View: 7, DB: 4) | 200 OK [http://localhost/der-alte-mann]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-28 21:47:29) [GET]
+  Parameters: {"url"=>"der-alte-mann"}
+  [4;36;1mBook Columns (2.7ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mBook Load (2.2ms)[0m   [0mSELECT * FROM `books` WHERE (`books`.`url` = 'der-alte-mann') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 16ms (View: 6, DB: 5) | 200 OK [http://localhost/der-alte-mann]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-28 21:47:38) [GET]
+  Parameters: {"url"=>"der-alte-mann"}
+  [4;36;1mBook Columns (2.5ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mBook Load (0.5ms)[0m   [0mSELECT * FROM `books` WHERE (`books`.`url` = 'der-alte-mann') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 13ms (View: 5, DB: 3) | 200 OK [http://localhost/der-alte-mann]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-28 21:47:39) [GET]
+  Parameters: {"url"=>"der-alte-mann"}
+  [4;36;1mBook Columns (3.4ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mBook Load (0.7ms)[0m   [0mSELECT * FROM `books` WHERE (`books`.`url` = 'der-alte-mann') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 20ms (View: 9, DB: 4) | 200 OK [http://localhost/der-alte-mann]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-28 21:47:48) [GET]
+  Parameters: {"url"=>"der-alte-mann"}
+  [4;36;1mBook Columns (2.5ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mBook Load (0.5ms)[0m   [0mSELECT * FROM `books` WHERE (`books`.`url` = 'der-alte-mann') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 13ms (View: 5, DB: 3) | 200 OK [http://localhost/der-alte-mann]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-28 21:47:48) [GET]
+  Parameters: {"url"=>"der-alte-mann"}
+  [4;36;1mBook Columns (2.4ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mBook Load (2.3ms)[0m   [0mSELECT * FROM `books` WHERE (`books`.`url` = 'der-alte-mann') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 17ms (View: 7, DB: 5) | 200 OK [http://localhost/der-alte-mann]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-28 21:49:02) [GET]
+  Parameters: {"url"=>"der-alte-mann"}
+  [4;36;1mBook Columns (2.5ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mBook Load (0.5ms)[0m   [0mSELECT * FROM `books` WHERE (`books`.`url` = 'der-alte-mann') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 13ms (View: 5, DB: 3) | 200 OK [http://localhost/der-alte-mann]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-28 21:49:03) [GET]
+  Parameters: {"url"=>"der-alte-mann"}
+  [4;36;1mBook Columns (2.8ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mBook Load (1.2ms)[0m   [0mSELECT * FROM `books` WHERE (`books`.`url` = 'der-alte-mann') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 19ms (View: 8, DB: 4) | 200 OK [http://localhost/der-alte-mann]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-28 21:49:30) [GET]
+  Parameters: {"url"=>"der-alte-mann"}
+  [4;36;1mBook Columns (2.5ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mBook Load (0.5ms)[0m   [0mSELECT * FROM `books` WHERE (`books`.`url` = 'der-alte-mann') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 14ms (View: 5, DB: 3) | 200 OK [http://localhost/der-alte-mann]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-28 21:49:30) [GET]
+  Parameters: {"url"=>"der-alte-mann"}
+  [4;36;1mBook Columns (3.5ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mBook Load (0.6ms)[0m   [0mSELECT * FROM `books` WHERE (`books`.`url` = 'der-alte-mann') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 18ms (View: 8, DB: 4) | 200 OK [http://localhost/der-alte-mann]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-28 21:49:37) [GET]
+  Parameters: {"url"=>"der-alte-mann"}
+  [4;36;1mBook Columns (2.4ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mBook Load (0.5ms)[0m   [0mSELECT * FROM `books` WHERE (`books`.`url` = 'der-alte-mann') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 13ms (View: 5, DB: 3) | 200 OK [http://localhost/der-alte-mann]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-28 21:49:38) [GET]
+  Parameters: {"url"=>"der-alte-mann"}
+  [4;36;1mBook Columns (3.3ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mBook Load (0.7ms)[0m   [0mSELECT * FROM `books` WHERE (`books`.`url` = 'der-alte-mann') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 17ms (View: 6, DB: 4) | 200 OK [http://localhost/der-alte-mann]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-28 21:49:58) [GET]
+  Parameters: {"url"=>"der-alte-mann"}
+  [4;36;1mBook Columns (2.6ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mBook Load (1.4ms)[0m   [0mSELECT * FROM `books` WHERE (`books`.`url` = 'der-alte-mann') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 15ms (View: 5, DB: 4) | 200 OK [http://localhost/der-alte-mann]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-28 21:49:58) [GET]
+  Parameters: {"url"=>"der-alte-mann"}
+  [4;36;1mBook Columns (3.4ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mBook Load (0.6ms)[0m   [0mSELECT * FROM `books` WHERE (`books`.`url` = 'der-alte-mann') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 20ms (View: 10, DB: 4) | 200 OK [http://localhost/der-alte-mann]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PdfController#create (for ::1 at 2009-06-28 21:50:34) [GET]
+  Parameters: {"url"=>"der-alte-mann"}
+  [4;36;1mBook Columns (2.4ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mBook Load (0.5ms)[0m   [0mSELECT * FROM `books` WHERE (`books`.`url` = 'der-alte-mann') LIMIT 1[0m
+Completed in 1556ms (View: 1, DB: 3) | 200 OK [http://localhost/der-alte-mann/pdf]
+Streaming file public/pdfs/der-alte-mann.pdf
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#index (for ::1 at 2009-06-28 21:54:10) [GET]
+Rendering template within layouts/application
+Rendering books/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-28 21:56:15) [GET]
+  Parameters: {"url"=>"random"}
+  [4;36;1mBook Columns (2.0ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mBook Load (0.3ms)[0m   [0mSELECT * FROM `books` WHERE (`books`.`url` = 'random') LIMIT 1[0m
+Redirected to http://localhost:3000/title
+Completed in 8ms (DB: 3) | 302 Found [http://localhost/random]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#title (for ::1 at 2009-06-28 21:56:15) [GET]
+  [4;36;1mBook Columns (2.0ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/title
+Completed in 14ms (View: 6, DB: 2) | 200 OK [http://localhost/title]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#title (for ::1 at 2009-06-28 21:56:38) [GET]
+  [4;35;1mBook Columns (2.3ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/title
+Completed in 14ms (View: 3, DB: 3) | 200 OK [http://localhost/title]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#random (for ::1 at 2009-06-28 21:56:42) [GET]
+  [4;36;1mBook Load (0.0ms)[0m   [0;1mMysql::Error: Unknown column 'books.limit' in 'where clause': SELECT * FROM `books` WHERE (`books`.`limit` = 10 AND `books`.`order` = 'RAND()') [0m
+
+ActiveRecord::StatementInvalid (Mysql::Error: Unknown column 'books.limit' in 'where clause': SELECT * FROM `books` WHERE (`books`.`limit` = 10 AND `books`.`order` = 'RAND()') ):
+  app/controllers/books_controller.rb:7:in `random'
+  haml (2.0.9) lib/sass/plugin/rails.rb:19:in `process'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (40.5ms)
+Rendered rescues/_request_and_response (1.5ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#random (for ::1 at 2009-06-28 21:56:58) [GET]
+  [4;35;1mBook Load (2.7ms)[0m   [0mSELECT * FROM `books` ORDER BY RAND() LIMIT 10[0m
+Rendering template within layouts/application
+Rendering books/random
+Completed in 11ms (View: 4, DB: 3) | 200 OK [http://localhost/random]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#random (for ::1 at 2009-06-28 21:57:56) [GET]
+  [4;36;1mBook Load (2.6ms)[0m   [0;1mSELECT * FROM `books` ORDER BY RAND() LIMIT 10[0m
+Rendering template within layouts/application
+Rendering books/random
+  [4;35;1mBook Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+Completed in 17ms (View: 8, DB: 5) | 200 OK [http://localhost/random]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#random (for ::1 at 2009-06-28 21:57:58) [GET]
+  [4;36;1mBook Load (2.6ms)[0m   [0;1mSELECT * FROM `books` ORDER BY RAND() LIMIT 10[0m
+Rendering template within layouts/application
+Rendering books/random
+  [4;35;1mBook Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+Completed in 14ms (View: 5, DB: 5) | 200 OK [http://localhost/random]
+  [4;36;1mSQL (1.4ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#random (for ::1 at 2009-06-28 21:58:07) [GET]
+  [4;36;1mBook Load (2.6ms)[0m   [0;1mSELECT * FROM `books` ORDER BY RAND() LIMIT 10[0m
+Rendering template within layouts/application
+Rendering books/random
+  [4;35;1mBook Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+Completed in 16ms (View: 8, DB: 6) | 200 OK [http://localhost/random]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#random (for ::1 at 2009-06-28 21:58:14) [GET]
+  [4;36;1mBook Load (2.6ms)[0m   [0;1mSELECT * FROM `books` ORDER BY RAND() LIMIT 10[0m
+Rendering template within layouts/application
+Rendering books/random
+  [4;35;1mBook Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+Completed in 17ms (View: 8, DB: 5) | 200 OK [http://localhost/random]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#random (for ::1 at 2009-06-28 21:58:30) [GET]
+  [4;36;1mBook Load (2.8ms)[0m   [0;1mSELECT * FROM `books` ORDER BY RAND() LIMIT 10[0m
+Rendering template within layouts/application
+Rendering books/random
+  [4;35;1mBook Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+Completed in 18ms (View: 8, DB: 5) | 200 OK [http://localhost/random]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#random (for ::1 at 2009-06-28 21:58:39) [GET]
+  [4;36;1mBook Load (2.4ms)[0m   [0;1mSELECT * FROM `books` ORDER BY RAND() LIMIT 10[0m
+Rendering template within layouts/application
+Rendering books/random
+  [4;35;1mBook Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+Completed in 16ms (View: 8, DB: 4) | 200 OK [http://localhost/random]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-28 21:58:42) [GET]
+  Parameters: {"url"=>"der-alte-mann"}
+  [4;36;1mBook Columns (2.6ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mBook Load (0.5ms)[0m   [0mSELECT * FROM `books` WHERE (`books`.`url` = 'der-alte-mann') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 14ms (View: 5, DB: 3) | 200 OK [http://localhost/der-alte-mann]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-28 21:58:42) [GET]
+  Parameters: {"url"=>"der-alte-mann"}
+  [4;36;1mBook Columns (2.4ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mBook Load (2.2ms)[0m   [0mSELECT * FROM `books` WHERE (`books`.`url` = 'der-alte-mann') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 17ms (View: 7, DB: 5) | 200 OK [http://localhost/der-alte-mann]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-28 21:58:46) [GET]
+  Parameters: {"url"=>"the-legend-of-the-thundrous-swan"}
+  [4;36;1mBook Columns (2.5ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mBook Load (0.3ms)[0m   [0mSELECT * FROM `books` WHERE (`books`.`url` = 'the-legend-of-the-thundrous-swan') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 12ms (View: 4, DB: 3) | 200 OK [http://localhost/the-legend-of-the-thundrous-swan]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-28 21:58:46) [GET]
+  Parameters: {"url"=>"the-legend-of-the-thundrous-swan"}
+  [4;36;1mBook Columns (3.8ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mBook Load (0.3ms)[0m   [0mSELECT * FROM `books` WHERE (`books`.`url` = 'the-legend-of-the-thundrous-swan') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 84ms (View: 4, DB: 4) | 200 OK [http://localhost/the-legend-of-the-thundrous-swan]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#random (for ::1 at 2009-06-28 21:58:48) [GET]
+  [4;36;1mBook Load (2.8ms)[0m   [0;1mSELECT * FROM `books` ORDER BY RAND() LIMIT 10[0m
+Rendering template within layouts/application
+Rendering books/random
+  [4;35;1mBook Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+Completed in 14ms (View: 5, DB: 5) | 200 OK [http://localhost/random]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-28 21:58:50) [GET]
+  Parameters: {"url"=>"the-fish-and-the-three-merry-men"}
+  [4;36;1mBook Columns (2.4ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mBook Load (0.3ms)[0m   [0mSELECT * FROM `books` WHERE (`books`.`url` = 'the-fish-and-the-three-merry-men') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 12ms (View: 4, DB: 3) | 200 OK [http://localhost/the-fish-and-the-three-merry-men]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-28 21:58:50) [GET]
+  Parameters: {"url"=>"the-fish-and-the-three-merry-men"}
+  [4;36;1mBook Columns (2.7ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mBook Load (0.3ms)[0m   [0mSELECT * FROM `books` WHERE (`books`.`url` = 'the-fish-and-the-three-merry-men') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 13ms (View: 5, DB: 3) | 200 OK [http://localhost/the-fish-and-the-three-merry-men]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#random (for ::1 at 2009-06-28 21:59:09) [GET]
+  [4;36;1mBook Load (2.5ms)[0m   [0;1mSELECT * FROM `books` ORDER BY RAND() LIMIT 10[0m
+Rendering template within layouts/application
+Rendering books/random
+  [4;35;1mBook Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+Completed in 17ms (View: 8, DB: 4) | 200 OK [http://localhost/random]
+  [4;36;1mSQL (1.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#random (for ::1 at 2009-06-28 21:59:13) [GET]
+  [4;36;1mBook Load (2.5ms)[0m   [0;1mSELECT * FROM `books` ORDER BY RAND() LIMIT 10[0m
+Rendering template within layouts/application
+Rendering books/random
+  [4;35;1mBook Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+Completed in 16ms (View: 8, DB: 6) | 200 OK [http://localhost/random]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#random (for ::1 at 2009-06-28 21:59:18) [GET]
+  [4;36;1mBook Load (2.6ms)[0m   [0;1mSELECT * FROM `books` ORDER BY RAND() LIMIT 10[0m
+Rendering template within layouts/application
+Rendering books/random
+  [4;35;1mBook Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+Completed in 18ms (View: 10, DB: 5) | 200 OK [http://localhost/random]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#random (for ::1 at 2009-06-28 21:59:32) [GET]
+  [4;36;1mBook Load (2.7ms)[0m   [0;1mSELECT * FROM `books` ORDER BY RAND() LIMIT 10[0m
+Rendering template within layouts/application
+Rendering books/random
+  [4;35;1mBook Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+Completed in 17ms (View: 8, DB: 5) | 200 OK [http://localhost/random]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#random (for ::1 at 2009-06-28 21:59:55) [GET]
+  [4;36;1mBook Load (2.5ms)[0m   [0;1mSELECT * FROM `books` ORDER BY RAND() LIMIT 10[0m
+Rendering template within layouts/application
+Rendering books/random
+  [4;35;1mBook Columns (1.7ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+Completed in 13ms (View: 5, DB: 6) | 200 OK [http://localhost/random]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#random (for ::1 at 2009-06-28 21:59:57) [GET]
+  [4;36;1mBook Load (2.5ms)[0m   [0;1mSELECT * FROM `books` ORDER BY RAND() LIMIT 10[0m
+Rendering template within layouts/application
+Rendering books/random
+  [4;35;1mBook Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+Completed in 13ms (View: 5, DB: 4) | 200 OK [http://localhost/random]
+  [4;36;1mSQL (1.4ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#random (for ::1 at 2009-06-28 21:59:57) [GET]
+  [4;36;1mBook Load (2.5ms)[0m   [0;1mSELECT * FROM `books` ORDER BY RAND() LIMIT 10[0m
+Rendering template within layouts/application
+Rendering books/random
+  [4;35;1mBook Columns (2.1ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+Completed in 15ms (View: 5, DB: 6) | 200 OK [http://localhost/random]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#random (for ::1 at 2009-06-28 22:00:09) [GET]
+  [4;36;1mBook Load (2.6ms)[0m   [0;1mSELECT * FROM `books` ORDER BY RAND() LIMIT 10[0m
+Rendering template within layouts/application
+Rendering books/random
+  [4;35;1mBook Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+Completed in 14ms (View: 5, DB: 5) | 200 OK [http://localhost/random]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#index (for ::1 at 2009-06-28 22:00:16) [GET]
+Rendering template within layouts/application
+Rendering books/index
+Completed in 4ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#random (for ::1 at 2009-06-28 22:00:39) [GET]
+  [4;36;1mBook Load (2.5ms)[0m   [0;1mSELECT * FROM `books` ORDER BY RAND() LIMIT 10[0m
+Rendering template within layouts/application
+Rendering books/random
+  [4;35;1mBook Columns (1.7ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+Completed in 16ms (View: 8, DB: 4) | 200 OK [http://localhost/random]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#random (for ::1 at 2009-06-28 22:00:45) [GET]
+  [4;36;1mBook Load (2.5ms)[0m   [0;1mSELECT * FROM `books` ORDER BY RAND() LIMIT 10[0m
+Rendering template within layouts/application
+Rendering books/random
+  [4;35;1mBook Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+Completed in 16ms (View: 8, DB: 5) | 200 OK [http://localhost/random]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#random (for ::1 at 2009-06-28 22:01:17) [GET]
+  [4;36;1mBook Load (2.6ms)[0m   [0;1mSELECT * FROM `books` ORDER BY RAND() LIMIT 10[0m
+Rendering template within layouts/application
+Rendering books/random
+  [4;35;1mBook Columns (1.7ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+Completed in 17ms (View: 8, DB: 5) | 200 OK [http://localhost/random]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#random (for ::1 at 2009-06-28 22:01:19) [GET]
+  [4;36;1mBook Load (2.9ms)[0m   [0;1mSELECT * FROM `books` ORDER BY RAND() LIMIT 10[0m
+Rendering template within layouts/application
+Rendering books/random
+  [4;35;1mBook Columns (1.7ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+Completed in 15ms (View: 7, DB: 5) | 200 OK [http://localhost/random]
+  [4;36;1mSQL (0.9ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#title (for ::1 at 2009-06-28 22:01:21) [GET]
+  [4;36;1mBook Columns (2.4ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/title
+Completed in 12ms (View: 3, DB: 3) | 200 OK [http://localhost/title]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#random (for ::1 at 2009-06-28 22:01:41) [GET]
+  [4;35;1mBook Load (2.5ms)[0m   [0mSELECT * FROM `books` ORDER BY RAND() LIMIT 10[0m
+Rendering template within layouts/application
+Rendering books/random
+  [4;36;1mBook Columns (1.6ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+Completed in 13ms (View: 5, DB: 4) | 200 OK [http://localhost/random]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#random (for ::1 at 2009-06-28 22:01:42) [GET]
+  [4;35;1mBook Load (2.5ms)[0m   [0mSELECT * FROM `books` ORDER BY RAND() LIMIT 10[0m
+Rendering template within layouts/application
+Rendering books/random
+  [4;36;1mBook Columns (1.7ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+Completed in 13ms (View: 5, DB: 5) | 200 OK [http://localhost/random]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#title (for ::1 at 2009-06-28 22:01:44) [GET]
+  [4;35;1mBook Columns (2.4ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/title
+Completed in 16ms (View: 7, DB: 3) | 200 OK [http://localhost/title]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#copyright (for ::1 at 2009-06-28 22:02:10) [POST]
+  Parameters: {"commit"=>"open book", "authenticity_token"=>"oC19ZlzpP6G2lsXazdP4cfwLDRAnBDiSx8c7/4KpIpA=", "book"=>{"title"=>"Hello it's me again.", "author"=>"Florian Hanke", "subtitle"=>"A comedy for all ages"}}
+  [4;36;1mBook Columns (2.3ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/copyright
+Completed in 13ms (View: 4, DB: 3) | 200 OK [http://localhost/copyright]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#introduction (for ::1 at 2009-06-28 22:02:20) [POST]
+  Parameters: {"commit"=>"start writing", "authenticity_token"=>"oC19ZlzpP6G2lsXazdP4cfwLDRAnBDiSx8c7/4KpIpA=", "book"=>{"title"=>"Hello it's me again.", "author"=>"Florian Hanke", "subtitle"=>"A comedy for all ages", "password"=>"drslim", "email"=>"florian.hanke@gmail.com"}}
+  [4;35;1mBook Columns (2.0ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/introduction
+Completed in 12ms (View: 4, DB: 2) | 200 OK [http://localhost/introduction]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#copyright (for ::1 at 2009-06-28 22:03:28) [POST]
+  Parameters: {"commit"=>"open book", "authenticity_token"=>"oC19ZlzpP6G2lsXazdP4cfwLDRAnBDiSx8c7/4KpIpA=", "book"=>{"title"=>"Hello it's me again.", "author"=>"Florian Hanke", "subtitle"=>"A comedy for all ages"}}
+  [4;36;1mBook Columns (2.6ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/copyright
+Completed in 19ms (View: 9, DB: 3) | 200 OK [http://localhost/copyright]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#copyright (for ::1 at 2009-06-28 22:03:45) [POST]
+  Parameters: {"commit"=>"open book", "authenticity_token"=>"oC19ZlzpP6G2lsXazdP4cfwLDRAnBDiSx8c7/4KpIpA=", "book"=>{"title"=>"Hello it's me again.", "author"=>"Florian Hanke", "subtitle"=>"A comedy for all ages"}}
+  [4;35;1mBook Columns (2.9ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/copyright
+Completed in 19ms (View: 9, DB: 3) | 200 OK [http://localhost/copyright]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#copyright (for ::1 at 2009-06-28 22:03:55) [POST]
+  Parameters: {"commit"=>"open book", "authenticity_token"=>"oC19ZlzpP6G2lsXazdP4cfwLDRAnBDiSx8c7/4KpIpA=", "book"=>{"title"=>"Hello it's me again.", "author"=>"Florian Hanke", "subtitle"=>"A comedy for all ages"}}
+  [4;36;1mBook Columns (2.7ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/copyright
+Completed in 23ms (View: 10, DB: 3) | 200 OK [http://localhost/copyright]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#copyright (for ::1 at 2009-06-28 22:04:12) [POST]
+  Parameters: {"commit"=>"open book", "authenticity_token"=>"oC19ZlzpP6G2lsXazdP4cfwLDRAnBDiSx8c7/4KpIpA=", "book"=>{"title"=>"Hello it's me again.", "author"=>"Florian Hanke", "subtitle"=>"A comedy for all ages"}}
+  [4;35;1mBook Columns (2.7ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/copyright
+Completed in 20ms (View: 10, DB: 3) | 200 OK [http://localhost/copyright]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#copyright (for ::1 at 2009-06-28 22:04:18) [POST]
+  Parameters: {"commit"=>"open book", "authenticity_token"=>"oC19ZlzpP6G2lsXazdP4cfwLDRAnBDiSx8c7/4KpIpA=", "book"=>{"title"=>"Hello it's me again.", "author"=>"Florian Hanke", "subtitle"=>"A comedy for all ages"}}
+  [4;36;1mBook Columns (2.5ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/copyright
+Completed in 24ms (View: 7, DB: 3) | 200 OK [http://localhost/copyright]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#copyright (for ::1 at 2009-06-28 22:04:24) [POST]
+  Parameters: {"commit"=>"open book", "authenticity_token"=>"oC19ZlzpP6G2lsXazdP4cfwLDRAnBDiSx8c7/4KpIpA=", "book"=>{"title"=>"Hello it's me again.", "author"=>"Florian Hanke", "subtitle"=>"A comedy for all ages"}}
+  [4;35;1mBook Columns (2.6ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/copyright
+Completed in 100ms (View: 89, DB: 3) | 200 OK [http://localhost/copyright]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#copyright (for ::1 at 2009-06-28 22:04:28) [POST]
+  Parameters: {"commit"=>"open book", "authenticity_token"=>"oC19ZlzpP6G2lsXazdP4cfwLDRAnBDiSx8c7/4KpIpA=", "book"=>{"title"=>"Hello it's me again.", "author"=>"Florian Hanke", "subtitle"=>"A comedy for all ages"}}
+  [4;36;1mBook Columns (2.6ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/copyright
+Completed in 20ms (View: 10, DB: 3) | 200 OK [http://localhost/copyright]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#introduction (for ::1 at 2009-06-28 22:04:32) [POST]
+  Parameters: {"commit"=>"start writing", "authenticity_token"=>"oC19ZlzpP6G2lsXazdP4cfwLDRAnBDiSx8c7/4KpIpA=", "book"=>{"title"=>"Hello it's me again.", "author"=>"Florian Hanke", "subtitle"=>"A comedy for all ages", "password"=>"drslim", "email"=>"florian.hanke@gmail.com"}}
+  [4;35;1mBook Columns (2.0ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/introduction
+Completed in 13ms (View: 4, DB: 2) | 200 OK [http://localhost/introduction]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#create (for ::1 at 2009-06-28 22:04:58) [POST]
+  Parameters: {"commit"=>"having your new book saved", "authenticity_token"=>"oC19ZlzpP6G2lsXazdP4cfwLDRAnBDiSx8c7/4KpIpA=", "book"=>{"text"=>"One summer night a man stood on a low hill overlooking a wide expanse of forest and field. By the full moon hanging low in the west he knew what he might not have known otherwise: that it was near the hour of dawn. A light mist lay along the earth, partly veiling the lower features of the landscape, but above it the taller trees showed in well-defined masses against a clear sky. Two or three farmhouses were visible through the haze, but in none of them, naturally, was a light. Nowhere, indeed, was any sign or suggestion of life except the barking of a distant dog, which, repeated with mechanical iteration, served rather to accentuate than dispel the loneliness of the scene.\r\n     The man looked curiously about him on all sides, as one who among familiar surroundings is unable to determine his exact place and part in the scheme of things. It is so, perhaps, that we shall act when, risen from the dead, we await the call to judgment.\r\n     A hundred yards away was a straight road, showing white in the moonlight. Endeavouring to orient himself, as a surveyor or navigator might say, the man moved his eyes slowly along its visible length and at a distance of a quarter-mile to the south of his station saw, dim and grey in the haze, a group of horsemen riding to the north. Behind them were men afoot, marching in column, with dimly gleaming rifles aslant above their shoulders. They moved slowly and in silence. Another group of horsemen, another regiment of infantry, another and another -- all in unceasing motion toward the man's point of view, past it, and beyond. A battery of artillery followed, the cannoneers riding with folded arms on limber and caisson. And still the interminable procession came out of the obscurity to south and passed into the obscurity to north, with never a sound of voice, nor hoof, nor wheel.\r\n     The man could not rightly understand: he thought himself deaf; said so, and heard his own voice, although it had an unfamiliar quality that almost alarmed him; it disappointed his ear's expectancy in the matter of timbre and resonance. But he was not deaf, and that for the moment sufficed.\r\n     Then he remembered that there are natural phenomena to which some one has given the name 'acoustic shadows.' If you stand in an acoustic shadow there is one direction from which you will hear nothing. At the battle of Gaines's Mill, one of the fiercest conflicts of the Civil War, with a hundred guns in play, spectators a mile and a half away on the opposite side of the Chickahominy Valley heard nothing of what they clearly saw. The bombardment of Port Royal, heard and felt at St. Augustine, a hundred and fifty miles to the south, was inaudible two miles to the north in a still atmosphere. A few days before the surrender at Appomattox a thunderous engagement between the commands of Sheridan and Pickett was unknown to the latter commander, a mile in the rear of his own line. ", "title"=>"Hello it's me again.", "author"=>"Florian Hanke", "subtitle"=>"A comedy for all ages", "password"=>"drslim", "email"=>"florian.hanke@gmail.com"}}
+  [4;36;1mBook Columns (2.5ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mBook Create (0.4ms)[0m   [0;1mINSERT INTO `books` (`license`, `updated_at`, `title`, `text`, `url`, `author`, `subtitle`, `locale`, `bio`, `password`, `email`, `created_at`) VALUES(NULL, '2009-06-28 20:04:58', 'Hello it\'s me again.', 'One summer night a man stood on a low hill overlooking a wide expanse of forest and field. By the full moon hanging low in the west he knew what he might not have known otherwise: that it was near the hour of dawn. A light mist lay along the earth, partly veiling the lower features of the landscape, but above it the taller trees showed in well-defined masses against a clear sky. Two or three farmhouses were visible through the haze, but in none of them, naturally, was a light. Nowhere, indeed, was any sign or suggestion of life except the barking of a distant dog, which, repeated with mechanical iteration, served rather to accentuate than dispel the loneliness of the scene.\r\n The man looked curiously about him on all sides, as one who among familiar surroundings is unable to determine his exact place and part in the scheme of things. It is so, perhaps, that we shall act when, risen from the dead, we await the call to judgment.\r\n A hundred yards away was a straight road, showing white in the moonlight. Endeavouring to orient himself, as a surveyor or navigator might say, the man moved his eyes slowly along its visible length and at a distance of a quarter-mile to the south of his station saw, dim and grey in the haze, a group of horsemen riding to the north. Behind them were men afoot, marching in column, with dimly gleaming rifles aslant above their shoulders. They moved slowly and in silence. Another group of horsemen, another regiment of infantry, another and another -- all in unceasing motion toward the man\'s point of view, past it, and beyond. A battery of artillery followed, the cannoneers riding with folded arms on limber and caisson. And still the interminable procession came out of the obscurity to south and passed into the obscurity to north, with never a sound of voice, nor hoof, nor wheel.\r\n The man could not rightly understand: he thought himself deaf; said so, and heard his own voice, although it had an unfamiliar quality that almost alarmed him; it disappointed his ear\'s expectancy in the matter of timbre and resonance. But he was not deaf, and that for the moment sufficed.\r\n Then he remembered that there are natural phenomena to which some one has given the name \'acoustic shadows.\' If you stand in an acoustic shadow there is one direction from which you will hear nothing. At the battle of Gaines\'s Mill, one of the fiercest conflicts of the Civil War, with a hundred guns in play, spectators a mile and a half away on the opposite side of the Chickahominy Valley heard nothing of what they clearly saw. The bombardment of Port Royal, heard and felt at St. Augustine, a hundred and fifty miles to the south, was inaudible two miles to the north in a still atmosphere. A few days before the surrender at Appomattox a thunderous engagement between the commands of Sheridan and Pickett was unknown to the latter commander, a mile in the rear of his own line. ', 'hello-it-s-me-again.', 'Florian Hanke', 'A comedy for all ages', NULL, NULL, 'drslim', 'florian.hanke@gmail.com', '2009-06-28 20:04:58')[0m
+  [4;35;1mSQL (0.8ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/hello-it-s-me-again.
+Completed in 12ms (DB: 4) | 302 Found [http://localhost/books]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for ::1 at 2009-06-28 22:04:58) [GET]
+
+ActionController::RoutingError (No route matches "/hello-it-s-me-again." with {:method=>:get}):
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/ruby1.8.6/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-28 22:05:06) [GET]
+  Parameters: {"url"=>"hello-it-s-me-again"}
+  [4;36;1mBook Columns (2.8ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+  [4;35;1mBook Load (0.3ms)[0m   [0mSELECT * FROM `books` WHERE (`books`.`url` = 'hello-it-s-me-again') LIMIT 1[0m
+Redirected to http://localhost:3000/title
+Completed in 9ms (DB: 3) | 302 Found [http://localhost/hello-it-s-me-again]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#title (for ::1 at 2009-06-28 22:05:06) [GET]
+  [4;36;1mBook Columns (2.0ms)[0m   [0;1mSHOW FIELDS FROM `books`[0m
+Rendering template within layouts/application
+Rendering books/title
+Completed in 11ms (View: 3, DB: 2) | 200 OK [http://localhost/title]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-28 22:05:38) [GET]
+  Parameters: {"url"=>"hello-it-s-me-again"}
+  [4;35;1mBook Columns (2.4ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+  [4;36;1mBook Load (2.1ms)[0m   [0;1mSELECT * FROM `books` WHERE (`books`.`url` = 'hello-it-s-me-again') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 15ms (View: 4, DB: 5) | 200 OK [http://localhost/hello-it-s-me-again]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-28 22:05:38) [GET]
+  Parameters: {"url"=>"hello-it-s-me-again"}
+  [4;35;1mBook Columns (2.9ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+  [4;36;1mBook Load (0.5ms)[0m   [0;1mSELECT * FROM `books` WHERE (`books`.`url` = 'hello-it-s-me-again') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 14ms (View: 5, DB: 4) | 200 OK [http://localhost/hello-it-s-me-again]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PdfController#create (for ::1 at 2009-06-28 22:07:18) [GET]
+  Parameters: {"url"=>"hello-it-s-me-again"}
+  [4;35;1mBook Columns (2.5ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+  [4;36;1mBook Load (0.3ms)[0m   [0;1mSELECT * FROM `books` WHERE (`books`.`url` = 'hello-it-s-me-again') LIMIT 1[0m
+Completed in 234ms (View: 1, DB: 3) | 200 OK [http://localhost/hello-it-s-me-again/pdf]
+Streaming file public/pdfs/hello-it-s-me-again.pdf
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-28 22:09:55) [GET]
+  Parameters: {"url"=>"hello-it-s-me-again"}
+  [4;35;1mBook Columns (2.5ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+  [4;36;1mBook Load (0.3ms)[0m   [0;1mSELECT * FROM `books` WHERE (`books`.`url` = 'hello-it-s-me-again') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 12ms (View: 5, DB: 3) | 200 OK [http://localhost/hello-it-s-me-again]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BooksController#show (for ::1 at 2009-06-28 22:09:56) [GET]
+  Parameters: {"url"=>"hello-it-s-me-again"}
+  [4;35;1mBook Columns (2.8ms)[0m   [0mSHOW FIELDS FROM `books`[0m
+  [4;36;1mBook Load (1.0ms)[0m   [0;1mSELECT * FROM `books` WHERE (`books`.`url` = 'hello-it-s-me-again') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 15ms (View: 5, DB: 4) | 200 OK [http://localhost/hello-it-s-me-again]

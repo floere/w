@@ -42,7 +42,9 @@ splitPages = function() {
   var first = $('.page .text').parent();
   var nav   = $('.chapternav li:last');
   
-  var chapters = $.trim($('.page .text').html()).split("\n");
+  var chapters = $.trim($('.page .text').html()).split("\n").filter(function(element) {
+    return element.match(/^\s*$/) == null;
+  });
   
   var links    = $.map(chapters, function(chapter, number) {
     number = number + 1;

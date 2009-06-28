@@ -3,6 +3,9 @@ class BooksController < ApplicationController
   def index
     
   end
+  def random
+    @books = Book.find :all, :order => 'RAND()', :limit => 10
+  end
   
   def new
     redirect_to :action => :title

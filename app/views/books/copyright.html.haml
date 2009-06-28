@@ -3,8 +3,10 @@
   = f.hidden_field :subtitle
   = f.hidden_field :author
   .page.title
-    The author can be contacted at
+    %p The author can be contacted at the address
     = f.text_field :email
-    locking this book's editing with the password
+    // (Don't worry, we won't give this address to no one. People will be able to contact you, though.)
+    %br/
+    %p locking this book's editing with the password
     = f.password_field :password
     = f.submit 'start writing'

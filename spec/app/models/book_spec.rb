@@ -21,6 +21,9 @@ describe Book do
     it_urlifies 'question?',             'question-question-mark'
     it_urlifies 'exclamation!',          'exclamation-exclamation-mark'
     it_urlifies 'HELLO',                 'hello'
+    it_urlifies 'It handles periods.',   'it-handles-periods-period'
+    it_urlifies 'Even. In the middle.',  'even-period-in-the-middle-period'
+    it_urlifies 'handle, funky, commas', 'handle-comma-funky-comma-commas'
   end
   
   describe "generate_url" do

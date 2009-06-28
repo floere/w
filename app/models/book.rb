@@ -11,6 +11,8 @@ class Book < ActiveRecord::Base
     url.gsub! /[\s']/, '-'
     url.gsub! /\?/, '-question-mark'
     url.gsub! /\!/, '-exclamation-mark'
+    url.gsub! /\./, '-period'
+    url.gsub! /\,/, '-comma'
     url
   end
   

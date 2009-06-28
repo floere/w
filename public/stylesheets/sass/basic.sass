@@ -11,7 +11,7 @@ body
 body, form
   :text-align center
 
-h1, h2, h3, h4
+h1, h2, h3, h4, #book_title, #book_subtitle, #book_author
   :font-weight normal
   :color #993333
 
@@ -32,31 +32,14 @@ textarea
   
 input
   :text-align center
-  :background-color transparent
-  :border     none
-  :border-bottom dotted 1px black
-  :margin     10px auto
+  :border transparent
+  :background-color #fff9e5
   
 input[type=hidden]
   :display none
   
 input:hover, input:focus
   :background-color #efecdc
-  
-#book_title
-  :font-size  2em
-  
-#book_subtitle
-  :font-size  1.3em
-  
-#book_author
-  :font-size  1.2em
-  
-#book_email
-  :font-size  1.2em
-  
-#book_password
-  :font-size  1.3em
   
 #book_text
   // :height 166px
@@ -111,23 +94,29 @@ input:hover, input:focus
     :padding 160px 0px
     :text-align center
     
-    h1, h2, h3
+    h1, h2, h3, #book_title, #book_subtitle, #book_author, #book_email, #book_password, #book_submit
       :margin-left auto
       :margin-right auto
+    
+    h1, h2, h3, #book_title, #book_subtitle, #book_author, #book_email, #book_password
       :width 80%
       
-    h1
+    #book_submit
+      :margin-top 2em
+      
+    h1, #book_title
       :border-top 0.07em solid #D3D0C2
       :border-bottom 0.07em solid #D3D0C2
       :padding 0.5em 0em
       :line-height 1.2em
       :margin-top 1em
       :margin-bottom 1em
+      :font-size 2.0em
       
-    h2
+    h2, #book_subtitle, #book_password
       :font-size 1.3em
       
-    h3
+    h3, #book_author, #book_email
       :font-size 1.1em
     
   .chapter

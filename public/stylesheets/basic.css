@@ -9,7 +9,7 @@ body {
 body, form {
   text-align: center; }
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, #book_title, #book_subtitle, #book_author {
   font-weight: normal;
   color: #993333; }
 
@@ -30,31 +30,14 @@ textarea {
 
 input {
   text-align: center;
-  background-color: transparent;
-  border: none;
-  border-bottom: dotted 1px black;
-  margin: 10px auto; }
+  border: transparent;
+  background-color: #fff9e5; }
 
 input[type=hidden] {
   display: none; }
 
 input:hover, input:focus {
   background-color: #efecdc; }
-
-#book_title {
-  font-size: 2em; }
-
-#book_subtitle {
-  font-size: 1.3em; }
-
-#book_author {
-  font-size: 1.2em; }
-
-#book_email {
-  font-size: 1.2em; }
-
-#book_password {
-  font-size: 1.3em; }
 
 #book_text {
   background-color: #efecdc;
@@ -101,20 +84,24 @@ input:hover, input:focus {
     width: 490px;
     padding: 160px 0px;
     text-align: center; }
-    .page.title h1, .page.title h2, .page.title h3 {
+    .page.title h1, .page.title h2, .page.title h3, .page.title #book_title, .page.title #book_subtitle, .page.title #book_author, .page.title #book_email, .page.title #book_password, .page.title #book_submit {
       margin-left: auto;
-      margin-right: auto;
+      margin-right: auto; }
+    .page.title h1, .page.title h2, .page.title h3, .page.title #book_title, .page.title #book_subtitle, .page.title #book_author, .page.title #book_email, .page.title #book_password {
       width: 80%; }
-    .page.title h1 {
+    .page.title #book_submit {
+      margin-top: 2em; }
+    .page.title h1, .page.title #book_title {
       border-top: 0.07em solid #D3D0C2;
       border-bottom: 0.07em solid #D3D0C2;
       padding: 0.5em 0em;
       line-height: 1.2em;
       margin-top: 1em;
-      margin-bottom: 1em; }
-    .page.title h2 {
+      margin-bottom: 1em;
+      font-size: 2.0em; }
+    .page.title h2, .page.title #book_subtitle, .page.title #book_password {
       font-size: 1.3em; }
-    .page.title h3 {
+    .page.title h3, .page.title #book_author, .page.title #book_email {
       font-size: 1.1em; }
   .page .chapter {
     display: none;
