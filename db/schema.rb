@@ -9,13 +9,13 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20090628204649) do
+ActiveRecord::Schema.define(:version => 20090628215012) do
 
   create_table "books", :force => true do |t|
-    t.string   "url",        :limit => 40
+    t.string   "url",        :limit => 150
     t.string   "email",      :limit => 60
     t.string   "author",     :limit => 80
-    t.string   "title",      :limit => 40
+    t.string   "title",      :limit => 100
     t.string   "subtitle",   :limit => 60
     t.text     "text"
     t.string   "license",    :limit => 10
@@ -26,5 +26,7 @@ ActiveRecord::Schema.define(:version => 20090628204649) do
     t.datetime "updated_at"
     t.integer  "size"
   end
+
+  add_index "books", ["size"], :name => "index_books_on_size"
 
 end
